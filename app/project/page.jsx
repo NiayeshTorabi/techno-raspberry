@@ -41,7 +41,7 @@ const Project = () => {
               {/* select */}
               <Select>
                 <SelectTrigger className="w-full">
-                  <SelectValue placeholder="قصد تهیه کدام خدمت تکنورزبری را دارید؟" />
+                  <SelectValue placeholder="انتخاب خدمت..." />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>

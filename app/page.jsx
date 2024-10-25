@@ -53,7 +53,7 @@ const Home = () => {
                 variant="outline"
                 className="uppercase flex items-center gap-2"
               >
-                <span>ثبت همکاری</span>
+                <a href="/project"><span>ثبت همکاری</span></a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

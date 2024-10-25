@@ -39,7 +39,7 @@ module.exports = {
   		colors: {
 			primary: '#fff',
 			accent: {
-				DEFAULT: '#0096ff',
+				DEFAULT: '#0000ff',
 				hover: '#0062a6',
 			},
   		}, // -

@@ -13,7 +13,7 @@ import { SiCanva } from "react-icons/si";
 
 // about data
 const about = {
-  title: "IOT",
+  title: "سخت افزار",
   description:
     "مطابق با بروزترین تکنولوژي‌های دنیا، استفاده از قدرت اینترنت اشیا، سخت‌افزاری قدرتمند، همگی با یک هدف کلی و جامع افزایش امنیت خانه‌های شما",
   info: [
@@ -156,19 +156,20 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+      className="min-h-[80vh] p-20"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto p-8 mb-8">سلام</div>
+      {/* <div className="container mx-auto">
         <Tabs
           defaultValue="experience"
           className="flex flex-col flex-col-reverse xl:flex-row gap-[60px]"
-        >
+        > */}
           
 
           {/* content */}
-          <div className="min-h-[70vh] w-full">
+          {/* <div className="min-h-[70vh] w-full"> */}
             {/* experience */}
-            <TabsContent value="experience" className="w-full">
+            {/* <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-right">
                 <h3 className="text-4xl font-bold xl:text-right">
                   {experience.title}
@@ -187,9 +188,9 @@ const Resume = () => {
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-right">
                             {item.position}
                           </h3>
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-3"> */}
                             {/* dot */}
-                            <p className="text-black/60">{item.company}</p>
+                            {/* <p className="text-black/60">{item.company}</p>
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                           </div>
                         </li>
@@ -197,10 +198,10 @@ const Resume = () => {
                   </ul>
                 </ScrollArea>
               </div>
-            </TabsContent>
+            </TabsContent> */}
 
             {/* education */}
-            <TabsContent value="education" className="w-full">
+            {/* <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-right">
                 <h3 className="text-4xl font-bold xl:text-right">
                   {education.title}
@@ -219,9 +220,9 @@ const Resume = () => {
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-right">
                             {item.degree}
                           </h3>
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-3"> */}
                             {/* dot */}
-                            <p className="text-black/60">{item.institution}</p>
+                            {/* <p className="text-black/60">{item.institution}</p>
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                           </div>
                         </li>
@@ -229,9 +230,9 @@ const Resume = () => {
                   </ul>
                 </ScrollArea>
               </div>
-            </TabsContent>
+            </TabsContent> */}
             {/* skills */}
-            <TabsContent value="skills" className="w-full h-full">
+            {/* <TabsContent value="skills" className="w-full h-full">
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-right">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
@@ -261,9 +262,9 @@ const Resume = () => {
                   })}
                 </ul>
               </div>
-            </TabsContent>
+            </TabsContent> */}
             {/* about */}
-            <TabsContent
+            {/* <TabsContent
               value="about"
               className="w-full text-center xl:text-right"
             >
@@ -285,9 +286,9 @@ const Resume = () => {
                 </ul>
               </div>
             </TabsContent>
-          </div>
+          </div> */}
           {/* tabs */}
-          <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+          {/* <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="experience">سایت‌های طراحی شده</TabsTrigger>
             <TabsTrigger value="education">
               پروژه‌های گرافیکی انجام شده
@@ -298,6 +299,17 @@ const Resume = () => {
             <TabsTrigger value="skills">تکنولوژی‌ها</TabsTrigger>
           </TabsList>
         </Tabs>
+      </div> */}
+      <div className="flex-1 flex gap-[60px] justify-evenly gap-6 group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
+      <div className="border rounded-md w-full flex justify-center py-5">سایت</div>
+        <div className="border rounded-md w-full flex justify-center py-5">طراحی و گرافیک</div>
+        <div className="border rounded-md w-full flex justify-center py-5">سخت افزار</div>
+      </div>
+
+      <div className="flex-1 flex gap-[60px] justify-evenly gap-6 group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
+        <div className="border rounded-md w-full flex justify-center py-5">Image1</div>
+        <div className="border rounded-md w-full flex justify-center py-5">Image2</div>
+        <div className="border rounded-md w-full flex justify-center py-5">Image3</div>
       </div>
     </motion.div>
 };

@@ -3,9 +3,9 @@ import Link from "next/link";
 import { FaTelegram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaTelegram />, path: "" },
-  { icon: <FaWhatsapp />, path: "" },
-  { icon: <FaEnvelope />, path: "" },
+  { icon: <FaTelegram />, path: "/" },
+  { icon: <FaWhatsapp />, path: "/" },
+  { icon: <FaEnvelope />, path: "mailto:info@technoraspberry.ir" },
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {

@@ -9,6 +9,10 @@
   }
 }
 /* - */
+@font-face {
+  font-family: 'Morabba-Heavy';
+  src: url(./fonts/Morabba-Heavy.woff2);
+}
 
 @layer base {
   body {
@@ -35,5 +39,279 @@
   }
 }
 
+h1, h2{
+  font-family: 'Morabba-Heavy';
+}
+
 /* root */
 
+.c1{
+  margin-top: 5rem;
+  background-color: #000;
+  transition: 1s;
+}
+
+.containerr{
+  padding: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.c1:has(.box[data-color="clr1"]:hover){
+  background: #640069;
+}
+
+.c1:has(.box[data-color="clr2"]:hover){
+  background: #0e0076;
+}
+
+.containerr .box{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.containerr .box .imgBx{
+  position: absolute;
+  inset: 0;
+  border: 4px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.containerr .box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.containerr .box:hover .imgBx img{
+  opacity: 0.5;
+}
+
+.containerr .box .glass{
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#fff2,transparent);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  scale: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.containerr .box .glass::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.containerr .box:hover{
+  transform: rotate(-15px);
+}
+
+.containerr .box:hover .glass{
+  opacity: 1;
+  scale: 1;
+  transform: rotate(20deg);
+}
+
+.containerr .box .glass h2{
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.containerr .box .glass h2 span{
+  font-weight: 400;
+  font-size: 0.8rem;
+  font-family: var(--font-geist-sans);
+  color: hsl(240, 100%, 76%);
+}
+
+.containerr .box ul{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.containerr .box ul a{
+  color: #fff8;
+  scale: 0;
+  transition: 0.25s;
+  transition-delay: scale calc(0.2s * var(--i));
+}
+
+.containerr .box:hover ul a{
+  scale: 1;
+}
+
+.containerr .box ul a:hover{
+  color: #fff;
+}
+
+/* carousel */
+
+/* .carousel{
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 24px;
+  display: flex;
+}
+
+.carousel .item{
+  scroll-snap-type: start;
+} */
+
+/* card slide */
+
+.slider input {
+	display: none;
+}
+
+.testimonials {
+	display: flex;
+	justify-content: center;
+	min-height: 180px;
+	perspective: 500px;
+	overflow: hidden;
+}
+
+.testimonials .item {
+	padding: 50px;
+	border-radius: 5px;
+	background-color: #0A0220;
+	position: absolute;
+	text-align: center;
+	transition: transform 0.4s;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	user-select: none;
+	cursor: pointer;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.testimonials .item p {
+	color: #ddd;
+}
+.testimonials .item h2 {
+	font-size: 14px;
+}
+.dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dots label {
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: blue;
+	margin: 7px;
+	transition-duration: 0.2s;
+}
+
+#t-1:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-3"]{
+	transform: scale(2);
+	background-color: #000;
+}
+
+#t-1:checked ~ .dots label[for="t-2"],
+#t-1:checked ~ .dots label[for="t-3"],
+#t-2:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-3"],
+#t-3:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-1"]{
+	transform: scale(1.3);
+}
+
+.testimonials label[for="t-1"]{
+  transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+}
+.testimonials label[for="t-2"]{
+  transform: translate3d(300px, 0, -90px) rotateY(-15deg);;
+}
+/*  */
+
+#t-1:checked ~ .testimonials label[for="t-2"]{
+  transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+}
+
+/*  */
+#t-1:checked ~ .testimonials label[for="t-3"]{
+	transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+}
+#t-1:checked ~ .testimonials label[for="t-1"]{
+	transform: translate3d(0px, 0, 0px) rotateY(0deg);
+}
+/*  */
+#t-2:checked ~ .testimonials label[for="t-1"]{
+	transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+}
+
+#t-2:checked ~ .testimonials label[for="t-1"]{
+  transform: translate3d(300px, 0, -90px) rotateY(15deg);
+	z-index: 3;
+}
+#t-2:checked ~ .testimonials label[for="t-1"]{
+	transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+	z-index: 3;
+}
+#t-3:checked ~ .testimonials label[for="t-2"]{
+	transform: translate3d(0px, 0, 0px);
+}
+#t-3:checked ~ .testimonials label[for="t-3"]{
+	transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+}
+#t-3:checked ~ .testimonials label[for="t-1"]{
+	transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+}
+#t-2:checked ~ .testimonials label[for="t-2"]{
+	transform: translate3d(0px, 0, 0px);
+}
+#t-2:checked ~ .testimonials label[for="t-3"]{
+  transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+}
+#t-3:checked ~ .testimonials label[for="t-3"]{
+  transform: translate3d(0px, 0, 0px);
+}
+#t-3:checked ~ .testimonials label[for="t-2"]{
+  transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+}
+/*  */
+
+#t-1:checked ~ .testimonials label[for="t-1"],
+#t-2:checked ~ .testimonials label[for="t-2"],
+#t-3:checked ~ .testimonials label[for="t-3"]{
+	z-index: 4;
+}

@@ -9,7 +9,7 @@ const links = [
     path: "/contact",
   },
   {
-    name: "درباره",
+    name: "درباره ما",
     path: "/about",
   },
   {

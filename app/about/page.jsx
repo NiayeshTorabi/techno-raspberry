@@ -8,6 +8,8 @@ import "swiper/css";
 
 import { BsArrowUpRight, BsShield } from "react-icons/bs";
 
+import { Tabs, TabsContent } from "@/components/ui/tabs";
+
 import {
   Tooltip,
   TooltipContent,
@@ -19,14 +21,65 @@ import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaWordpress,
+  FaCpanel,
+} from "react-icons/fa";
+import { DiPhotoshop } from "react-icons/di";
+import { SiCanva } from "react-icons/si";
+
+const skills = {
+  title: "تکنولوژی‌های استفاده شده",
+  description:
+    "از چه فناوری‌هایی برای خدماتی که ارائه می‌دهیم استفاده می‌کنیم؟",
+  skillList: [
+    {
+      icon: <FaHtml5 />,
+      name: "اچ‌تی‌ام‌ال",
+    },
+    {
+      icon: <FaCss3 />,
+      name: "سی‌اس‌اس",
+    },
+    {
+      icon: <FaJs />,
+      name: "جاوا اسکریپت",
+    },
+    {
+      icon: <FaReact />,
+      name: "ریعکت",
+    },
+    {
+      icon: <FaCpanel />,
+      name: "سی‌پنل",
+    },
+    {
+      icon: <FaWordpress />,
+      name: "وردپرس",
+    },
+    {
+      icon: <DiPhotoshop />,
+      name: "فوتوشاپ",
+    },
+    {
+      icon: <SiCanva />,
+      name: "کنوا",
+    },
+  ],
+};
+
 const projects = [
   {
     num: "01",
-    category: "تیمی نوپا",
+    category: "ارائه‌ دهنده خدمات تخصصی",
     title: "project 1",
     description:
-      "تیمی متشکل از دانشجویان ارشد مهندسی کامپیوتر",
-    stack: [{ name: "اعضای انجمن" }, { name: "عضو گروه نخبگان" }],
+      "در زمینه‌های نرم‌افزاری و سخت‌افزاری",
+    stack: [{ name: "سایت" }, { name: "گرافیک" }, { name: "سخت‌افزار" }],
     image: "/assets/about/thumb1.png",
     live: "/contact",
     github: "/contact",
@@ -167,6 +220,67 @@ const About = () => {
           </div>
         </div>
       </div>
+      
+              <div className="flex flex-col gap-[30px] mt-20 container mx-auto">
+                <div className="flex flex-col gap-[30px] text-center xl:text-right">
+                  <h3 className="text-4xl font-bold">{skills.title}</h3>
+                  <p className="text-black/60 max-auto xl:mx-0">
+                    {skills.description}
+                  </p>
+                </div>
+                <ul
+                  dir="rtl"
+                  className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-8 xl:gap-[30px]"
+                >
+                  {skills.skillList.map((skill, index) => {
+                    return <li key={index}>
+                        <TooltipProvider delayDuration={100}>
+                          <Tooltip>
+                            <TooltipTrigger className="w-full h-[150px] bg-[#fafafa] rounded-xl flex justify-center items-center group">
+                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                                {skill.icon}
+                              </div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className="capitalize">{skill.name}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </li>
+                  })}
+                </ul>
+              </div>
+
+            <div className="c1">
+              <div className="containerr">
+                <div className="box" data-color="clr1">
+                  <div className="imgBx">
+                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                  </div>
+                  <div className="glass">
+                    <h2>نیایش ترابی<br /><span>بنیانگزار تکنورزبری</span></h2>
+                    <ul>
+                      <a href="#">لینک</a>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="box" data-color="clr2">
+                  <div className="imgBx">
+                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                  </div>
+                  <div className="glass">
+                    <h2>نام و نام‌خانوادگی<br /><span>سمت</span></h2>
+                    <ul>
+                      <a href="#">لینک</a>
+                    </ul>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
     </motion.section>
 };
 
