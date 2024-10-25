@@ -74,36 +74,33 @@ const skills = {
 
 const projects = [
   {
-    num: "01",
     category: "ارائه‌ دهنده خدمات تخصصی",
     title: "project 1",
     description:
       "در زمینه‌های نرم‌افزاری و سخت‌افزاری",
-    stack: [{ name: "سایت" }, { name: "گرافیک" }, { name: "سخت‌افزار" }],
+    stack: [{ name: "سایت" }, { name: "طراحی و گرافیک" }, { name: "سخت‌ افزار" }],
     image: "/assets/about/thumb1.png",
-    live: "/contact",
+    live: "/project",
     github: "/contact",
   },
   {
-    num: "02",
     category: "هدفی فراتر",
     title: "project 2",
     description:
       "تکنورزبری رویکردی آینده‌نگرانه‌تر دارد...",
     stack: [{ name: "ارتقای تکنولوژي سطح کشور" }],
     image: "/assets/about/thumb2.png",
-    live: "/contact",
+    live: "/project",
     github: "/contact",
   },
   {
-    num: "03",
     category: "پشتیبانی دائمی",
     title: "project 3",
     description:
       "قبل از تهیه، در حین و همچنین بعد از ارائه خدمات پشتیبانی داریم!",
     stack: [{ name: "۲۴/۷" }, { name: "تخصصی" }],
     image: "/assets/about/thumb3.png",
-    live: "/contact",
+    live: "/project",
     github: "/contact",
   },
 ];
@@ -124,18 +121,14 @@ const About = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
+      className="min-h-[80vh] flex flex-col justify-center pt-20 xl:px-0"
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
-              {/* outline num */}
-              <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
-                {project.num}
-              </div>
               {/* project category */}
-              <h2 className="text-[42px] font-bold leading-none text-black group-hover:text-accent transition-all duration-500 capitalize">
+              <h2 className="text-[42px] font-bold leading-none text-black group-hover:text-accent transition-all duration-500 capitalize mt-10">
                 {project.category}
               </h2>
               {/* project description */}
@@ -189,7 +182,7 @@ const About = () => {
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
-              className="xl:h-520px] mb-12"
+              className="xl:h-520px]"
               onSlideChange={handleSlideChange}
             >
               {projects.map((project, index) => {
@@ -253,9 +246,9 @@ const About = () => {
 
             <div className="c1">
               <div className="containerr">
-                <div className="box" data-color="clr1">
+              <div className="box" data-color="clr1">
                   <div className="imgBx">
-                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                    <img src="https://citygol.com/wp-content/uploads/2023/06/Purple-theme-birthday-flower-box-1.jpg" alt=""/>
                   </div>
                   <div className="glass">
                     <h2>نیایش ترابی<br /><span>بنیانگزار تکنورزبری</span></h2>
@@ -264,7 +257,8 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-
+              </div>
+              <div className="containerr gap-8 grid-cols-2 sm:grid-cols-3 justify-items-center">
                 <div className="box" data-color="clr2">
                   <div className="imgBx">
                     <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
@@ -276,9 +270,64 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-
-
+                <div className="box" data-color="clr2">
+                  <div className="imgBx">
+                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                  </div>
+                  <div className="glass">
+                    <h2>نام و نام‌خانوادگی<br /><span>سمت</span></h2>
+                    <ul>
+                      <a href="#">لینک</a>
+                    </ul>
+                  </div>
+                </div>
+                <div className="box" data-color="clr2">
+                  <div className="imgBx">
+                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                  </div>
+                  <div className="glass">
+                    <h2>نام و نام‌خانوادگی<br /><span>سمت</span></h2>
+                    <ul>
+                      <a href="#">لینک</a>
+                    </ul>
+                  </div>
+                </div>
+                <div className="box" data-color="clr2">
+                  <div className="imgBx">
+                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                  </div>
+                  <div className="glass">
+                    <h2>نام و نام‌خانوادگی<br /><span>سمت</span></h2>
+                    <ul>
+                      <a href="#">لینک</a>
+                    </ul>
+                  </div>
+                </div>
+                <div className="box" data-color="clr2">
+                  <div className="imgBx">
+                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                  </div>
+                  <div className="glass">
+                    <h2>نام و نام‌خانوادگی<br /><span>سمت</span></h2>
+                    <ul>
+                      <a href="#">لینک</a>
+                    </ul>
+                  </div>
+                </div>
+                <div className="box" data-color="clr2">
+                  <div className="imgBx">
+                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
+                  </div>
+                  <div className="glass">
+                    <h2>نام و نام‌خانوادگی<br /><span>سمت</span></h2>
+                    <ul>
+                      <a href="#">لینک</a>
+                    </ul>
+                  </div>
+                </div>
               </div>
+
+              
             </div>
             
     </motion.section>

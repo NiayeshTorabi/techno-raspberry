@@ -47,18 +47,19 @@ h1, h2{
 
 .c1{
   margin-top: 5rem;
+  padding: 1rem;
   background-color: #000;
   transition: 1s;
+  display: grid;
+  justify-content: center;
 }
 
 .containerr{
-  padding: 5rem;
+  padding: 1rem;
   position: relative;
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: center;
-  gap: 5rem;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 .c1:has(.box[data-color="clr1"]:hover){

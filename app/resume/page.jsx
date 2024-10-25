@@ -156,9 +156,9 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] p-20"
+      className="min-h-[80vh] mb-10"
     >
-      <div className="container mx-auto p-8 mb-8">سلام</div>
+      <div className="container mx-auto text-justify mt-10">تکنورزبری؛ جایی که نوآوری با خلاقیت می‌آمیزد ما در تکنورزبری، با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه می‌دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و هوشمندسازی خانه‌ها، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.</div>
       {/* <div className="container mx-auto">
         <Tabs
           defaultValue="experience"
@@ -300,16 +300,16 @@ const Resume = () => {
           </TabsList>
         </Tabs>
       </div> */}
-      <div className="flex-1 flex gap-[60px] justify-evenly gap-6 group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
-      <div className="border rounded-md w-full flex justify-center py-5">سایت</div>
-        <div className="border rounded-md w-full flex justify-center py-5">طراحی و گرافیک</div>
-        <div className="border rounded-md w-full flex justify-center py-5">سخت افزار</div>
+      <div className="group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
+      <div className="border rounded-md w-full flex flex-col justify-center text-justify p-5 mb-3 bg-accent text-accent hover:bg-primary duration-500"><span className="text-primary text-center">کلیک کنید!</span>طراحی وب‌سایت حرفه‌ای: وب‌سایت شما، ویترین کسب‌وکار شماست. ما با طراحی وب‌سایت‌هایی که هم زیبا هستند و هم کاربرپسند، به شما کمک می‌کنیم تا در دنیای دیجیتال بدرخشید.</div>
+        <div className="border rounded-md w-full flex flex-col justify-center text-justify p-5 mb-3 bg-accent text-accent hover:bg-primary duration-500"><span className="text-primary text-center">کلیک کنید!</span>خدمات گرافیکی خلاقانه: از طراحی لوگو و کارت ویزیت گرفته تا ساخت پوستر و بنر، ما به شما کمک می‌کنیم تا هویت بصری قوی و ماندگاری برای کسب‌وکار خود ایجاد کنید.</div>
+        <div className="border rounded-md w-full flex flex-col justify-center text-justify p-5 mb-3 bg-accent text-accent hover:bg-primary duration-500"><span className="text-primary text-center">کلیک کنید!</span>هوشمندسازی خانه: با استفاده از آخرین فناوری‌های اینترنت اشیا، خانه خود را به یک محیط هوشمند و راحت تبدیل کنید. ما به شما کمک می‌کنیم تا با سیستم‌های هوشمند، خانه خود را کنترل و مدیریت کنید.</div>
       </div>
 
-      <div className="flex-1 flex gap-[60px] justify-evenly gap-6 group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
-        <div className="border rounded-md w-full flex justify-center py-5">Image1</div>
-        <div className="border rounded-md w-full flex justify-center py-5">Image2</div>
-        <div className="border rounded-md w-full flex justify-center py-5">Image3</div>
+      <div className="flex-1 flex justify-evenly gap-6 group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
+        <a href="/site" className="w-[33%]"><div className="border rounded-md w-full flex justify-center py-5 hover:border-accent duration-500">سایت</div></a>
+        <a href="/graphics" className="w-[33%]"><div className="border rounded-md w-full flex justify-center py-5 hover:border-accent duration-500">طراحی و گرافیک</div></a>
+        <a href="/iot" className="w-[33%]"><div className="border rounded-md w-full flex justify-center py-5 hover:border-accent duration-500">سخت افزار</div></a>
       </div>
     </motion.div>
 };

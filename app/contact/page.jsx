@@ -49,7 +49,25 @@ const Contact = () => {
         <div className="mb-10 mt-8 text-justify">
           <p>پشتیبانان تکنورزبری در هر ساعتی از شبانه روز به صورت ۲۴/۷ آماده خدمت رسانی به شما هستند؛ در زیر می‌توانید بخش‌های راه‌های ارتباطی با ما را مشاهده فرمایید که بسته به نیاز خود می‌توانید یکی از آنها را انتخاب کرده و ارتباط خود را با تکنورزبری برقرار کنید.</p>
         </div>
-        <div className="flex flex-col xl:flex-row gap-[30px]">
+        {/* info */}
+        <div className="flex flex-col items-center p-3 mb-8 bg-accent/10 rounded-md s lg:rounded-full">
+            <ul className="flex flex-col lg:flex-row gap-10">
+              {info.map((item, index) => {
+                return (
+                  <li key={index} className="flex items-center gap-6">
+                    <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#fafafa] text-accent rounded-md flex items-center justify-center">
+                      <div className="text-[28px]">{item.icon}</div>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-black/60">{item.title}</p>
+                      <h3 className="text-xl">{item.description}</h3>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        <div className="flex flex-col  gap-[30px]">
           {/* form */}
           <div className="xl:h-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#fafafa] rounded-xl">
@@ -88,24 +106,7 @@ const Contact = () => {
               </Button>
             </form>
           </div>
-          {/* info */}
-          <div className="flex-1 flex items-center xl:justify-start order-1 xl:order-none mb-8 xl:mb-0">
-            <ul className="flex flex-col gap-10">
-              {info.map((item, index) => {
-                return (
-                  <li key={index} className="flex items-center gap-6">
-                    <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#fafafa] text-accent rounded-md flex items-center justify-center">
-                      <div className="text-[28px]">{item.icon}</div>
-                    </div>
-                    <div className="flex-1">
-                      <p className="text-black/60">{item.title}</p>
-                      <h3 className="text-xl">{item.description}</h3>
-                    </div>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
+          
         </div>
       </div>
     </motion.section>

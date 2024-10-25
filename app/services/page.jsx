@@ -31,8 +31,15 @@ const Services = () => {
         <div className="border rounded-md w-full flex justify-center py-5">Image2</div>
         <div className="border rounded-md w-full flex justify-center py-5">Image3</div>
       </div>
-
-      <div class="slider">
+        
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+          }}
+        >
+          <div class="slider">
 		<input type="radio" name="testimonial" id="t-1"/>
 		<input type="radio" name="testimonial" id="t-2"/>
 		<input type="radio" name="testimonial" id="t-3"/>
@@ -45,7 +52,7 @@ const Services = () => {
 			<label class="item" for="t-2">
 				<h2>گرافیک</h2>
         <p>برای مشاهده کلیک کنید</p>
-        <a href="/graphic">مشاهده</a>
+        <a href="/graphics">مشاهده</a>
 			</label>
 			<label class="item" for="t-3">
 				<h2>سخت افزار</h2>
@@ -59,17 +66,6 @@ const Services = () => {
 			<label for="t-3"></label>
 		</div>
 	    </div>
-
-        
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{
-            opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
-          }}
-          className="flex gap-[60px]"
-        >
-          
           {/* {services.map((service, index) => {
             return ( */}
                 {/* start cosnt */}
