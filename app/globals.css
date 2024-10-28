@@ -18,6 +18,9 @@
   body {
     @apply font-primary bg-primary leading-loose;
   }
+  sup{
+    @apply font-primary;
+  }
   .h1 {
     @apply text-[38px] xl:text-[70px];
   }

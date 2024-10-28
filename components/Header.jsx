@@ -8,10 +8,10 @@ import MobileNav from "./MobileNav.jsx";
 const Header = () => {
   // py-8 xl:py-12
   return <header dir="ltr" className="py-2">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center justify-items-center justify-self-center content-center self-center">
         {/* logo */}
         <Link href="/">
-          <h1 className="text-2xl">
+          <h1 className="text-2xl justify-center items-center justify-items-center justify-self-center content-center self-center">
             TechnoRaspberry
           </h1>
         </Link>
