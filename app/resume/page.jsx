@@ -398,15 +398,15 @@ const Resume = () => {
       </div>
 
       <div className="flex justify-evenly group container mx-auto">
-        <a href="/site-portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+        <a href="/site/portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">نرم‌افزار</div></a>
 
-          <a href="/graphics-portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <a href="/" className="w-[33%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">گرافیک</div></a>
 
-          <a href="/iot-portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <a href="/" className="w-[33%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">سخت‌افزار</div></a>
       </div>

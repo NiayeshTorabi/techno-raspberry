@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
         <StairTransition />
         <PageTransition>{children}</PageTransition>
         <Footer />
+        <div className="hidden"><p>Created by Niayesh Torabi</p></div>
         </body>
     </html>
 }

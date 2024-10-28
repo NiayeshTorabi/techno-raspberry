@@ -83,8 +83,6 @@ body:has(.box[data-color="clr2"]:hover){
 
 .containerr .box{
   position: relative;
-  width: 200px;
-  height: 200px;
   border-radius: 10px;
   display: flex;
   justify-content: center;

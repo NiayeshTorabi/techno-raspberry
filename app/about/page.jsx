@@ -250,7 +250,7 @@ const About = () => {
               <h2 className="text-xl3 bg-gradient-to-r bg-clip-text text-transparent 
             from-accent to-[#fff]
             animate-text">تیم ما</h2>
-              <div className="box" data-color="clr1">
+              <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr1">
                   <div className="imgBx">
                     <img src="https://citygol.com/wp-content/uploads/2023/06/Purple-theme-birthday-flower-box-1.jpg" alt=""/>
                   </div>
@@ -263,7 +263,7 @@ const About = () => {
                 </div>
               </div>
               <div className="containerr gap-8 grid-cols-2 sm:grid-cols-3 justify-items-center">
-                <div className="box" data-color="clr2">
+                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
                   <div className="imgBx">
                     <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
                   </div>
@@ -274,7 +274,7 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="box" data-color="clr2">
+                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
                   <div className="imgBx">
                     <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
                   </div>
@@ -285,7 +285,7 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="box" data-color="clr2">
+                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
                   <div className="imgBx">
                     <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
                   </div>
@@ -296,7 +296,7 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="box" data-color="clr2">
+                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
                   <div className="imgBx">
                     <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
                   </div>
@@ -307,7 +307,7 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="box" data-color="clr2">
+                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
                   <div className="imgBx">
                     <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
                   </div>
@@ -318,7 +318,7 @@ const About = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="box" data-color="clr2">
+                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
                   <div className="imgBx">
                     <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
                   </div>

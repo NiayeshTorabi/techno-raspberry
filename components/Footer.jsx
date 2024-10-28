@@ -14,7 +14,7 @@ const Footer = () => {
             from-white via-accent to-[#eee]
             animate-text'>خدمتی نوین</sup>
                 </h2>
-                <p className='text-justify'>
+                <p className='text-justify mb-3'>
                 تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل<br /><span>✨با خیال راحت پروژتو به ما بسپار</span>
                 </p>
             </div>
