@@ -4,6 +4,7 @@ import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/s
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
+import { Button } from "./ui/button";
 
 const Links = [
   {
@@ -15,7 +16,7 @@ const Links = [
     path: "/services",
   },
   {
-    name: "رزومه",
+    name: "پورتفولیو",
     path: "/resume",
   },
   {
@@ -23,12 +24,8 @@ const Links = [
     path: "/about",
   },
   {
-    name: "راه‌های ارتباطی",
+    name: "ارتباط با ما",
     path: "/contact",
-  },
-  {
-    name: "ثبت پروژه",
-    path: "/project",
   },
 ];
 
@@ -43,7 +40,7 @@ const MobileNav = () => {
         {/* logo */}
         <div className="mt-20 mb-10 text-2xl">
           <Link href="/">
-            <h1 className="text-3xl font-semibold">TechnoRaspberry
+            <h1>TechnoRaspberry
             </h1>
           </Link>
         </div>
@@ -63,6 +60,11 @@ const MobileNav = () => {
                 </Link>
               </SheetClose>
           })}
+              <SheetClose asChild>
+              <Link href="/project">
+              <Button className="w-full">ثبت پروژه</Button>
+              </Link>
+              </SheetClose>
         </nav>
       </SheetContent>
     </Sheet>

@@ -28,38 +28,43 @@ const Project = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-[30px]">
           {/* form */}
-            <form className="flex flex-col gap-6 p-10 bg-[#fafafa] rounded-xl">
-              <h3 className="text-3xl text-accent font-bold">آماده همکاری با شما هستیم</h3>
+            <form
+            className="flex flex-col gap-6 p-10 bg-[#fafafa] rounded-xl">
+              <input type="hidden" name="project" value="project-form" />
+              <h3 className="xl:text-2xl text-xl text-accent font-bold">با خیال راحت پروژتو به ما بسپار</h3>
               <p className="text-black/60">
                 فُرم زیر را با دقت تکمیل فرمایید، کارشناسان ما پس از بررسی آن، به سرعت با شما ارتباط برقرار خواهند کرد.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="fullname" placeholder="نام و نام‌خانوادگی" />
-                <Input type="phone" placeholder="شماره تلفن" />
+                <Input type="text" name="name" id="name" placeholder="نام و نام‌خانوادگی" required/>
+                <Input type="phone" name="phone" id="phone" placeholder="شماره تماس (مثال: ۰۹۱۲۳۴۵۶۷۸۹)" required/>
               </div>
               {/* select */}
               <Select>
                 <SelectTrigger className="w-full">
-                  <SelectValue placeholder="انتخاب خدمت..." />
+                  <SelectValue name="select" id="select" placeholder="انتخاب خدمت..." />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectLabel>انتخاب خدمات تکنورزبری</SelectLabel>
+                    <SelectLabel name="select title">انتخاب خدمات تکنورزبری</SelectLabel>
                     <SelectItem value="est">طراحی سایت</SelectItem>
                     <SelectItem value="cst">گرافیک</SelectItem>
-                    <SelectItem value="mst">IOT</SelectItem>
+                    <SelectItem value="mst">سخت افزار</SelectItem>
                     <SelectItem value="mst">مشاوره می‌خواهم.</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
               {/* textarea */}
               <Textarea
+                name="message"
+                id="message"
                 className="h-[200px]"
                 placeholder="پیام خود را اینجا بنویسید."
+                required
               />
               {/* btn */}
-              <Button size="md" className="max-w-40">
+              <Button type="submit" size="md" className="max-w-40">
                 ثبت
               </Button>
             </form>

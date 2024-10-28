@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const links = [
   {
-    name: "راه‌های ارتباطی",
+    name: "ارتباط با ما",
     path: "/contact",
   },
   {
@@ -13,7 +13,7 @@ const links = [
     path: "/about",
   },
   {
-    name: "رزومه",
+    name: "پورتفولیو",
     path: "/resume",
   },
   {

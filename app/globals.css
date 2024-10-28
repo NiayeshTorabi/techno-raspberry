@@ -19,13 +19,13 @@
     @apply font-primary bg-primary leading-loose;
   }
   .h1 {
-    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+    @apply text-[38px] xl:text-[70px];
   }
   .h2 {
-    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+    @apply text-[26px] xl:text-[38px];
   }
   .h3 {
-    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+    @apply text-[20px] xl:text-[24px];
   }
   .text-outline {
     -webkit-text-stroke: 1px #000000;
@@ -47,8 +47,6 @@ h1, h2{
 
 .c1{
   margin-top: 5rem;
-  padding: 1rem;
-  background-color: #000;
   transition: 1s;
   display: grid;
   justify-content: center;
@@ -62,13 +60,23 @@ h1, h2{
   width: 100%;
 }
 
-.c1:has(.box[data-color="clr1"]:hover){
+body{
+  transition: 0.2s;
+}
+
+body:has(.box[data-color="clr1"]:hover){
   background: #640069;
 }
 
-.c1:has(.box[data-color="clr2"]:hover){
+body:has(.box[data-color="clr2"]:hover){
   background: #0e0076;
 }
+
+.box:hover{
+  background-color: blue !important;
+}
+
+
 
 .containerr .box{
   position: relative;
@@ -140,7 +148,7 @@ h1, h2{
   transform: rotate(20deg);
 }
 
-.containerr .box .glass h2{
+.containerr .box .glass h3{
   font-size: 1.25rem;
   color: #fff;
   font-weight: 500;
@@ -148,7 +156,7 @@ h1, h2{
   text-align: center;
 }
 
-.containerr .box .glass h2 span{
+.containerr .box .glass h3 span{
   font-weight: 400;
   font-size: 0.8rem;
   font-family: var(--font-geist-sans);
@@ -200,15 +208,17 @@ h1, h2{
 .testimonials {
 	display: flex;
 	justify-content: center;
-	min-height: 180px;
 	perspective: 500px;
 	overflow: hidden;
 }
 
+.testimonials label{
+  padding-bottom: 0.5rem;
+}
+
 .testimonials .item {
-	padding: 50px;
-	border-radius: 5px;
-	background-color: #0A0220;
+	border-radius: 50px;
+	background-color: rgb(0 0 255 / var(--tw-bg-opacity));
 	position: absolute;
 	text-align: center;
 	transition: transform 0.4s;
@@ -217,6 +227,15 @@ h1, h2{
 	cursor: pointer;
   color: #fff;
   border: 1px solid #fff;
+  transition: 0.5s;
+}
+
+.testimonials .item:hover{
+	background-color: rgb(91, 91, 255);
+}
+
+.item img{
+  border-radius: 8px 8px 0 0;
 }
 
 .testimonials .item p {
@@ -224,7 +243,9 @@ h1, h2{
 }
 .testimonials .item h2 {
 	font-size: 14px;
+  padding-top: 1rem;
 }
+
 .dots {
 	display: flex;
 	justify-content: center;
@@ -243,7 +264,7 @@ h1, h2{
 #t-1:checked ~ .dots label[for="t-1"],
 #t-2:checked ~ .dots label[for="t-2"],
 #t-3:checked ~ .dots label[for="t-3"]{
-	transform: scale(2);
+	transform: scale(1.3);
 	background-color: #000;
 }
 
@@ -253,7 +274,7 @@ h1, h2{
 #t-2:checked ~ .dots label[for="t-3"],
 #t-3:checked ~ .dots label[for="t-2"],
 #t-3:checked ~ .dots label[for="t-1"]{
-	transform: scale(1.3);
+	transform: scale(0.8);
 }
 
 .testimonials label[for="t-1"]{
@@ -315,4 +336,11 @@ h1, h2{
 #t-2:checked ~ .testimonials label[for="t-2"],
 #t-3:checked ~ .testimonials label[for="t-3"]{
 	z-index: 4;
+}
+
+/* about */
+
+.c1 h2{
+  font-size: 1.5rem;
+  text-align: center;
 }

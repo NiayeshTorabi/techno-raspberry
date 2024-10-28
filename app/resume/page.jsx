@@ -158,7 +158,100 @@ const Resume = () => {
       }}
       className="min-h-[80vh] mb-10"
     >
-      <div className="container mx-auto text-justify mt-10">تکنورزبری؛ جایی که نوآوری با خلاقیت می‌آمیزد ما در تکنورزبری، با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه می‌دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و هوشمندسازی خانه‌ها، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.</div>
+      <div className="container mx-auto text-justify mt-10">
+      <h1>تکنورزبری<sup className="text-accent">خدمتی نوین</sup></h1>
+      <p>
+      تکنورزبری یک مجموعه ساده نیست؛ جایی است که نوآوری با خلاقیت می‌آمیزد تا در تکنورزبری، با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه می‌دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و حتی پروژه‌های سخت‌افزاری برای داشتن زندگی راحت‌تر، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.
+      </p>
+      <br />
+      <h2>چرا تکنورزبری را انتخاب کنید؟</h2>
+      <div className="container mx-auto px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-5">
+        {/* item1 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">ESP32</h1>
+                <p>ماژول تخصصی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item2 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">Security</h1>
+                <p>حرف اول</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item3 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">HTML</h1>
+                <p>ساختار عالی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item4 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">CSS</h1>
+                <p>دیزاین بصری</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item5 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">JAVA</h1>
+                <p>بهترین زبان</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item6 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">Number 1</h1>
+                <p>درجه‌يک بازار</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
       {/* <div className="container mx-auto">
         <Tabs
           defaultValue="experience"
@@ -300,16 +393,22 @@ const Resume = () => {
           </TabsList>
         </Tabs>
       </div> */}
-      <div className="group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
-      <div className="border rounded-md w-full flex flex-col justify-center text-justify p-5 mb-3 bg-accent text-accent hover:bg-primary duration-500"><span className="text-primary text-center">کلیک کنید!</span>طراحی وب‌سایت حرفه‌ای: وب‌سایت شما، ویترین کسب‌وکار شماست. ما با طراحی وب‌سایت‌هایی که هم زیبا هستند و هم کاربرپسند، به شما کمک می‌کنیم تا در دنیای دیجیتال بدرخشید.</div>
-        <div className="border rounded-md w-full flex flex-col justify-center text-justify p-5 mb-3 bg-accent text-accent hover:bg-primary duration-500"><span className="text-primary text-center">کلیک کنید!</span>خدمات گرافیکی خلاقانه: از طراحی لوگو و کارت ویزیت گرفته تا ساخت پوستر و بنر، ما به شما کمک می‌کنیم تا هویت بصری قوی و ماندگاری برای کسب‌وکار خود ایجاد کنید.</div>
-        <div className="border rounded-md w-full flex flex-col justify-center text-justify p-5 mb-3 bg-accent text-accent hover:bg-primary duration-500"><span className="text-primary text-center">کلیک کنید!</span>هوشمندسازی خانه: با استفاده از آخرین فناوری‌های اینترنت اشیا، خانه خود را به یک محیط هوشمند و راحت تبدیل کنید. ما به شما کمک می‌کنیم تا با سیستم‌های هوشمند، خانه خود را کنترل و مدیریت کنید.</div>
+      <div className="container mx-auto mt-16">
+      <h2 className="text-2xl mb-5">خدمات تکنورزبری</h2>
       </div>
 
-      <div className="flex-1 flex justify-evenly gap-6 group border border-accent p-5 rounded-md hover:border-[#e5e7eb] duration-500 mt-28 container mx-auto">
-        <a href="/site" className="w-[33%]"><div className="border rounded-md w-full flex justify-center py-5 hover:border-accent duration-500">سایت</div></a>
-        <a href="/graphics" className="w-[33%]"><div className="border rounded-md w-full flex justify-center py-5 hover:border-accent duration-500">طراحی و گرافیک</div></a>
-        <a href="/iot" className="w-[33%]"><div className="border rounded-md w-full flex justify-center py-5 hover:border-accent duration-500">سخت افزار</div></a>
+      <div className="flex justify-evenly group container mx-auto">
+        <a href="/site-portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
+          <div className="w-full flex justify-center py-1 xl:py-5">نرم‌افزار</div></a>
+
+          <a href="/graphics-portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
+          <div className="w-full flex justify-center py-1 xl:py-5">گرافیک</div></a>
+
+          <a href="/iot-portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
+          <div className="w-full flex justify-center py-1 xl:py-5">سخت‌افزار</div></a>
       </div>
     </motion.div>
 };

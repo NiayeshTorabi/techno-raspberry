@@ -12,26 +12,32 @@ const Iot = () => {
       }}
       className="py-6 flex flex-col gap-5 m-3"
     >
-      <div className="container mx-auto p-8 text-justify bg-accent/10 rounded-md">
-        <h1 className="text-2xl">هوشمندسازی خانه؛ آینده زندگی راحت‌تر و ایمن‌تر</h1>
+      <div className="container mx-auto px-0">
+      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
+      </div>
+      <div className="container mx-auto p-5 text-justify bg-accent/10 rounded-md">
+        <h1 className="text-xl ">تلفیق سخت‌افزار و نرم‌افزار، زندگی راحت‌تر و ایمن‌تر</h1>
         <br />
-        <p>خانه هوشمند شما، دنیای جدیدی از راحتی و امنیت را برایتان به ارمغان می‌آورد. با هوشمندسازی خانه، می‌توانید تمام دستگاه‌ها و سیستم‌های خانه خود را از طریق یک اپلیکیشن موبایل یا تبلت کنترل کنید.
+        <p>امروزه با فرمول "نرم‌افزار+سخت‌افزار" می‌توانیم دیوایس‌هایی داشته باشیم تا زندگی راحت‌تری را تجربه کنیم؛
+        <br />
+        هوشمندسازی خانه = آینده و زندگی ایمن‌تر
 </p>
       </div>
       <div className="container mx-auto p-8 text-justify bg-[#00FF9C]/20 rounded-md">
-        <h2 className="text-2xl">تصور کنید که با یک لمس، می‌توانید<span>:</span></h2>
+        <h2 className="text-xl">علم سخت‌افزار همیشه به معنی استفاده ۱۰۰٪ از سخت‌افزار نیست</h2>
         <br />
-        <h3 className="font-bold">روشنایی‌ها را تنظیم کنید<span>:</span></h3><p>شدت نور را کم و زیاد کنید، رنگ نور را تغییر دهید و حتی با یک برنامه از پیش تعیین شده، نورپردازی خانه را به طور خودکار تنظیم کنید.</p>
-        <br />
+        <p className="font-bold">بله، اشتباه تایپی در کار نیست!</p><p>ما این علم را با نرم‌افزار تلفیق کرده و با افتخار به هدف کارمان یعنی فراهم‌کردن "زندگی راحت‌تر" برای شما دست پیدا می‌کنیم.</p>
+        {/* <br />
         <h3 className="font-bold">دمای خانه را کنترل کنید<span>:</span></h3><p>سیستم گرمایش و سرمایش خانه را به صورت هوشمند تنظیم کنید تا در هر فصلی از سال، دمای دلخواه خود را داشته باشید.</p>
         <br />
         <h3 className="font-bold">امنیت خانه را افزایش دهید<span>:</span></h3><p>با نصب دوربین‌های مداربسته هوشمند، سنسورهای حرکت و سیستم‌های کنترل دسترسی، از امنیت خانه خود اطمینان حاصل کنید.</p>
         <br />
         <h3 className="font-bold">مصرف انرژی را کاهش دهید<span>:</span></h3><p>با استفاده از سیستم‌های هوشمند، می‌توانید مصرف انرژی در خانه خود را بهینه کنید و در هزینه‌های خود صرفه‌جویی کنید.</p>
         <br />
-        <h3 className="font-bold">صوتی و تصویری را کنترل کنید<span>:</span></h3><p>موسیقی مورد علاقه خود را پخش کنید، تلویزیون را روشن و خاموش کنید و حتی با دستیارهای صوتی با خانه خود تعامل کنید.</p>
+        <h3 className="font-bold">صوتی و تصویری را کنترل کنید<span>:</span></h3><p>موسیقی مورد علاقه خود را پخش کنید، تلویزیون را روشن و خاموش کنید و حتی با دستیارهای صوتی با خانه خود تعامل کنید.</p> */}
       </div>
-      <div className="container mx-auto p-8 text-justify bg-[#640D5F] rounded-md text-white">
+      <p className="font-bold">تصور کن...</p>
+      {/* <div className="container mx-auto p-8 text-justify bg-[#640D5F] rounded-md text-white">
         <h2 className="text-2xl">چرا تکنورزبری را برای هوشمندسازی خانه خود انتخاب کنید؟
 </h2>
         <br />
@@ -42,7 +48,7 @@ const Iot = () => {
         <h3 className="font-bold">نصب حرفه‌ای<span>:</span></h3><p>تیم نصب ما با دقت و ظرافت، سیستم هوشمندسازی را در خانه شما نصب می‌کند.</p>
         <br />
         <h3 className="font-bold">پشتیبانی پس از فروش<span>:</span></h3><p>ما حتی پس از نصب سیستم، به شما پشتیبانی ارائه می‌دهیم تا هرگونه مشکلی را برطرف کنیم.</p>
-      </div>
+      </div> */}
       <div className="container mx-auto p-8 text-justify bg-black/10 rounded-md">
       <h2 className="text-2xl">خدمات هوشمندسازی خانه ما شامل موارد زیر می‌شود</h2>
       <br />
@@ -55,8 +61,101 @@ const Iot = () => {
         <h3 className="font-bold">امنیت هوشمند<span>:</span></h3><p>نصب سیستم‌های امنیتی هوشمند مانند دوربین مداربسته، دزدگیر و سنسورهای حرکت</p>
         <br />
         <h3 className="font-bold">صوتی و تصویری هوشمند<span>:</span></h3><p>یکپارچه‌سازی سیستم صوتی و تصویری خانه با سیستم هوشمند</p>
+        <br />
+        <h3 className="font-bold">حمل و نقل هوشمند<span>:</span></h3><p>با تکنورزبری قرار نیست از تکنولوژي حمل و نقل هوشمند عقب بمانید</p>
+        <br />
+        <h3 className="font-bold">پایش گاز<span>:</span></h3><p>دیگر نگران نشتی گاز نباشید؛ برای این مورد هم راه‌حل داریم</p>
       </div>
-      <div className="container mx-auto p-8 text-justify bg-[#FEEC37]/20 rounded-md">
+      <p className="font-bold">از چه تکنولوژی‌هایی استفاده می‌کنیم؟</p>
+
+      <div className="container mx-auto px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-5">
+        {/* item1 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">ESP32</h1>
+                <p>ماژول تخصصی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item2 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">Security</h1>
+                <p>حرف اول</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item3 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">HTML</h1>
+                <p>ساختار عالی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item4 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">CSS</h1>
+                <p>دیزاین بصری</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item5 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">JAVA</h1>
+                <p>بهترین زبان</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item6 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">Number 1</h1>
+                <p>درجه‌يک بازار</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container mx-auto p-8 text-justify bg-[#FEEC37]/20 rounded-md">
       <h2 className="text-2xl">مزایای هوشمندسازی خانه</h2>
       <br />
       <h3 className="font-bold">راحتی و آسایش<span>:</span></h3><p>با یک لمس، می‌توانید تمام دستگاه‌های خانه خود را کنترل کنید.</p>
@@ -66,17 +165,38 @@ const Iot = () => {
         <h3 className="font-bold">کاهش مصرف انرژی<span>:</span></h3><p>با هوشمندسازی خانه، می‌توانید در هزینه‌های انرژی خود صرفه‌جویی کنید.</p>
         <br />
         <h3 className="font-bold">افزایش ارزش ملک<span>:</span></h3><p>هوشمندسازی خانه، ارزش ملک شما را افزایش می‌دهد.</p>
-      </div>
-      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
-        <h2 className="text-2xl">برای کسب اطلاعات بیشتر و مشاوره رایگان، با ما تماس بگیرید</h2>
+      </div> */}
+      <div className="container mx-auto p-8 border border-[#00FF9C] rounded-md text-center mt-10">
+        <h2 className="text-2xl">چرا تکنورزبری؟</h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <Button
                 variant="outline"
-                className="text-black border-black hover:bg-white hover:text-black"
+                className="text-black border-black hover:bg-[#00FF9C] hover:text-black"
+              >
+                <a href="/contact"><span>مشاهده نمونه‌کارهای بیشتر</span></a>
+        </Button>
+      </div>
+      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
+        <h2 className="text-2xl">برای کسب اطلاعات بیشتر و مشاوره رایگان، با ما تماس بگیرید</h2>
+        <p className="mt-3">نمونه‌کار بعدی تکنورزبری می‌تواند پروژه شما باشد</p>
+        <br />
+        <Button
+                variant="outline"
+                className="text-black border-black hover:bg-white hover:text-black mt-5"
               >
                 <a href="/contact"><span>ارتباط با ما</span></a>
         </Button>
       </div>
+      
     </motion.section>
 };
 

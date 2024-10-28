@@ -18,6 +18,10 @@ export const metadata = {
   description: "TechnoRaspberry",
 };
 
+export const viewport = {
+  themeColor: 'black',
+}
+ 
 export default function RootLayout({ children }) {
   return <html lang="fa" dir="rtl">
       <body className={`${geistSans.variable} antialiased`}>
