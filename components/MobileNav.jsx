@@ -27,6 +27,10 @@ const Links = [
     name: "ارتباط با ما",
     path: "/contact",
   },
+  {
+    name: "وبلاگ",
+    path: "/blog",
+  },
 ];
 
 const MobileNav = () => {
@@ -39,10 +43,12 @@ const MobileNav = () => {
       <SheetContent className="flex flex-col">
         {/* logo */}
         <div className="mt-20 mb-10 text-2xl">
+          <SheetClose asChild>
           <Link href="/">
             <h1>TechnoRaspberry
             </h1>
           </Link>
+          </SheetClose>
         </div>
         {/* nav */}
         <nav className="flex flex-col justify-center gap-8">

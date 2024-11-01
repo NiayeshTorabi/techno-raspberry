@@ -78,7 +78,7 @@ const projects = [
     category: "تکنورزبری؛ خدماتی نوین",
     title: "project 1",
     description:
-      "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژي روز دنیا، در کنار یکدیگر خدماتی نوین را اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی مانند طراحی لوگو یا پوستر و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژي که مساوی‌ست با راحتی شما",
+      "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژي روز دنیا، در کنار یکدیگر خدماتی نوین اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی مانند طراحی لوگو یا پوستر و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژي که مساوی‌ست با راحتی شما را ارائه می‌دهد.",
     stack: [{ name: "طراحی‌سایت" }, { name: "طراحی و گرافیک" }, { name: "سخت‌‌افزار" }],
     image: "/assets/about/thumb1.png",
     live: "/project",
@@ -125,6 +125,7 @@ const About = () => {
       className="min-h-[80vh] flex flex-col justify-center pt-5 xl:px-0"
     >
       <div className="container mx-auto">
+        <h1>درباره تکنورزبری</h1>
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">

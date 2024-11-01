@@ -158,14 +158,15 @@ const Resume = () => {
       }}
       className="min-h-[80vh] mb-10"
     >
-      <div className="container mx-auto text-justify mt-10">
-      <h1>تکنورزبری<sup className="text-accent">خدمتی نوین</sup></h1>
+      <div className="container mx-auto text-justify mt-3">
+        <h1>نمونه کارهای تکنورزبری</h1>
+      <h2>تکنورزبری<sup className="text-accent">خدمتی نوین</sup></h2>
       <p>
-      تکنورزبری یک مجموعه ساده نیست؛ جایی است که نوآوری با خلاقیت می‌آمیزد تا در تکنورزبری، با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه می‌دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و حتی پروژه‌های سخت‌افزاری برای داشتن زندگی راحت‌تر، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.
+      تکنورزبری یک مجموعه ساده نیست؛ جایی است که نوآوری با خلاقیت می‌آمیزد تا بتوانیم با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و حتی پروژه‌های سخت‌افزاری برای داشتن زندگی راحت‌تر، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.
       </p>
       <br />
-      <h2>چرا تکنورزبری را انتخاب کنید؟</h2>
-      <div className="container mx-auto px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-5">
+      <h2 className="mt-5">چرا تکنورزبری را انتخاب کنید؟</h2>
+      <div className="container mx-auto px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-8">
         {/* item1 */}
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
@@ -398,15 +399,15 @@ const Resume = () => {
       </div>
 
       <div className="flex justify-evenly group container mx-auto">
-        <a href="/site/portfolio" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+        <a href="/resume/site" className="w-[33%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">نرم‌افزار</div></a>
 
-          <a href="/" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <a href="/resume/graphics" className="w-[33%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">گرافیک</div></a>
 
-          <a href="/" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <a href="/resume/iot" className="w-[33%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">سخت‌افزار</div></a>
       </div>

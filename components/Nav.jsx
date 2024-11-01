@@ -5,6 +5,10 @@ import { usePathname } from "next/navigation";
 
 const links = [
   {
+    name: "وبلاگ",
+    path: "/blog",
+  },
+  {
     name: "ارتباط با ما",
     path: "/contact",
   },

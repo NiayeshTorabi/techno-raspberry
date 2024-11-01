@@ -33,7 +33,8 @@ const Services = () => {
             transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
           }}
         >
-          <div class="slider">
+          <div className="container mx-auto text-center my-10"><h1>خدمات تکنورزبری</h1><p>در زیر می‌توانید خدمات ما را مشاهده کنید</p></div>
+          <div class="slider mb-10">
 		<input type="radio" name="testimonial" id="t-1"/>
 		<input type="radio" name="testimonial" id="t-2"/>
 		<input type="radio" name="testimonial" id="t-3"/>

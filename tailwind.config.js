@@ -22,6 +22,9 @@ module.exports = {
 		primary: "var(--font-geist-sans)",
 	},
   	extend: {
+		transitionDuration: {
+			'3': '3000ms',
+		  },
 		keyframes: {
 			"accordion-down": {
 				from: { height: "0" },

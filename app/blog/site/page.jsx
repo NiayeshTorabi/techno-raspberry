@@ -3,23 +3,17 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-const Iot = () => {
+const blogSite = () => {
   return <motion.section
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-6 flex flex-col gap-5 m-3"
+      className="py-1 flex flex-col gap-5 m-3"
     >
-      <div className="relative container mx-auto px-0">
+      <div className="container mx-auto px-0">
       <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
-      <Button
-                variant="outline"
-                className="uppercase flex items-center gap-2 absolute top-[5%] xl:right-[1%] right-[3%] text-primary"
-              >
-                <a href="/portfolio"><span>نمونه کارها</span></a>
-              </Button>
       </div>
       <div className="container mx-auto p-5 text-justify bg-accent/10 rounded-md">
         <h1 className="text-xl ">تلفیق سخت‌افزار و نرم‌افزار، زندگی راحت‌تر و ایمن‌تر</h1>
@@ -79,7 +73,7 @@ const Iot = () => {
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0">
-              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
             </div>
             <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
@@ -206,4 +200,4 @@ const Iot = () => {
     </motion.section>
 };
 
-export default Iot;
+export default blogSite;

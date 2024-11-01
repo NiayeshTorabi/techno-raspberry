@@ -9,11 +9,13 @@ const Footer = () => {
         </svg>
         <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-2 xl:gap-14 xl:px-20 gap-1 p-5 text-primary">
             <div className="flex flex-col gap-2 col-span-2 xl:col-span-1">
+                <a href="/">
                 <h2 className="xl:text-2xl text-1xl mb-4">
                     تکنورزبری<sup className='text-sm bg-gradient-to-r bg-clip-text text-transparent 
             from-white via-accent to-[#eee]
-            animate-text'>خدمتی نوین</sup>
+            animate-text'>خدماتی نوین</sup>
                 </h2>
+                </a>
                 <p className='text-justify mb-3'>
                 تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل<br /><span>✨با خیال راحت پروژتو به ما بسپار</span>
                 </p>
@@ -23,9 +25,9 @@ const Footer = () => {
                     خدمات
                 </h2>
                 <ul>
-                    <li className="my-4 list-none">سایت</li>
-                    <li className="my-4 list-none">طراحی و گرافیک</li>
-                    <li className="my-4 list-none">سخت افزار</li>
+                    <li className="my-4 list-none"><a href="/site">سایت</a></li>
+                    <li className="my-4 list-none"><a href="/graphics">طراحی و گرافیک</a></li>
+                    <li className="my-4 list-none"><a href="/iot">سخت افزار</a></li>
                 </ul>
             </div>
             <div className="flex flex-col gap-2 border p-3 rounded-md border-white/30 hover:border-white duration-500">
@@ -33,10 +35,10 @@ const Footer = () => {
                     مفید
                 </h2>
                 <ul>
-                    <li className="my-4 list-none">پورتفولیو</li>
-                    <li className="my-4 list-none">درباره ما</li>
-                    <li className="my-4 list-none">ارتباط با ما</li>
-                    <li className="my-4 list-none">وبلاگ</li>
+                    <li className="my-4 list-none"><a href="/resume">پورتفولیو</a></li>
+                    <li className="my-4 list-none"><a href="/about">درباره ما</a></li>
+                    <li className="my-4 list-none"><a href="/contact">ارتباط با ما</a></li>
+                    <li className="my-4 list-none"><a href="/blog">وبلاگ</a></li>
                 </ul>
             </div>
             <div className="flex flex-col gap-2 border p-3 rounded-md border-white/30 hover:border-white duration-500">
@@ -44,8 +46,8 @@ const Footer = () => {
                     ارتباط
                 </h2>
                 <ul>
-                    <li className="my-4 list-none flex items-center gap-2"><FaEnvelope />ایمیل</li>
-                    <li className="list-none flex items-center gap-2"><FaPhone />شماره</li>
+                    <li className="my-4 list-none flex items-center gap-2"><FaEnvelope /><a href="mailto:technoraspberry@info.ir">ایمیل</a></li>
+                    <li className="list-none flex items-center gap-2"><FaPhone /><a href="tel:09123456789">شماره</a></li>
                 </ul>
                 <div className='flex gap-3'>
                     <a href="/"><FaGithub /></a>

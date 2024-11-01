@@ -26,6 +26,7 @@ const Project = () => {
       className="py-6"
     >
       <div className="container mx-auto">
+        <h1>ثبت پروژه</h1>
         <div className="flex flex-col gap-[30px]">
           {/* form */}
             <form
@@ -41,7 +42,7 @@ const Project = () => {
                 <Input type="phone" name="phone" id="phone" placeholder="شماره تماس (مثال: ۰۹۱۲۳۴۵۶۷۸۹)" required/>
               </div>
               {/* select */}
-              <Select>
+              <Select required>
                 <SelectTrigger className="w-full">
                   <SelectValue name="select" id="select" placeholder="انتخاب خدمت..." />
                 </SelectTrigger>
@@ -51,7 +52,7 @@ const Project = () => {
                     <SelectItem value="est">طراحی سایت</SelectItem>
                     <SelectItem value="cst">گرافیک</SelectItem>
                     <SelectItem value="mst">سخت افزار</SelectItem>
-                    <SelectItem value="mst">مشاوره می‌خواهم.</SelectItem>
+                    <SelectItem value="oth">مشاوره می‌خواهم.</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

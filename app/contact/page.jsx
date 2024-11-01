@@ -43,10 +43,11 @@ const Contact = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-6"
+      className="py-3"
     >
       <div className="container mx-auto">
-        <div className="mb-10 mt-8 text-justify">
+        <h1>ارتباط با تکنورزبری</h1>
+        <div className="mb-10 text-justify">
           <p>پشتیبانان تکنورزبری در هر ساعتی از شبانه روز به صورت ۲۴/۷ آماده خدمت رسانی به شما هستند؛ در زیر می‌توانید بخش‌های راه‌های ارتباطی با ما را مشاهده فرمایید که بسته به نیاز خود می‌توانید یکی از آنها را انتخاب کرده و ارتباط خود را با تکنورزبری برقرار کنید.</p>
         </div>
         {/* info */}
@@ -81,7 +82,7 @@ const Contact = () => {
                 <Input type="phone" placeholder="شماره تلفن" />
               </div>
               {/* select */}
-              <Select>
+              <Select required>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="موضوع سوال خود را انتخاب کنید" />
                 </SelectTrigger>
@@ -91,7 +92,7 @@ const Contact = () => {
                     <SelectItem value="est">طراحی سایت</SelectItem>
                     <SelectItem value="cst">گرافیک</SelectItem>
                     <SelectItem value="mst">IOT</SelectItem>
-                    <SelectItem value="mst">دیگر موارد</SelectItem>
+                    <SelectItem value="oth">دیگر موارد</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

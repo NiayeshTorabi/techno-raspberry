@@ -79,8 +79,6 @@ body:has(.box[data-color="clr2"]:hover){
   background-color: blue !important;
 }
 
-
-
 .containerr .box{
   position: relative;
   border-radius: 10px;
@@ -344,4 +342,15 @@ body:has(.box[data-color="clr2"]:hover){
 .c1 h2{
   font-size: 1.5rem;
   text-align: center;
+}
+
+/* portfolio */
+
+.portfolio1{
+  background-image: url(../public/assets/portfolio/khorshidweb.co.png);
+  background-size: cover;
+}
+.portfolio2{
+  background-image: url(../public/assets/portfolio/khorshidweb.co.png);
+  background-size: cover;
 }
