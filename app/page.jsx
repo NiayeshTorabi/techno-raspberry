@@ -12,7 +12,7 @@ const Home = () => {
         <picture className="hey1">
           <source media="(min-width: 1200px)" srcset="/images/home-main.png"/>
           <source media="(min-width: 768px)" srcset="/images/home-main-lg.png"/>
-          <img src="/images/main.svg" className="xl:h-[92.8vh] h-[87dvh]" alt="" />
+          <img src="/images/home-main-ssm.png" className="xl:h-[92.8vh] h-[87dvh]" alt="" />
         </picture>
       </div>
       <div className="container mx-auto h-full">
