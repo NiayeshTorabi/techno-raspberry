@@ -26,9 +26,16 @@ const Project = () => {
       className="py-6"
     >
       <div className="container mx-auto">
-        <h1>ثبت پروژه</h1>
         <div className="flex flex-col gap-[30px]">
           {/* form */}
+          {/* title */}
+        <div className="border rounded-md p-3 items-center mx-3 mb-5">
+        <div className="font-bold text-3xl text-accent">
+          ثبت پروژه
+        </div>
+        </div>
+        {/* data */}
+        <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/project-technoraspberry.jpg" alt="" />
             <form
             className="flex flex-col gap-6 p-10 bg-[#fafafa] rounded-xl">
               <input type="hidden" name="project" value="project-form" />
