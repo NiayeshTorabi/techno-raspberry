@@ -156,102 +156,26 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] mb-10"
+      className="min-h-[80vh] my-3"
     >
-      <div className="container mx-auto text-justify mt-3">
-        <h1>نمونه کارهای تکنورزبری</h1>
-      <h2>تکنورزبری<sup className="text-accent">خدمتی نوین</sup></h2>
-      <p>
+      <div className="container mx-auto text-justify flex flex-col gap-8">
+        {/* title */}
+        <div className="border rounded-md p-3 items-center mx-3 mb-5">
+        <div className="font-bold text-3xl text-accent">
+          پورتفولیو
+        </div>
+        </div>
+        {/* data */}
+        <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/portfolio-main.jpg" alt="" />
+        <div className="flex xl:flex-row flex-col">
+      <div className="flex flex-col">
+      <h2 className="text-5xl mb-8">تکنورزبری<sup className="text-accent">خدمتی‌نو</sup></h2>
+        <p className="text-3xl leading-[3.5rem]">
       تکنورزبری یک مجموعه ساده نیست؛ جایی است که نوآوری با خلاقیت می‌آمیزد تا بتوانیم با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و حتی پروژه‌های سخت‌افزاری برای داشتن زندگی راحت‌تر، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.
       </p>
-      <br />
-      <h2 className="mt-5">چرا تکنورزبری را انتخاب کنید؟</h2>
-      <div className="container mx-auto px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-8">
-        {/* item1 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">ESP32</h1>
-                <p>ماژول تخصصی</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item2 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">Security</h1>
-                <p>حرف اول</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item3 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">HTML</h1>
-                <p>ساختار عالی</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item4 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">CSS</h1>
-                <p>دیزاین بصری</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item5 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">JAVA</h1>
-                <p>بهترین زبان</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item6 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">Number 1</h1>
-                <p>درجه‌يک بازار</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
+      <img className="h-[200px] xl:h-[275px] object-contain container m-0 p-0" src="/images/portfolio-linking.jpg" alt="" />
+        </div>
       </div>
       {/* <div className="container mx-auto">
         <Tabs
@@ -394,22 +318,116 @@ const Resume = () => {
           </TabsList>
         </Tabs>
       </div> */}
-      <div className="container mx-auto mt-16">
-      <h2 className="text-2xl mb-5">خدمات تکنورزبری</h2>
+      {/* portfolio linking */}
+      <div className="container mx-auto">
+      <h2 className="text-2xl mt-28 mb-5 text-accent">مشاهده نمونه‌کار ها</h2>
       </div>
-
-      <div className="flex justify-evenly group container mx-auto">
-        <a href="/resume/site" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+      <div className="flex xl:flex-row flex-col justify-evenly group container mx-auto gap-5">
+        <a href="/resume/site" className="xl:w-[33%] w-[100%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">نرم‌افزار</div></a>
 
-          <a href="/resume/graphics" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <a href="/resume/graphics" className="xl:w-[33%] w-[100%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">گرافیک</div></a>
 
-          <a href="/resume/iot" className="w-[33%] border rounded-xl hover:border-accent duration-500">
+          <a href="/resume/iot" className="xl:w-[33%] w-[100%] border rounded-xl hover:border-accent duration-500">
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">سخت‌افزار</div></a>
+      </div>
+      <p className="container mx-auto text-2xl mt-8 leading-[3rem] text-center">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
+      {/* whyUs */}
+      <div className="p-5 mt-28">
+        <div className="border border-accent container rounded-md xl:p-8 px-0 pt-0 py-5 mt-16 shadow-md">
+      <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/why-technoraspberry.jpg" alt="" />
+      <h2 className="text-3xl container mx-auto text-accent mb-5 text-center">چرا تکنورزبری؟</h2>
+      <div className="container mx-auto grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-8">
+        {/* item1 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">ESP32</h1>
+                <p>ماژول تخصصی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item2 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">Security</h1>
+                <p>حرف اول</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item3 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">HTML</h1>
+                <p>ساختار عالی</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item4 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">CSS</h1>
+                <p>دیزاین بصری</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item5 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">JAVA</h1>
+                <p>بهترین زبان</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* item6 */}
+        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
+          <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div className="absolute inset-0">
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+            </div>
+            <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div className="flex min-h-full flex-col items-center justify-center">
+                <h1 className="text-2xl font-bold text-accent">Number 1</h1>
+                <p>درجه‌يک بازار</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
       </div>
     </motion.div>
 };

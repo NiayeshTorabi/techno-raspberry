@@ -10,26 +10,29 @@ const Iot = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-6 flex flex-col gap-5 m-3"
+      className="py-6 flex flex-col gap-5 container mx-auto"
     >
-      <div className="relative container mx-auto px-0">
+      <div className="relative  px-0">
       <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
       <Button
                 variant="outline"
                 className="uppercase flex items-center gap-2 absolute top-[5%] xl:right-[1%] right-[3%] text-primary"
               >
-                <a href="/portfolio"><span>نمونه کارها</span></a>
+                <a href="/resume/graphics"><span>نمونه کارها</span></a>
               </Button>
       </div>
-      <div className="container mx-auto p-5 text-justify bg-accent/10 rounded-md">
-        <h1 className="text-xl ">تلفیق سخت‌افزار و نرم‌افزار، زندگی راحت‌تر و ایمن‌تر</h1>
+      <div className=" p-5 text-justify bg-accent/10 rounded-md">
+        <h1 className="text-xl text-accent">تلفیق سخت‌افزار و نرم‌افزار، زندگی راحت‌تر و ایمن‌تر</h1>
         <br />
         <p>امروزه با فرمول "نرم‌افزار+سخت‌افزار" می‌توانیم دیوایس‌هایی داشته باشیم تا زندگی راحت‌تری را تجربه کنیم؛
         <br />
-        هوشمندسازی خانه = آینده و زندگی ایمن‌تر
+        <p>فرمول بالا را می‌توانیم مساوی با "هوشمندسازی" قرار دهیم</p>
+        
 </p>
+<p className="font-bold">هوشمندسازی = آینده و زندگی ایمن‌تر</p>
       </div>
-      <div className="container mx-auto p-8 text-justify bg-[#00FF9C]/20 rounded-md">
+      <div className="flex xl:flex-row flex-col-reverse">
+      <div className="p-8 text-justify bg-[#00FF9C]/20 rounded-md xl:w-[60%] w-[100%]">
         <h2 className="text-xl">علم سخت‌افزار همیشه به معنی استفاده ۱۰۰٪ از سخت‌افزار نیست</h2>
         <br />
         <p className="font-bold">بله، اشتباه تایپی در کار نیست!</p><p>ما این علم را با نرم‌افزار تلفیق کرده و با افتخار به هدف کارمان یعنی فراهم‌کردن "زندگی راحت‌تر" برای شما دست پیدا می‌کنیم.</p>
@@ -42,8 +45,17 @@ const Iot = () => {
         <br />
         <h3 className="font-bold">صوتی و تصویری را کنترل کنید<span>:</span></h3><p>موسیقی مورد علاقه خود را پخش کنید، تلویزیون را روشن و خاموش کنید و حتی با دستیارهای صوتی با خانه خود تعامل کنید.</p> */}
       </div>
-      <p className="font-bold">تصور کن...</p>
-      {/* <div className="container mx-auto p-8 text-justify bg-[#640D5F] rounded-md text-white">
+      <img src="/images/iot-question.jpg" alt="" className="xl:w-[40%] w-[100%]" />
+      </div>
+      <div>
+        <div className="flex items-center imagine">
+          <img src="/images/iot-imagine.jpg" alt="" className="w-[10%]" />
+          <p className="font-bold text-2xl">تصور کن...</p>
+        </div>
+
+        <div></div>
+      </div>
+      {/* <div className=" p-8 text-justify bg-[#640D5F] rounded-md text-white">
         <h2 className="text-2xl">چرا تکنورزبری را برای هوشمندسازی خانه خود انتخاب کنید؟
 </h2>
         <br />
@@ -55,8 +67,8 @@ const Iot = () => {
         <br />
         <h3 className="font-bold">پشتیبانی پس از فروش<span>:</span></h3><p>ما حتی پس از نصب سیستم، به شما پشتیبانی ارائه می‌دهیم تا هرگونه مشکلی را برطرف کنیم.</p>
       </div> */}
-      <div className="container mx-auto p-8 text-justify bg-black/10 rounded-md">
-      <h2 className="text-2xl">خدمات هوشمندسازی خانه ما شامل موارد زیر می‌شود</h2>
+      <div className=" p-8 text-justify bg-[#dbcdf0]/50 rounded-md">
+      <h2 className="text-2xl text-accent">خدمات هوشمندسازی خانه ما شامل موارد زیر می‌شود</h2>
       <br />
       <h3 className="font-bold">نصب و راه‌اندازی سیستم‌های هوشمند<span>:</span></h3><p>نصب و پیکربندی انواع تجهیزات هوشمند مانند ترموستات هوشمند، لامپ‌های هوشمند، پریزهای هوشمند و ...</p>
         <br />
@@ -74,7 +86,7 @@ const Iot = () => {
       </div>
       <p className="font-bold">از چه تکنولوژی‌هایی استفاده می‌کنیم؟</p>
 
-      <div className="container mx-auto px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-5">
+      <div className=" px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-5">
         {/* item1 */}
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
@@ -161,7 +173,7 @@ const Iot = () => {
         </div>
       </div>
 
-      {/* <div className="container mx-auto p-8 text-justify bg-[#FEEC37]/20 rounded-md">
+      {/* <div className=" p-8 text-justify bg-[#FEEC37]/20 rounded-md">
       <h2 className="text-2xl">مزایای هوشمندسازی خانه</h2>
       <br />
       <h3 className="font-bold">راحتی و آسایش<span>:</span></h3><p>با یک لمس، می‌توانید تمام دستگاه‌های خانه خود را کنترل کنید.</p>
@@ -172,7 +184,7 @@ const Iot = () => {
         <br />
         <h3 className="font-bold">افزایش ارزش ملک<span>:</span></h3><p>هوشمندسازی خانه، ارزش ملک شما را افزایش می‌دهد.</p>
       </div> */}
-      <div className="container mx-auto p-8 border border-[#00FF9C] rounded-md text-center mt-10">
+      <div className=" p-8 border border-[#00FF9C] rounded-md text-center mt-10">
         <h2 className="text-2xl">چرا تکنورزبری؟</h2>
         <br />
         <br />
@@ -191,7 +203,7 @@ const Iot = () => {
                 <a href="/contact"><span>مشاهده نمونه‌کارهای بیشتر</span></a>
         </Button>
       </div>
-      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
+      <div className=" p-8 border border-[#00FF9C] rounded-md text-center">
         <h2 className="text-2xl">برای کسب اطلاعات بیشتر و مشاوره رایگان، با ما تماس بگیرید</h2>
         <p className="mt-3">نمونه‌کار بعدی تکنورزبری می‌تواند پروژه شما باشد</p>
         <br />

@@ -9,40 +9,21 @@ import Stats from "@/components/Stats";
 const Home = () => {
   return <section className="h-full">
       <div className="h-fit bg-accent mb-10">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <picture className="hey1">
+          <source media="(min-width: 1200px)" srcset="/images/home-main.png"/>
+          <source media="(min-width: 768px)" srcset="/images/home-main-lg.png"/>
+          <img src="/images/home-main-ssm.png" className="xl:h-[92.8dvh] h-[84dvh]" alt="" />
+        </picture>
       </div>
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-1 xl:pb-14">
           {/* text */}
           <div className="text-center xl:text-right order-2 xl:order-none">
-            <h1 className="h1 mb-9">
+            <h1 className="h1 mb-3">
               تکنو رزبری <br />{" "}
               <span className="text-accent text-3xl sm:text-5xl">خدمتی نو</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-black/80">
+            <p className="max-w-[500px] mb-9 text-black/80 xl:text-2xl text-2xl leading-[3.5rem] xl:leading-[3rem] text-justify">
             تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل
             </p>
             {/* btn & socials */}

@@ -20,22 +20,22 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[290px] xl:h-[500px] mix-blend-darken absolute"
+          className="w-[298px] h-[298px] mix-blend-darken absolute"
         >
           <Image
-            src="/assets/photo.webp"
+            src="/images/logo.png"
             priority
             quality={100}
             sizes="100%"
             fill
             alt="Project"
-            className="object-contain"
+            className="object-contain rounded-full p-3"
           />
         </motion.div>
 
         {/* circle */}
         <motion.svg
-          className="w-[300px] xl:[506px] h-[300px] xl:h-[506px]"
+          className="w-[300px] h-[300px]"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"

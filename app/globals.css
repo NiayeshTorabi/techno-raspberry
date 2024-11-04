@@ -22,7 +22,7 @@
     @apply font-primary;
   }
   .h1 {
-    @apply text-[38px] xl:text-[70px];
+    @apply text-[38px] xl:text-[50px];
   }
   .h2 {
     @apply text-[26px] xl:text-[38px];
@@ -207,7 +207,7 @@ body:has(.box[data-color="clr2"]:hover){
 .testimonials {
 	display: flex;
 	justify-content: center;
-	perspective: 500px;
+	perspective: 200px;
 	overflow: hidden;
 }
 
@@ -241,7 +241,6 @@ body:has(.box[data-color="clr2"]:hover){
 	color: #ddd;
 }
 .testimonials .item h2 {
-	font-size: 14px;
   padding-top: 1rem;
 }
 
@@ -353,4 +352,9 @@ body:has(.box[data-color="clr2"]:hover){
 .portfolio2{
   background-image: url(../public/assets/portfolio/khorshidweb.co.png);
   background-size: cover;
+}
+
+.hey1 img{
+  object-fit: cover;
+  width: 100%;
 }

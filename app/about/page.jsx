@@ -78,9 +78,9 @@ const projects = [
     category: "تکنورزبری؛ خدماتی نوین",
     title: "project 1",
     description:
-      "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژي روز دنیا، در کنار یکدیگر خدماتی نوین اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی مانند طراحی لوگو یا پوستر و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژي که مساوی‌ست با راحتی شما را ارائه می‌دهد.",
+      "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژی روز دنیا، در کنار یکدیگر خدماتی نوین اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی  (طراحی لوگو و...) و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژی که مساوی‌ست با راحتی شما را ارائه می‌دهد.",
     stack: [{ name: "طراحی‌سایت" }, { name: "طراحی و گرافیک" }, { name: "سخت‌‌افزار" }],
-    image: "/assets/about/thumb1.png",
+    image: "/images/about1.png",
     live: "/project",
     github: "/contact",
   },
@@ -90,7 +90,7 @@ const projects = [
     description:
       "تکنورزبری رویکردی آینده‌نگرانه‌تر دارد...",
     stack: [{ name: "ارتقای تکنولوژي سطح کشور" }],
-    image: "/assets/about/thumb2.png",
+    image: "/images/about2.png",
     live: "/project",
     github: "/contact",
   },
@@ -100,7 +100,7 @@ const projects = [
     description:
       "قبل از تهیه، در حین و همچنین بعد از ارائه خدمات پشتیبانی داریم!",
     stack: [{ name: "۲۴/۷" }, { name: "تخصصی" }],
-    image: "/assets/about/thumb3.png",
+    image: "/images/about3.png",
     live: "/project",
     github: "/contact",
   },
@@ -125,16 +125,22 @@ const About = () => {
       className="min-h-[80vh] flex flex-col justify-center pt-5 xl:px-0"
     >
       <div className="container mx-auto">
-        <h1>درباره تکنورزبری</h1>
+        {/* title */}
+        <div className="border rounded-md p-3 items-center mx-3 mb-5">
+        <div className="font-bold text-3xl text-accent">
+          درباره ما
+        </div>
+        </div>
+        {/* data */}
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* project category */}
-              <h2 className="text-3xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
+              <h2 className="xl:text-5xl text-3xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
                 {project.category}
               </h2>
               {/* project description */}
-              <p className="text-black/60 text-justify">{project.description}</p>
+              <p className="text-black/60 text-justify text-2xl leading-[2.7rem]">{project.description}</p>
               {/* stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
@@ -209,17 +215,17 @@ const About = () => {
               {/* slider buttons */}
               <WorkSliderBtns
                 containerStyles="flex gap-1 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none p-1"
-                btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[45px] h-[45px] flex justify-center items-center transition-all rounded-full"
+                btnStyles="border border-white bg-accent hover:bg-accent-hover text-primary text-[22px] w-[45px] h-[45px] flex justify-center items-center transition-all rounded-full"
               />
             </Swiper>
           </div>
         </div>
       </div>
       
-              <div className="flex flex-col gap-[30px] mt-20 container mx-auto">
+              <div className="flex flex-col gap-[30px] xl:mt-[24vh] mt-[15vh] container mx-auto">
                 <div className="flex flex-col gap-[30px] text-center xl:text-right">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="text-black/60 max-auto xl:mx-0">
+                  <p className="text-black/60 max-auto xl:mx-0 text-xl leading-[2.3rem]">
                     {skills.description}
                   </p>
                 </div>
@@ -248,7 +254,7 @@ const About = () => {
 
             <div className="c1 border-y py-5 pb-16">
               <div className="containerr">
-              <h2 className="text-xl3 bg-gradient-to-r bg-clip-text text-transparent 
+              <h2 className="bg-gradient-to-r bg-clip-text text-transparent 
             from-accent to-[#fff]
             animate-text">تیم ما</h2>
               <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr1">
@@ -334,8 +340,9 @@ const About = () => {
             </div>
             <div className="container mx-auto my-16 mb-28">
             <form className="flex flex-col gap-6 p-5 bg-[#fafafa] rounded-xl">
+              <img className="h-[300px] xl:h-[375px] w-full object-contain mix-blend-multiply" src="/images/work-with-technoraspberry.jpg" alt="" />
               <h3 className="text-4xl text-accent font-semibold">همکاری با ما</h3>
-              <p className="text-black/60 text-justify">فُرم زیر را با دقت تکمیل فرمایید؛ کارشناسان ما پس از بررسی، با شما ارتباط برقرار خواهند کرد.              </p>
+              <p className="text-black/60 text-justify text-xl leading-[2.3rem]">فُرم زیر را با دقت تکمیل فرمایید؛ کارشناسان ما پس از بررسی، با شما ارتباط برقرار خواهند کرد.              </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="fullname" placeholder="نام و نام‌خانوادگی" required />
