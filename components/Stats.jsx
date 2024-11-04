@@ -37,14 +37,14 @@ const Stats = () => {
                 /><p>سال تجربه مفید</p></div>
 
           <div className="flex align-center items-center"><CountUp
-                  end={60}
+                  end={45}
                   duration={5}
                   delay={2}
                   className="text-4xl xl:text-6xl"
                 /><p>پروژه موفق</p></div>
 
           <div className="flex align-center items-center"><CountUp
-                  end={45}
+                  end={30}
                   duration={5}
                   delay={2}
                   className="text-4xl xl:text-6xl"
