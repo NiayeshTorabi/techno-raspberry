@@ -320,7 +320,7 @@ const Resume = () => {
       </div> */}
       {/* portfolio linking */}
       <div className="container mx-auto">
-      <h2 className="text-2xl mt-28 mb-5 text-accent">مشاهده نمونه‌کار ها</h2>
+      <h2 className="text-2xl mt-20 mb-5 text-accent">مشاهده نمونه‌کار ها</h2>
       </div>
       <div className="flex xl:flex-row flex-col justify-evenly group container mx-auto gap-5">
         <a href="/resume/site" className="xl:w-[33%] w-[100%] border rounded-xl hover:border-accent duration-500">
@@ -337,7 +337,7 @@ const Resume = () => {
       </div>
       <p className="container mx-auto text-2xl mt-8 leading-[3rem] text-center">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
       {/* whyUs */}
-      <div className="p-5 mt-28">
+      <div className="p-5 mt-20">
         <div className="border border-accent container rounded-md xl:p-8 px-0 pt-0 py-5 mt-16 shadow-md">
       <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/why-technoraspberry.jpg" alt="" />
       <h2 className="text-3xl container mx-auto text-accent mb-5 text-center">چرا تکنورزبری؟</h2>

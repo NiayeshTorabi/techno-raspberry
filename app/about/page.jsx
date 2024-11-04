@@ -80,7 +80,7 @@ const projects = [
     description:
       "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژی روز دنیا، در کنار یکدیگر خدماتی نوین اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی  (طراحی لوگو و...) و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژی که مساوی‌ست با راحتی شما را ارائه می‌دهد.",
     stack: [{ name: "طراحی‌سایت" }, { name: "طراحی و گرافیک" }, { name: "سخت‌‌افزار" }],
-    image: "/images/about1.png",
+    image: "/images/about1.svg",
     live: "/project",
     github: "/contact",
   },
@@ -90,7 +90,7 @@ const projects = [
     description:
       "تکنورزبری رویکردی آینده‌نگرانه‌تر دارد...",
     stack: [{ name: "ارتقای تکنولوژي سطح کشور" }],
-    image: "/images/about2.png",
+    image: "/images/about2.svg",
     live: "/project",
     github: "/contact",
   },
@@ -100,7 +100,7 @@ const projects = [
     description:
       "قبل از تهیه، در حین و همچنین بعد از ارائه خدمات پشتیبانی داریم!",
     stack: [{ name: "۲۴/۷" }, { name: "تخصصی" }],
-    image: "/images/about3.png",
+    image: "/images/about3.svg",
     live: "/project",
     github: "/contact",
   },
