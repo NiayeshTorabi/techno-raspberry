@@ -13,10 +13,10 @@ const Iot = () => {
       className="py-6 flex flex-col gap-5 container mx-auto"
     >
       <div className="relative  px-0">
-      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
+      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/service5.png" alt="" />
       <Button
                 variant="outline"
-                className="uppercase flex items-center gap-2 absolute top-[5%] xl:right-[1%] right-[3%] text-primary"
+                className="uppercase flex items-center gap-2 absolute top-[5%] xl:right-[1%] right-[3%] text-primary border border-primary hover:bg-primary hover:text-accent"
               >
                 <a href="/resume/graphics"><span>نمونه کارها</span></a>
               </Button>

@@ -10,8 +10,17 @@ const Site = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-6 flex flex-col gap-5 m-3"
+      className="py-6 flex flex-col gap-5 container mx-auto"
     >
+      <div className="relative px-0">
+      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/service1.png" alt="" />
+      <Button
+                variant="outline"
+                className="uppercase flex items-center gap-2 absolute top-[5%] xl:right-[1%] right-[3%] text-primary border border-primary hover:bg-primary hover:text-accent"
+              >
+                <a href="/resume/graphics"><span>نمونه کارها</span></a>
+              </Button>
+      </div>
       <div className="container mx-auto p-8 text-justify bg-accent/10 rounded-md">
         <h1 className="text-2xl">طراحی وب‌سایت حرفه‌ای؛ راهی برای موفقیت آنلاین کسب‌وکار شما</h1>
         <br />

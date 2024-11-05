@@ -33,7 +33,10 @@ const Blog = () => {
             </ul>
           </div>
           <div className="xl:w-[70%] w-full xl:h-[40rem] h-[30rem] bg-black rounded-md">
-            <img src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" className="xl:h-[40rem] h-[30rem] w-full shadow-xl shadow-black/30  rounded-md object-cover border-2 border-black" alt="" />
+            <picture>
+            <source media="(min-width: 1200px)" srcset="/images/blog-technoraspberry.png"/>
+            <img src="/images/blog-technoraspberry-sm.png" className="xl:h-[40rem] h-[30rem] w-full shadow-xl shadow-black/30  rounded-md object-cover border-2 border-black" alt="" />
+            </picture>
           </div>
         </div>
         {/* posts */}

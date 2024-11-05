@@ -80,7 +80,7 @@ const projects = [
     description:
       "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژی روز دنیا، در کنار یکدیگر خدماتی نوین اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی  (طراحی لوگو و...) و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژی که مساوی‌ست با راحتی شما را ارائه می‌دهد.",
     stack: [{ name: "طراحی‌سایت" }, { name: "طراحی و گرافیک" }, { name: "سخت‌‌افزار" }],
-    image: "/images/about1.svg",
+    image: "/images/about1.png",
     live: "/project",
     github: "/contact",
   },
@@ -90,7 +90,7 @@ const projects = [
     description:
       "تکنورزبری رویکردی آینده‌نگرانه‌تر دارد...",
     stack: [{ name: "ارتقای تکنولوژي سطح کشور" }],
-    image: "/images/about2.svg",
+    image: "/images/about2.png",
     live: "/project",
     github: "/contact",
   },
@@ -100,7 +100,7 @@ const projects = [
     description:
       "قبل از تهیه، در حین و همچنین بعد از ارائه خدمات پشتیبانی داریم!",
     stack: [{ name: "۲۴/۷" }, { name: "تخصصی" }],
-    image: "/images/about3.svg",
+    image: "/images/about3.png",
     live: "/project",
     github: "/contact",
   },
@@ -126,9 +126,9 @@ const About = () => {
     >
       <div className="container mx-auto">
         {/* title */}
-        <div className="border rounded-md p-3 items-center mx-3 mb-5">
-        <div className="font-bold text-3xl text-accent">
-          درباره ما
+        <div className="border rounded-md px-3 py-1 items-center mx-3 mb-3">
+        <div className="font-bold text-base text-accent">
+        درباره ما
         </div>
         </div>
         {/* data */}
@@ -136,11 +136,11 @@ const About = () => {
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* project category */}
-              <h2 className="xl:text-5xl text-3xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
+              <h2 className="xl:text-3xl text-2xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
                 {project.category}
               </h2>
               {/* project description */}
-              <p className="text-black/60 text-justify text-2xl leading-[2.7rem]">{project.description}</p>
+              <p className="text-black/60 text-justify text-xl leading-[2rem]">{project.description}</p>
               {/* stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {

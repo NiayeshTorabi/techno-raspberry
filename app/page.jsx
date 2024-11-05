@@ -8,22 +8,22 @@ import Stats from "@/components/Stats";
 
 const Home = () => {
   return <section className="h-full">
-      <div className="h-fit bg-accent mb-10">
+      <div className="h-fit bg-accent mb-5">
         <picture className="hey1">
           <source media="(min-width: 1200px)" srcset="/images/home-main.png"/>
           <source media="(min-width: 768px)" srcset="/images/home-main-lg.png"/>
-          <img src="/images/home-main-ssm.png" className="xl:h-[92.8vh] h-[87dvh]" alt="" />
+          <img src="/images/main.svg" className="xl:h-[92.8vh] h-[87dvh]" alt="" />
         </picture>
       </div>
-      <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-1 xl:pb-14">
+      <div className="container mx-auto h-full xl:mb-8 mb-0">
+        <div className="flex flex-col xl:flex-row items-center justify-between">
           {/* text */}
-          <div className="text-center xl:text-right order-2 xl:order-none">
-            <h1 className="h1 mb-3">
+          <div className="text-center xl:text-right order-2 xl:order-none xl:mt-8 mt-0">
+            <h1 className="text-2xl xl:text-5xl mb-3">
               تکنو رزبری <br />{" "}
-              <span className="text-accent text-3xl sm:text-5xl">خدمتی نو</span>
+              <span className="text-accent text-2xl xl:text-3xl">خدمتی نو</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-black/80 xl:text-2xl text-2xl leading-[3.5rem] xl:leading-[3rem] text-justify">
+            <p className="max-w-[500px] mb-3 text-black/80 xl:text-2xl text-xl leading-[2rem] xl:leading-[3rem] text-justify">
             تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل
             </p>
             {/* btn & socials */}
@@ -49,7 +49,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Stats />
+      <Stats  />
     </section>
 };
 

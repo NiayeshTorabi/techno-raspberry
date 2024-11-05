@@ -13,7 +13,7 @@ const iotPortfolio = () => {
     >
       <div className="container mx-auto flex gap-10 flex-col">
         {/* banner */}
-        <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
+        <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/serivce.png" alt="" />
         {/* data */}
         <h1 className="text-2xl">خدمات طراحی سایت تکنورزبری</h1>
         {/* types */}

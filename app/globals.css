@@ -358,3 +358,11 @@ body:has(.box[data-color="clr2"]:hover){
   object-fit: cover;
   width: 100%;
 }
+
+.hey3{
+  background-image: url(../public/images/contact-technoraspberry.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+}

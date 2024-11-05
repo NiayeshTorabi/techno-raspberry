@@ -160,21 +160,22 @@ const Resume = () => {
     >
       <div className="container mx-auto text-justify flex flex-col gap-8">
         {/* title */}
-        <div className="border rounded-md p-3 items-center mx-3 mb-5">
-        <div className="font-bold text-3xl text-accent">
-          پورتفولیو
+        <div className="border rounded-md px-3 py-1 items-center mx-3 mb-3">
+        <div className="font-bold text-base text-accent">
+        پورتفولیو
         </div>
         </div>
         {/* data */}
-        <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/portfolio-main.jpg" alt="" />
-        <div className="flex xl:flex-row flex-col">
+        <div className="flex xl:flex-row flex-col conatiner mx-auto gap-5">
+        <img className="h-[300px] xl:h-[230px] xl:w-[30%] object-contain" src="/images/portfolio-main.jpg" alt="" />
+        <div className="flex xl:flex-row flex-col xl:w-[70%]">
       <div className="flex flex-col">
-      <h2 className="text-5xl mb-8">تکنورزبری<sup className="text-accent">خدمتی‌نو</sup></h2>
-        <p className="text-3xl leading-[3.5rem]">
+      <h2 className="text-2xl mb-8">تکنورزبری<sup className="text-accent">خدمتی‌نو</sup></h2>
+        <p className="text-xl leading-[2.5rem]">
       تکنورزبری یک مجموعه ساده نیست؛ جایی است که نوآوری با خلاقیت می‌آمیزد تا بتوانیم با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و حتی پروژه‌های سخت‌افزاری برای داشتن زندگی راحت‌تر، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.
       </p>
       </div>
-      <img className="h-[200px] xl:h-[275px] object-contain container m-0 p-0" src="/images/portfolio-linking.jpg" alt="" />
+        </div>
         </div>
       </div>
       {/* <div className="container mx-auto">
@@ -335,18 +336,18 @@ const Resume = () => {
           <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">سخت‌افزار</div></a>
       </div>
-      <p className="container mx-auto text-2xl mt-8 leading-[3rem] text-center">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
+      <p className="container mx-auto mt-8 text-center text-xl leading-[2.5rem]">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
       {/* whyUs */}
-      <div className="p-5 mt-20">
+      <div className="p-5 mt-8">
         <div className="border border-accent container rounded-md xl:p-8 px-0 pt-0 py-5 mt-16 shadow-md">
       <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/why-technoraspberry.jpg" alt="" />
-      <h2 className="text-3xl container mx-auto text-accent mb-5 text-center">چرا تکنورزبری؟</h2>
+      <h2 className="text-3xl container mx-auto text-accent text-center">چرا تکنورزبری؟</h2>
       <div className="container mx-auto grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-8">
         {/* item1 */}
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="/images/choose-technoraspberry1.png" alt="" />
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
@@ -360,7 +361,7 @@ const Resume = () => {
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="/images/choose-technoraspberry2.png" alt="" />
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
@@ -374,7 +375,7 @@ const Resume = () => {
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="/images/choose-technoraspberry3.png" alt="" />
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
@@ -388,7 +389,7 @@ const Resume = () => {
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="/images/choose-technoraspberry4.png" alt="" />
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
@@ -402,7 +403,7 @@ const Resume = () => {
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="/images/choose-technoraspberry5.png" alt="" />
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
@@ -416,7 +417,7 @@ const Resume = () => {
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
           <div className="relative h-full w-full rounded-full shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0">
-              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+              <img className="h-full w-full rounded-full border-4 border-primary object-cover shadow-xl shadow-black/30" src="/images/choose-technoraspberry6.png" alt="" />
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
