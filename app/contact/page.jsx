@@ -47,14 +47,17 @@ const Contact = () => {
     >
       <div className="container mx-auto flex flex-col gap-8">
          {/* title */}
-         <div className="border rounded-md px-3 py-1 items-center mx-3 mb-3">
+         <div className="border rounded-md px-3 py-1 items-center">
         <div className="font-bold text-base text-accent">
         ارتباط با ما
         </div>
         </div>
         {/* data */}
         {/* <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/contact-technoraspberry.jpg" alt="" /> */}
-
+        <div className="flex xl:flex-row flex-col-reverse justify-between items-center">
+          <div className="text-center"><p className="font-bold text-xl leading-[2rem] mb-5 text-right">پروژه خود را به ما بسپارید!</p><p className="text-justify text-xl leading-[2rem] xl:leading-[3rem] px-3 xl:ml-5 ml-0">در این صفحه با استفاده از فرم زیر می‌توانید پروژه خود را در حوزه‌های سایت، طراحی گرافیک و یا سخت‌افزار به ما بسپارید؛ همچنین اگر برای اولین بار است که با ما آشنا شده‌اید و قصد کسب اطلاعات بیشتری را قبل از ثبت پروژه دارید، می‌توانید از طریق صفحه خدمات، خدمات تکنورزبری را به صورت کامل و جامع مشاهده کرده و همچنین از طریق صفحه‌ی پورتفولیو، نسبت به مشاهده نمونه‌کارهای ما در تمامی حوزه‌ها اقدام فرمایید، کارشناسان ما نیز در صفحه ارتباط با ما، همواره آماده ارائه پشتیبانی به شما هستند.</p></div>
+        <img src="/images/project-technoraspberry.png" className="w-[300px] xl:h-[375px] w-full object-contain mb-10 mix-blend-multiply" />
+        </div>
         {/* box */}
         <div className="hey3">
         <p className="text-xl leading-[3rem] font-bold">روی پشتیبانی تکنورزبری حساب کنید!</p>

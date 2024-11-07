@@ -28,14 +28,7 @@ import CountUp from "react-countup";
 const Stats = () => {
   return <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
       <div className="container mx-auto">
-        <div className="grid xl:grid-cols-5 grid-cols-2 justify-items-center gap-4">
-          <div className="flex align-center items-center col-span-2 xl:col-span-1"><CountUp
-                  end={1}
-                  duration={5}
-                  delay={2}
-                  className="text-4xl xl:text-6xl"
-                /><p>سال تجربه مفید</p></div>
-
+        <div className="grid xl:grid-cols-4 grid-cols-2 justify-items-center gap-4">
           <div className="flex align-center items-center"><CountUp
                   end={45}
                   duration={5}
