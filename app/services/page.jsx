@@ -43,28 +43,29 @@ const Services = () => {
           </div>
         {/* data */}
         <div className="flex xl:flex-row flex-col-reverse justify-between xl:mr-[19rem] xl:ml-[10rem]">
-          <div className="container mx-auto text-center mt-16"><p className="font-bold text-xl leading-[2rem] mb-5 text-right">در زیر می‌توانید خدمات ما را مشاهده کنید</p><p className="text-justify text-xl leading-[2rem]">برای جابجایی بین اسلایدرها روی آنها کلیک کنید و آنها را انتخاب کرده، سپس می‌توانید با کلیک روی دکمه‌ی "مشاهده" که پایینِ هر بخش وجود دارد، نسبت به مشاهده جزئی‌تر آن خدمت نیز بپردازید؛ در صورت وجود هرگونه ابهام نیز از صفحه ارتباط با ما اقدام فرمایید.</p></div>
+          <div className="container mx-auto text-center mt-16"><p className="font-bold text-xl leading-[2rem] mb-5 text-right">سلام دوست خوبم!</p><p className="text-justify text-xl leading-[2rem] xl:leading-[3rem]">مجموعه تکنورزبری یک مجموعه حرفه‌ای با ارائه خدمات حرفه‌ای است</p><p className="text-justify text-xl leading-[2rem] xl:leading-[3rem]">در ادامه می‌توانید خدمات ما را مشاهده کنید؛ برای جابه‌جایی بین اسلایدرها روی آنها کلیک کنید و آنها را انتخاب کرده، سپس می‌توانید با کلیک روی دکمه‌ی "مشاهده" که پایینِ هر بخش وجود دارد، نسبت به مشاهده جزئی‌تر آن خدمت نیز بپردازید؛ در صورت وجود هرگونه ابهام نیز از صفحه ارتباط با ما اقدام فرمایید.</p></div>
         <img src="/images/services-main.jpg" className="h-[300px] xl:h-[375px] w-full object-contain" />
         </div>
+        <p className="container mx-auto text-3xl text-center mt-20 font-bold text-accent xl:leading-[2rem] leading-[3rem]">اسلایدرها در زیر قابل مشاهده هستند !!</p>
           <div class="slider mt-5">
 		<input type="radio" name="testimonial" id="t-1"/>
 		<input type="radio" name="testimonial" id="t-2"/>
 		<input type="radio" name="testimonial" id="t-3"/>
-		<div class="testimonials xl:h-[100dvh] lg:h-[80vh] h-[70vh] m-0 p-0 pt-16">
+		<div class="testimonials xl:h-[80dvh] lg:h-[100vh] sm:h-[80vh] h-[50vh] m-0 p-0 pt-16">
 			<label class="item xl:w-[35%] w-[70%] m-0 p-0" for="t-1">
-        <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+        <img src="/images/services2.png" alt="" />
 				<h2 className="xl:text-5xl text-3xl">سخت افزار</h2>
         <p className="xl:text-2xl text-xl mt-3">برای مشاهده کلیک کنید</p>
         <a className="xl:text-3xl text-2xl" href="/iot">مشاهده</a>
 			</label>
 			<label class="item xl:w-[35%] w-[70%] x-0 p-0" for="t-2">
-        <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+        <img src="/images/services3.png" alt="" />
 				<h2 className="xl:text-5xl text-3xl">گرافیک</h2>
         <p className="xl:text-2xl text-xl mt-3">برای مشاهده کلیک کنید</p>
         <a className="xl:text-3xl text-2xl" href="/graphics">مشاهده</a>
 			</label>
 			<label class="item xl:w-[35%] w-[70%] x-0 p-0" for="t-3">
-        <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
+        <img src="/images/services1.png" alt="" />
 				<h2 className="xl:text-5xl text-3xl">سایت</h2>
         <p className="xl:text-2xl text-xl mt-3">برای مشاهده کلیک کنید</p>
         <a className="xl:text-3xl text-2xl" href="/site">مشاهده</a>
