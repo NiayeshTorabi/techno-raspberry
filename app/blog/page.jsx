@@ -40,7 +40,7 @@ const Blog = () => {
           </div>
         </div>
         {/* posts */}
-        <h2 className="mt-20">آخرین مقالات</h2>
+        <h2 className="mt-20 text-center xl:text-justify">آخرین مقالات</h2>
         <div className="grid xl:grid-cols-4 grid-cols-1 mt-5">
           <div className="border rounded-md text-center hover:shadow-md hover:shadow-accent hover:shadow-black/30 duration-500">
             <img src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" className="h-[185px] object-cover rounded-t-md" />
