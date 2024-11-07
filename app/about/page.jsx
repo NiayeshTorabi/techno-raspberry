@@ -34,7 +34,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 const skills = {
-  title: "تکنولوژی‌های استفاده شده",
+  title: "تکنورزبری از چه تکنولوژي‌هایی استفاده می‌کند؟",
   description:
     "از چه فناوری‌هایی برای خدماتی که ارائه می‌دهیم استفاده می‌کنیم؟",
   skillList: [
@@ -78,7 +78,7 @@ const projects = [
     category: "تکنورزبری؛ خدماتی نوین",
     title: "project 1",
     description:
-      "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژی روز دنیا، در کنار یکدیگر خدماتی نوین اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی  (طراحی لوگو و...) و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژی که مساوی‌ست با راحتی شما را ارائه می‌دهد.",
+      "مجموعه‌ای متشکل از افراد متخصص و باتجربه در زمینه‌های تکنولوژی روز دنیا، در کنار یکدیگر خدماتی نوین اعم از طراحی‌سایت جهت رشد کسب و کار شما، طراحی‌گرافیکی  (طراحی لوگو و...) و همچنین پروژه‌های سخت‌افزاری جهت تلفیق هرچه بیشتر زندگی شما با تکنولوژی که مساوی‌ست با راحتی شما را ارائه می‌دهد؛ استفاده از بروزترین تکنولوژي و ترکیب آن با پشتیبانی تخصصی، ویژگی‌ای است که ما را نسبت به سایر رقبا متمایز کرده است.",
     stack: [{ name: "طراحی‌سایت" }, { name: "طراحی و گرافیک" }, { name: "سخت‌‌افزار" }],
     image: "/images/about1.png",
     live: "/project",
@@ -136,11 +136,11 @@ const About = () => {
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* project category */}
-              <h2 className="xl:text-3xl text-2xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
+              <h2 className="xl:text-5xl text-3xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
                 {project.category}
               </h2>
               {/* project description */}
-              <p className="text-black/60 text-justify text-xl leading-[2rem]">{project.description}</p>
+              <p className="text-black/60 text-justify text-xl leading-[2rem] px-3">{project.description}</p>
               {/* stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
@@ -161,8 +161,8 @@ const About = () => {
                 <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-black/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-black text-3xl group-hover:text-accent" />
+                      <TooltipTrigger className="w-[40px] h-[40px] rounded-full bg-black/5 flex justify-center items-center group">
+                        <BsArrowUpRight className="text-black text-2xl group-hover:text-accent" />
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>ثبت پروژه</p>
@@ -174,8 +174,8 @@ const About = () => {
                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-black/5 flex justify-center items-center group">
-                        <BsShield className="text-black text-3xl group-hover:text-accent" />
+                      <TooltipTrigger className="w-[40px] h-[40px] rounded-full bg-black/5 flex justify-center items-center group">
+                        <BsShield className="text-black text-2xl group-hover:text-accent" />
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>پشتیبانی</p>
@@ -222,9 +222,9 @@ const About = () => {
         </div>
       </div>
       
-              <div className="flex flex-col gap-[30px] xl:mt-[24vh] mt-[15vh] container mx-auto">
+              <div className="flex flex-col gap-[30px] xl:mt-20 mt-[15vh] container mx-auto">
                 <div className="flex flex-col gap-[30px] text-center xl:text-right">
-                  <h3 className="text-4xl font-bold">{skills.title}</h3>
+                  <h3 className="text-4xl font-bold leading-[3rem]">{skills.title}</h3>
                   <p className="text-black/60 max-auto xl:mx-0 text-xl leading-[2.3rem]">
                     {skills.description}
                   </p>
@@ -257,90 +257,133 @@ const About = () => {
               <h2 className="bg-gradient-to-r bg-clip-text text-transparent 
             from-accent to-[#fff]
             animate-text">تیم ما</h2>
-              <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr1">
-                  <div className="imgBx">
-                    <img src="https://citygol.com/wp-content/uploads/2023/06/Purple-theme-birthday-flower-box-1.jpg" alt=""/>
-                  </div>
-                  <div className="glass">
-                    <h3>نیایش ترابی<br /><span>بنیانگزار و مدیریت تکنورزبری</span></h3>
-                    <ul>
-                      <a href="#">لینک</a>
-                    </ul>
-                  </div>
-                </div>
               </div>
-              <div className="containerr gap-8 grid-cols-2 sm:grid-cols-3 justify-items-center">
-                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
-                  <div className="imgBx">
-                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
-                  </div>
-                  <div className="glass">
-                    <h3>نام و نام‌خانوادگی<br /><span>مدیر فروش</span></h3>
-                    <ul>
-                      <a href="#">لینک</a>
-                    </ul>
-                  </div>
-                </div>
-                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
-                  <div className="imgBx">
-                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
-                  </div>
-                  <div className="glass">
-                    <h3>نام و نام‌خانوادگی<br /><span>مدیر دیجیتال مارکتینگ</span></h3>
-                    <ul>
-                      <a href="#">لینک</a>
-                    </ul>
-                  </div>
-                </div>
-                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
-                  <div className="imgBx">
-                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
-                  </div>
-                  <div className="glass">
-                    <h3>نام و نام‌خانوادگی<br /><span>مدیر فنی</span></h3>
-                    <ul>
-                      <a href="#">لینک</a>
-                    </ul>
-                  </div>
-                </div>
-                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
-                  <div className="imgBx">
-                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
-                  </div>
-                  <div className="glass">
-                    <h3>نام و نام‌خانوادگی<br /><span>مدیر روابط عمومی</span></h3>
-                    <ul>
-                      <a href="#">لینک</a>
-                    </ul>
-                  </div>
-                </div>
-                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
-                  <div className="imgBx">
-                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
-                  </div>
-                  <div className="glass">
-                    <h3>نام و نام‌خانوادگی<br /><span>مدیر پشتیبانی</span></h3>
-                    <ul>
-                      <a href="#">لینک</a>
-                    </ul>
-                  </div>
-                </div>
-                <div className="box xl:w-[200px] xl:h-[200px] w-[180px] h-[180px]" data-color="clr2">
-                  <div className="imgBx">
-                    <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt=""/>
-                  </div>
-                  <div className="glass">
-                    <h3>نام و نام‌خانوادگی<br /><span>مدیر خدمات پس از فروش</span></h3>
-                    <ul>
-                      <a href="#">لینک</a>
-                    </ul>
-                  </div>
-                </div>
+              <div className="containerr gap-8 sm:grid-cols-3 justify-items-center">
+                {/* main */}
+                <div class="card select-none">
+        <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
+        <div class="profile-pic">
+          <img draggable="false" alt="نیایش ترابی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/NiayeshTorabi.jpeg" />
+        </div>
+        <div class="bottom">
+          <div class="content-person">
+            <div class="name text-right">نیایش ترابی</div>
+            <div class="parentFont about-me prose select-none" dir="rtl">
+              <ul>
+                <li>بنیان‌گذار و مدیر تکنورزبری</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-bottom">
+              <span class="button select-none">درباره من</span>
+          </div>
+        </div>
+      </div>
+      {/* item2 */}
+      <div class="card select-none">
+        <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
+        <div class="profile-pic">
+          <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
+        </div>
+        <div class="bottom">
+          <div class="content-person">
+            <div class="name text-right">نام و نام‌خانوادگی</div>
+            <div class="parentFont about-me prose select-none" dir="rtl">
+              <ul>
+                <li>سمت</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-bottom">
+              <span class="button select-none">درباره من</span>
+          </div>
+        </div>
+      </div>
+      {/* item3 */}
+      <div class="card select-none">
+        <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
+        <div class="profile-pic">
+          <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
+        </div>
+        <div class="bottom">
+          <div class="content-person">
+            <div class="name text-right">نام و نام‌خانوادگی</div>
+            <div class="parentFont about-me prose select-none" dir="rtl">
+              <ul>
+                <li>سمت</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-bottom">
+              <span class="button select-none">درباره من</span>
+          </div>
+        </div>
+      </div>
+      {/* item4 */}
+      <div class="card select-none">
+        <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
+        <div class="profile-pic">
+          <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
+        </div>
+        <div class="bottom">
+          <div class="content-person">
+            <div class="name text-right">نام و نام‌خانوادگی</div>
+            <div class="parentFont about-me prose select-none" dir="rtl">
+              <ul>
+                <li>سمت</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-bottom">
+              <span class="button select-none">درباره من</span>
+          </div>
+        </div>
+      </div>
+      {/* item5 */}
+      <div class="card select-none">
+        <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
+        <div class="profile-pic">
+          <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
+        </div>
+        <div class="bottom">
+          <div class="content-person">
+            <div class="name text-right">نام و نام‌خانوادگی</div>
+            <div class="parentFont about-me prose select-none" dir="rtl">
+              <ul>
+                <li>سمت</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-bottom">
+              <span class="button select-none">درباره من</span>
+          </div>
+        </div>
+      </div>
+      {/* item6 */}
+      <div class="card select-none">
+        <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
+        <div class="profile-pic">
+          <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
+        </div>
+        <div class="bottom">
+          <div class="content-person">
+            <div class="name text-right">نام و نام‌خانوادگی</div>
+            <div class="parentFont about-me prose select-none" dir="rtl">
+              <ul>
+                <li>سمت</li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom-bottom">
+              <span class="button select-none">درباره من</span>
+          </div>
+        </div>
+      </div>
               </div>    
             </div>
             <div className="container mx-auto my-16 mb-28">
             <form className="flex flex-col gap-6 p-5 bg-[#fafafa] rounded-xl">
-              <img className="h-[300px] xl:h-[375px] w-full object-contain mix-blend-multiply" src="/images/work-with-technoraspberry.jpg" alt="" />
+              <img className="h-[200px] w-full object-contain mix-blend-multiply" src="/images/work-with-technoraspberry.jpg" alt="" />
               <h3 className="text-4xl text-accent font-semibold">همکاری با ما</h3>
               <p className="text-black/60 text-justify text-xl leading-[2.3rem]">فُرم زیر را با دقت تکمیل فرمایید؛ کارشناسان ما پس از بررسی، با شما ارتباط برقرار خواهند کرد.              </p>
               {/* input */}

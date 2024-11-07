@@ -25,6 +25,9 @@ module.exports = {
 		transitionDuration: {
 			'3': '3000ms',
 		  },
+		aspectRatio: {
+			'1': '1',
+		  },
 		keyframes: {
 			"accordion-down": {
 				from: { height: "0" },

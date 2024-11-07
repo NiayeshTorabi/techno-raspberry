@@ -13,6 +13,10 @@
   font-family: 'Morabba-Heavy';
   src: url(./fonts/Morabba-Heavy.woff2);
 }
+@font-face {
+  font-family: 'IranNastaliq';
+  src: url(./fonts/IranNastaliq.ttf);
+}
 
 @layer base {
   body {
@@ -22,7 +26,7 @@
     @apply font-primary;
   }
   .h1 {
-    @apply text-[45px] xl:text-[60px];
+    @apply text-[6rem] xl:text-[10rem];
   }
   .h2 {
     @apply text-[26px] xl:text-[38px];
@@ -365,4 +369,192 @@ body:has(.box[data-color="clr2"]:hover){
   background-repeat: no-repeat;
   background-color: rgba(255,255,255,0.6);
   background-blend-mode: lighten;
+}
+
+/* home */
+
+.main-title{
+  font-family: 'IranNastaliq';
+}
+
+/* about */
+
+/* card */
+
+.card{
+  width: 335px;
+  height: 335px;
+  background: #fff;
+  border-radius: 32px;
+  padding: 3px;
+  position: relative;
+  box-shadow: 0 70px 30px -50px #604b4a30;
+  transition: all .5s ease-in-out;
+}
+
+.select-none{
+  user-select: none;
+}
+
+.card:hover {
+  border-top-left-radius: 55px;
+}
+
+/* img */
+
+.card .mail{
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  background: transparent;
+  border: none;
+}
+
+.w-8{
+  width: 2rem;
+}
+
+.h-8{
+  height: 2rem;
+}
+
+.mail img{
+  display: block;
+  vertical-align: middle;
+}
+
+/* profile pic */
+
+.card .profile-pic{
+  position: absolute;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  top: 3px;
+  left: 3px;
+  border-radius: 29px;
+  z-index: 1;
+  border: 0 solid blue;
+  overflow: hidden;
+  transition: all .5s ease-in-out .2s,z-index .5s ease-in-out .2s;
+}
+
+.card:hover .profile-pic:hover {
+  transform: scale(1.3);
+  border-radius: 0;
+}
+
+.card:hover .profile-pic {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  z-index: 3;
+  border: 7px solid blue;
+  box-shadow: 0 5px 5px 0 rgba(96,75,74,.188);
+  transition: all .5s ease-in-out,z-index .5s ease-in-out .1s;
+}
+
+/* profile pic's img */
+
+.card .profile-pic img{
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -o-object-position: 0 0;
+  object-position: 0 0;
+  transition: all .5s ease-in-out 0s;
+  max-width: 100%;
+  display: block;
+}
+
+.card:hover .profile-pic img {
+  transform: scale(1.3);
+  -o-object-position: 0 10px;
+  object-position: 0 6px;
+  transition: all .5s ease-in-out .5s;
+}
+
+/* bottom */
+
+.card .bottom {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background: blue;
+  top: 80%;
+  border-radius: 29px;
+  z-index: 2;
+  box-shadow: inset 0 5px 5px 0 rgba(96,75,74,.188);
+  overflow: hidden;
+  transition: all .5s cubic-bezier(.645,.045,.355,1) 0s;
+}
+
+.bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 8.7em;
+  column-gap: 8.7em;
+}
+
+.card:hover .bottom {
+  top: 20%;
+  border-radius: 80px 29px 29px 29px;
+  transition: all .5s cubic-bezier(.645,.045,.355,1) .2s;
+}
+
+/* content-person */
+
+.card .bottom .content-person {
+  position: absolute;
+  top: 60px;
+  left: 1.5rem;
+  right: 1.5rem;
+  height: 160px;
+}
+
+/* content-person's name */
+
+.card .bottom .content-person .name {
+  display: block;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+  text-align: right;
+}
+
+/* bottom-bottom */
+
+.card .bottom .bottom-bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* about btn */
+
+.card .bottom .bottom-bottom .button {
+  background: #fff;
+  color: blue;
+  border: none;
+  border-radius: 20px;
+  font-size: .6rem;
+  padding: .4rem .6rem;
+  box-shadow: 0 5px 5px 0 hsla(3,16%,58%,.133);
+  border: 2px solid #fff;
+}
+
+.card .bottom .bottom-bottom .button:hover {
+  background: blue;
+  color: #fff;
 }

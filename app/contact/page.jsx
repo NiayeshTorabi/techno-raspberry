@@ -55,18 +55,11 @@ const Contact = () => {
         {/* data */}
         {/* <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/contact-technoraspberry.jpg" alt="" /> */}
         <div className="flex xl:flex-row flex-col-reverse justify-between items-center">
-          <div className="text-center"><p className="font-bold text-xl leading-[2rem] mb-5 text-right">پروژه خود را به ما بسپارید!</p><p className="text-justify text-xl leading-[2rem] xl:leading-[3rem] px-3 xl:ml-5 ml-0">در این صفحه با استفاده از فرم زیر می‌توانید پروژه خود را در حوزه‌های سایت، طراحی گرافیک و یا سخت‌افزار به ما بسپارید؛ همچنین اگر برای اولین بار است که با ما آشنا شده‌اید و قصد کسب اطلاعات بیشتری را قبل از ثبت پروژه دارید، می‌توانید از طریق صفحه خدمات، خدمات تکنورزبری را به صورت کامل و جامع مشاهده کرده و همچنین از طریق صفحه‌ی پورتفولیو، نسبت به مشاهده نمونه‌کارهای ما در تمامی حوزه‌ها اقدام فرمایید، کارشناسان ما نیز در صفحه ارتباط با ما، همواره آماده ارائه پشتیبانی به شما هستند.</p></div>
-        <img src="/images/project-technoraspberry.png" className="w-[300px] xl:h-[375px] w-full object-contain mb-10 mix-blend-multiply" />
-        </div>
-        {/* box */}
-        <div className="hey3">
-        <p className="text-xl leading-[3rem] font-bold">روی پشتیبانی تکنورزبری حساب کنید!</p>
-        <div className="mb-10 text-justify text-xl leading-[2rem]">
-          <p>پشتیبانان تکنورزبری در هر ساعتی از شبانه روز به صورت ۲۴/۷ آماده خدمت رسانی به شما هستند؛ در زیر می‌توانید بخش‌های راه‌های ارتباطی با ما را مشاهده فرمایید که بسته به نیاز خود می‌توانید یکی از آنها را انتخاب کرده و ارتباط خود را با تکنورزبری برقرار کنید؛ همچنین در صورت تمایل می‌توانید از طریق فرمی که در پایین همین صفحه قرار داده شده است سوال خود را ثبت فرمایید تا نسبت به پاسخگویی آن سریعاً اقدام کنیم.</p>
-        </div>
+          <div className="text-center"><h1 className="text-xl leading-[2rem] mb-5 xl:text-right text-center">روی پشتیبانی تکنورزبری همیشه حساب کنید!</h1><p className="text-justify text-xl leading-[2rem] xl:leading-[3rem] px-3 xl:ml-5 ml-0">پشتیبانان تکنورزبری در هر ساعتی از شبانه روز به صورت ۲۴/۷ آماده خدمت رسانی به شما هستند؛ در زیر می‌توانید بخش‌های راه‌های ارتباطی با ما را مشاهده فرمایید که بسته به نیاز خود می‌توانید یکی از آنها را انتخاب کرده و ارتباط خود را با تکنورزبری برقرار کنید؛ همچنین در صورت تمایل می‌توانید از طریق فرمی که در ادامه قرار داده شده است سوال خود را ثبت فرمایید تا نسبت به پاسخگویی آن سریعاً اقدام کنیم.</p></div>
+        <img src="/images/Contact-technoraspberry.png" className="w-[300px] xl:h-[375px] w-full object-contain mb-10 mix-blend-multiply" />
         </div>
         {/* info */}
-        <div className="flex flex-col items-center p-3 mb-8 bg-accent/10 rounded-md s lg:rounded-full">
+        <div className="flex flex-col items-center p-3 mb-8 bg-accent/10 rounded-md">
             <ul className="flex flex-col lg:flex-row gap-10">
               {info.map((item, index) => {
                 return (
@@ -85,13 +78,14 @@ const Contact = () => {
           </div>
         <div className="flex flex-col  gap-[30px]">
           {/* form */}
+          <p className="container mx-auto text-3xl text-center mt-12 font-bold text-accent xl:leading-[2rem] leading-[3rem]">فرم پشتیبانی در ادامه قابل مشاهده است !!</p>
           <div className="xl:h-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-3 p-3 bg-[#fafafa] rounded-xl">
-            <img className="h-[300px] xl:h-[275px] w-full object-contain mix-blend-multiply" src="/images/support-technoraspberry.jpg" alt="" />
-              <h3 className="text-3xl text-accent leading-[3rem] text-justify">پشتیبانان ما مشتاق پاسخ به سوالاتتان هستند</h3>
+            <img className="h-[200px] w-full object-contain mix-blend-multiply" src="/images/Support-technoraspberry.png" alt="" />
+              <h3 className="text-3xl text-accent leading-[3rem] xl:text-justify text-center">پشتیبانان ما مشتاق پاسخ به سوالاتتان هستند</h3>
               <p className="text-black/60 text-justify text-xl leading-[2.3rem]">
                 پس دریغ نکنید! 
-                همین حالا آن را در فرم زیر مطرح کنید تا پشتیبانان ما به سرعت به آن پاسخ دهند! (پشتیبانی تکنو رزبری ۲۴/۷ در خدمت شماست)
+                همین حالا آن را در فرم مطرح کنید تا پشتیبانان ما به سرعت به آن پاسخ دهند! (پشتیبانی تکنو رزبری ۲۴/۷ در خدمت شماست)
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
