@@ -558,3 +558,9 @@ body:has(.box[data-color="clr2"]:hover){
   background: blue;
   color: #fff;
 }
+
+/* li */
+
+.about-me li{
+  color: #fff;
+}
