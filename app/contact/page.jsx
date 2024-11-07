@@ -54,6 +54,8 @@ const Contact = () => {
         </div>
         {/* data */}
         {/* <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/contact-technoraspberry.jpg" alt="" /> */}
+
+        {/* box */}
         <div className="hey3">
         <p className="text-xl leading-[3rem] font-bold">روی پشتیبانی تکنورزبری حساب کنید!</p>
         <div className="mb-10 text-justify text-xl leading-[2rem]">

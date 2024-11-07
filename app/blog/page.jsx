@@ -24,7 +24,7 @@ const Blog = () => {
         </div>
         {/* banner */}
         <div className="xl:flex xl:flex-row flex flex-col-reverse rounded-md items-center gap-5 my-5">
-          <div className="xl:w-[30%] w-full xl:h-[40rem] h-full shadow-xl shadow-black/30 rounded-md p-3 border border-accent">
+          <div className="xl:w-[30%] w-full xl:h-[20rem] h-full shadow-xl shadow-black/30 rounded-md p-3 border border-accent">
             <h2>دسته‌بندی مقالات</h2>
             <ul className="px-3">
               <li>عمومی</li>
@@ -32,10 +32,10 @@ const Blog = () => {
               <li>طراحی و گرافیک</li>
             </ul>
           </div>
-          <div className="xl:w-[70%] w-full xl:h-[40rem] h-[30rem] bg-black rounded-md">
+          <div className="xl:w-[70%] w-full xl:h-[20rem] h-[15rem] bg-black rounded-md">
             <picture>
             <source media="(min-width: 1200px)" srcset="/images/blog-technoraspberry.png"/>
-            <img src="/images/blog-technoraspberry-sm.png" className="xl:h-[40rem] h-[30rem] w-full shadow-xl shadow-black/30  rounded-md object-cover border-2 border-black" alt="" />
+            <img src="/images/blog-technoraspberry-sm.png" className="xl:h-[20rem] h-[15rem] w-full shadow-xl shadow-black/30  rounded-md object-cover border-2 border-black" alt="" />
             </picture>
           </div>
         </div>
