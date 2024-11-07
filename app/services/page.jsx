@@ -63,7 +63,7 @@ const Services = () => {
         <a className="xl:text-3xl text-2xl" href="/iot">مشاهده</a>
 			</label>
 			<label class="item xl:w-[35%] w-[70%] x-0 p-0" for="t-2">
-        <img src="/images/services3.png" alt="" />
+        <img src="/images/services-graphic-technoraspberry.png" alt="" />
 				<h2 className="xl:text-5xl text-3xl">گرافیک</h2>
         <p className="xl:text-2xl text-xl mt-3">برای مشاهده کلیک کنید</p>
         <a className="xl:text-3xl text-2xl" href="/graphics">مشاهده</a>
