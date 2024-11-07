@@ -19,9 +19,12 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-1 xl:pb-14">
           {/* text */}
           <div className="text-center xl:text-right order-2 xl:order-none">
-            <h1 className="h1 mb-3 xl:show hidden">
+            <h1 className="h1 mb-3 xl:show hidden xl:block">
               تکنو رزبری <br />{" "}
               <span className="text-accent text-3xl sm:text-5xl">خدمتی نو</span>
+            </h1>
+            <h1 className="h1 mb-3 xl:show block xl:hidden">
+            تکنورزبری<sup className='text-accent text-3xl sm:text-5xl'>خدمتی نو</sup>
             </h1>
             <p className="max-w-[500px] mb-9 text-black/80 xl:text-2xl text-2xl leading-[3.5rem] xl:leading-[3rem] text-justify px-3">
             تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل
