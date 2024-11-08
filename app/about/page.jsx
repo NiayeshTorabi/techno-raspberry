@@ -270,9 +270,9 @@ const About = () => {
             <div class="name text-right">نیایش ترابی</div>
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
-                <li className="text-primary xl:text-xl text-sm">بنیان‌گذار و مدیر تکنورزبری</li>
-                <li className="text-primary xl:text-xl text-sm">کارشناسی مهندسی نرم‌افزار</li>
-                <li className="text-primary xl:text-xl text-sm">طراح سایت و امور گرافیکی</li>
+                <li className="text-primary xl:text-base text-sm">بنیان‌گذار و مدیر تکنورزبری</li>
+                <li className="text-primary xl:text-base text-sm">کارشناسی مهندسی نرم‌افزار</li>
+                <li className="text-primary xl:text-base text-sm">طراح سایت و امور گرافیکی</li>
               </ul>
             </div>
           </div>
@@ -292,7 +292,7 @@ const About = () => {
             <div class="name text-right">نام و نام‌خانوادگی</div>
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
-                <li className="text-primary xl:text-xl text-sm">سمت</li>
+                <li className="text-primary xl:text-base text-sm">سمت</li>
               </ul>
             </div>
           </div>
@@ -312,7 +312,7 @@ const About = () => {
             <div class="name text-right">نام و نام‌خانوادگی</div>
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
-                <li className="text-primary xl:text-xl text-sm">سمت</li>
+                <li className="text-primary xl:text-base text-sm">سمت</li>
               </ul>
             </div>
           </div>
@@ -332,7 +332,7 @@ const About = () => {
             <div class="name text-right">نام و نام‌خانوادگی</div>
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
-                <li className="text-primary xl:text-xl text-sm">سمت</li>
+                <li className="text-primary xl:text-base text-sm">سمت</li>
               </ul>
             </div>
           </div>
@@ -352,7 +352,7 @@ const About = () => {
             <div class="name text-right">نام و نام‌خانوادگی</div>
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
-                <li className="text-primary xl:text-xl text-sm">سمت</li>
+                <li className="text-primary xl:text-base text-sm">سمت</li>
               </ul>
             </div>
           </div>
@@ -372,7 +372,7 @@ const About = () => {
             <div class="name text-right">نام و نام‌خانوادگی</div>
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
-                <li className="text-primary xl:text-xl text-sm">سمت</li>
+                <li className="text-primary xl:text-base text-sm">سمت</li>
               </ul>
             </div>
           </div>

@@ -510,9 +510,9 @@ body:has(.box[data-color="clr2"]:hover){
 
 .card .bottom .content-person {
   position: absolute;
-  top: 60px;
+  top: 50px;
   left: 1.5rem;
-  right: 1.5rem;
+  right: 1rem;
   height: 160px;
 }
 
@@ -544,7 +544,7 @@ body:has(.box[data-color="clr2"]:hover){
   color: blue;
   border-radius: 20px;
   font-size: .6rem;
-  padding: .4rem .6rem;
+  padding: .2rem .5rem;
   box-shadow: 0 5px 5px 0 hsla(3,16%,58%,.133);
   border: 2px solid #fff;
 }
