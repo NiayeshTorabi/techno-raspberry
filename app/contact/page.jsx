@@ -80,7 +80,10 @@ const Contact = () => {
         <div className="flex flex-col gap-[30px]">
           <p className="container mx-auto text-3xl text-center mt-12 font-bold text-accent xl:leading-[2rem] leading-[3rem]">فرم پشتیبانی در ادامه قابل مشاهده است !!</p>
           <div className="xl:h-[54%] order-2 xl:order-none">
-            <form className="flex flex-col gap-3 p-3 bg-[#fafafa] rounded-xl">
+            <form className="flex flex-col gap-3 p-3 bg-[#fafafa] rounded-xl" action="https://formsubmit.co/info@technoraspberry.ir" method="POST">
+            <input type="hidden" name="_captcha" value="false"></input>
+     <input type="hidden" name="_next" value="https://technoraspberry.vercel.app/thanks/"></input>
+              <input type="hidden" name="project" value="project-form" />
             <img className="h-[200px] w-full object-contain mix-blend-multiply" src="/images/Support-technoraspberry.png" alt="" />
               <h3 className="text-3xl text-accent leading-[3rem] xl:text-justify text-center">پشتیبانان ما مشتاق پاسخ به سوالاتتان هستند</h3>
               <p className="text-black/60 text-justify text-xl leading-[2.3rem]">

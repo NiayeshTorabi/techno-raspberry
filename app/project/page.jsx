@@ -42,7 +42,10 @@ const Project = () => {
         <p className="container mx-auto text-3xl text-center mt-20 font-bold text-accent xl:leading-[2rem] leading-[3rem]">فرم ثبت پروژه در ادامه قابل مشاهده است !!</p>
         {/* form */}
             <form
-            className="flex flex-col gap-6 p-10 bg-[#fafafa] rounded-xl">
+            className="flex flex-col gap-6 p-10 bg-[#fafafa] rounded-xl" action="https://formsubmit.co/info@technoraspberry.ir" method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false"></input>
+     <input type="hidden" name="_next" value="https://technoraspberry.vercel.app/thanks/"></input>
               <input type="hidden" name="project" value="project-form" />
               <h3 className="xl:text-2xl text-xl text-accent font-bold">با خیال راحت پروژتو به ما بسپار</h3>
               <p className="text-black/60">

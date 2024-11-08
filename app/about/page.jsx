@@ -387,7 +387,10 @@ const About = () => {
               </div>    
             </div>
             <div className="container mx-auto my-16 mb-28">
-            <form className="flex flex-col gap-6 p-5 bg-[#fafafa] rounded-xl">
+            <form className="flex flex-col gap-6 p-5 bg-[#fafafa] rounded-xl" action="https://formsubmit.co/info@technoraspberry.ir" method="POST">
+            <input type="hidden" name="_captcha" value="false"></input>
+     <input type="hidden" name="_next" value="https://technoraspberry.vercel.app/thanks/"></input>
+              <input type="hidden" name="project" value="project-form" />
               <img className="h-[200px] w-full object-contain mix-blend-multiply" src="/images/work-with-technoraspberry.jpg" alt="" />
               <h3 className="text-4xl text-accent font-semibold">همکاری با ما</h3>
               <p className="text-black/60 text-justify text-xl leading-[2.3rem]">فُرم زیر را با دقت تکمیل فرمایید؛ کارشناسان ما پس از بررسی، با شما ارتباط برقرار خواهند کرد.              </p>
