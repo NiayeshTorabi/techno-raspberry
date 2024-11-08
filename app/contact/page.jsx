@@ -30,7 +30,7 @@ const info = [
   {
     icon: <FaInstagram />,
     title: "اینستاگرام",
-    description: "TechnoRaspberry@",
+    description: "technoraspberry@",
   },
 ];
 

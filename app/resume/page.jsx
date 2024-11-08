@@ -167,13 +167,18 @@ const Resume = () => {
         </div>
         {/* data */}
         <div className="flex xl:flex-row flex-col conatiner mx-auto gap-5">
-        <img className="h-[300px] xl:h-[230px] xl:w-[30%] object-contain" src="/images/portfolio-main.jpg" alt="" />
+        <img className="h-[300px] xl:h-[650px] xl:w-[30%] object-contain" src="/images/portfolio-technoraspberry.png" alt="" />
         <div className="flex xl:flex-row flex-col xl:w-[70%]">
       <div className="flex flex-col">
-      <h2 className="text-2xl mb-8">تکنورزبری<sup className="text-accent">خدمتی‌نو</sup></h2>
-        <p className="text-xl leading-[2.5rem]">
+      <h2 className="text-4xl mb-16">تکنورزبری <sup className="text-accent"> خدمتی‌نو</sup></h2>
+        <p className="text-xl leading-[2.5rem] px-3">
       تکنورزبری یک مجموعه ساده نیست؛ جایی است که نوآوری با خلاقیت می‌آمیزد تا بتوانیم با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و حتی پروژه‌های سخت‌افزاری برای داشتن زندگی راحت‌تر، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.
       </p>
+      <p className="text-xl leading-[2.5rem] px-3">
+        تکنورزبری خدمات نرم‌افزاری و سخت‌افزاری را به صورت تخصصی ارائه می‌دهد. خدمات نرم‌افزاری شامل طراحی سایت، سئو و...؛ امور گرافیکی اعم از طراحی لوگو و...؛ و همچنین ادغام نرم‌افزار با سخت‌افزار که موجب خلق خدمات سخت‌افزاری ما یعنی هوشمندسازی خانه‌ها می‌شود.
+      </p>
+      <p className="text-xl leading-[2.5rem] px-3">شما عزیزان می‌توانید خدمات تکنورزبری را در صفحه خدمات مشاهده فرمایید و همچنین با مشاهده نمونه کارهایمان در صفحه پورتفولیو، با خیالی آسوده و راحت پروژه خود را به ما بسپارید و به ما اعتماد کنید.</p>
+      <p className="text-xl leading-[2.5rem] px-3">ویژگی‌هایی که تکنورزبری را متمایز می‌کند، تلفیق کیفیت و خلاقیت است، طوری که سعی ما همیشه بر این بوده است تا از بروزترین تکنولوژي‌ها استفاده کرده و آنها را با نوآوری خود آمیخته کنیم تا نتیجه‌ای استثنایی را به مشتریان خود ارائه دهیم.</p>
       </div>
         </div>
         </div>
@@ -321,27 +326,27 @@ const Resume = () => {
       </div> */}
       {/* portfolio linking */}
       <div className="container mx-auto">
-      <h2 className="text-2xl mt-20 mb-5 text-accent">مشاهده نمونه‌کار ها</h2>
+      <h2 className="text-4xl mt-20 mb-5 text-accent text-center">مشاهده نمونه‌کار ها</h2>
       </div>
       <div className="flex xl:flex-row flex-col justify-evenly group container mx-auto gap-5">
         <a href="/resume/site" className="xl:w-[33%] w-[100%] border rounded-xl hover:border-accent duration-500">
-          <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
+          <img src="/images/services1.png" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">نرم‌افزار</div></a>
 
           <a href="/resume/graphics" className="xl:w-[33%] w-[100%] border rounded-xl hover:border-accent duration-500">
-          <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
+          <img src="/images/services-graphic-technoraspberry.png" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">گرافیک</div></a>
 
           <a href="/resume/iot" className="xl:w-[33%] w-[100%] border rounded-xl hover:border-accent duration-500">
-          <img src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" className="rounded-t-xl"/>
+          <img src="/images/services2.png" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">سخت‌افزار</div></a>
       </div>
-      <p className="container mx-auto mt-8 text-center text-xl leading-[2.5rem]">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
+      <p className="container mx-auto mt-8 text-center text-xl leading-[2.5rem] px-3 text-[#ff0000]">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
       {/* whyUs */}
       <div className="p-5 mt-8">
         <div className="border border-accent container rounded-md xl:p-8 px-0 pt-0 py-5 mt-16 shadow-md">
       <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/why-technoraspberry.jpg" alt="" />
-      <h2 className="text-3xl container mx-auto text-accent text-center">چرا تکنورزبری؟</h2>
+      <h2 className="text-4xl container mx-auto text-accent text-center">چرا تکنورزبری؟</h2>
       <div className="container mx-auto grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-8">
         {/* item1 */}
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">

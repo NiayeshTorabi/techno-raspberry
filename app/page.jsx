@@ -8,7 +8,7 @@ import Stats from "@/components/Stats";
 
 const Home = () => {
   return <section className="h-full">
-      <div className="h-fit bg-accent mb-5">
+      <div className="h-fit bg-accent">
         <picture className="hey1">
           <source media="(min-width: 1200px)" srcset="/images/home-main.png"/>
           <source media="(min-width: 768px)" srcset="/images/home-main-lg.png"/>
@@ -16,7 +16,7 @@ const Home = () => {
         </picture>
       </div>
       <div className="container mx-auto h-full">
-        <div className="flex flex-col-reverse xl:flex-row items-center justify-between xl:pt-1 xl:pb-14">
+        <div className="flex flex-col-reverse xl:flex-row items-center justify-between xl:pb-14">
           {/* text */}
           <div className="text-center xl:text-right order-2 xl:order-none mt-10">
             <h1 className="h1 mb-3 main-title">
@@ -43,7 +43,7 @@ const Home = () => {
             </div>
           </div>
           {/* photo */}
-          <div className="order-1 xl:order-none mb-8 xl:mb-0 xl:mt-10 xl:ml-10">
+          <div className="order-1 xl:order-none mb-8 xl:mb-0 xl:mt-16 xl:ml-16">
             <Photo />
           </div>
         </div>

@@ -34,7 +34,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 const skills = {
-  title: "تکنورزبری از چه تکنولوژي‌هایی استفاده می‌کند؟",
+  title: "تکنورزبری از چه تکنولوژی‌هایی استفاده می‌کند؟",
   description:
     "از چه فناوری‌هایی برای خدماتی که ارائه می‌دهیم استفاده می‌کنیم؟",
   skillList: [
@@ -136,11 +136,11 @@ const About = () => {
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* project category */}
-              <h2 className="xl:text-5xl text-3xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
+              <h2 className="xl:text-4xl text-3xl group-hover:text-accent transition-all duration-500 capitalize mt-10">
                 {project.category}
               </h2>
               {/* project description */}
-              <p className="text-black/60 text-justify text-xl leading-[2rem] px-3">{project.description}</p>
+              <p className="text-black/60 text-justify text-md leading-[2rem] px-3 mt-5">{project.description}</p>
               {/* stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
@@ -260,10 +260,10 @@ const About = () => {
               </div>
               <div className="containerr gap-20 sm:grid-cols-3 justify-items-center">
                 {/* main */}
-                <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
+                <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
-          <img draggable="false" alt="نیایش ترابی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/NiayeshTorabi.jpeg" />
+          <img draggable="false" alt="نیایش ترابی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/NiayeshTorabi.jpg" />
         </div>
         <div class="bottom">
           <div class="content-person">
@@ -282,7 +282,7 @@ const About = () => {
         </div>
       </div>
       {/* item2 */}
-      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -302,7 +302,7 @@ const About = () => {
         </div>
       </div>
       {/* item3 */}
-      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -322,7 +322,7 @@ const About = () => {
         </div>
       </div>
       {/* item4 */}
-      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -342,7 +342,7 @@ const About = () => {
         </div>
       </div>
       {/* item5 */}
-      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -362,7 +362,7 @@ const About = () => {
         </div>
       </div>
       {/* item6 */}
-      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
