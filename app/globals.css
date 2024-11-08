@@ -542,7 +542,8 @@ body:has(.box[data-color="clr2"]:hover){
 
 .card .bottom .content-person {
   position: absolute;
-  top: 50px;
+  top: 60px;
+  left: 0.8rem;
   right: 1rem;
   height: 160px;
 }
@@ -560,7 +561,7 @@ body:has(.box[data-color="clr2"]:hover){
 
 .card .bottom .bottom-bottom {
   position: absolute;
-  bottom: .5rem;
+  bottom: 1rem;
   left: 1.5rem;
   right: 1.5rem;
   display: flex;

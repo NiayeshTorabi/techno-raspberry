@@ -260,7 +260,7 @@ const About = () => {
               </div>
               <div className="containerr gap-20 sm:grid-cols-3 justify-items-center">
                 {/* main */}
-                <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
+                <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نیایش ترابی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/NiayeshTorabi.jpg" />
@@ -271,8 +271,11 @@ const About = () => {
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
                 <li className="text-primary xl:text-base text-sm">بنیان‌گذار و مدیر تکنورزبری</li>
-                <li className="text-primary xl:text-base text-sm">دانشجوی کارشناسی مهندسی نرم‌افزار</li>
-                <li className="text-primary xl:text-base text-sm">توسعه دهنده وب، موشن گرافیست</li>
+                <li className="text-primary xl:text-base text-sm">مهندس کامپیوتر گرایش نرم‌افزار</li>
+                <li className="text-primary xl:text-base text-sm">طراح و توسعه‌دهنده وب</li>
+                <li className="text-primary xl:text-base text-sm">گرافیست</li>
+                <li className="text-primary xl:text-base text-sm">تسلط بر زبان‌های برنامه‌نویسی</li>
+                <li className="text-primary xl:text-base text-sm text-left">C++, Arduino, Python</li>
               </ul>
             </div>
           </div>
@@ -282,7 +285,7 @@ const About = () => {
         </div>
       </div>
       {/* item2 */}
-      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -302,7 +305,7 @@ const About = () => {
         </div>
       </div>
       {/* item3 */}
-      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -322,7 +325,7 @@ const About = () => {
         </div>
       </div>
       {/* item4 */}
-      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -342,7 +345,7 @@ const About = () => {
         </div>
       </div>
       {/* item5 */}
-      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -362,7 +365,7 @@ const About = () => {
         </div>
       </div>
       {/* item6 */}
-      <div class="card select-none xl:w-[250px] xl:h-[250px] w-[250px] h-[250px]">
+      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />

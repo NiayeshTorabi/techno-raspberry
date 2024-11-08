@@ -170,7 +170,7 @@ const Resume = () => {
         <img className="h-[300px] xl:h-[650px] xl:w-[30%] object-contain" src="/images/portfolio-technoraspberry.png" alt="" />
         <div className="flex xl:flex-row flex-col xl:w-[70%]">
       <div className="flex flex-col">
-      <h2 className="text-4xl mb-16">تکنورزبری <sup className="text-accent"> خدمتی‌نو</sup></h2>
+      <h2 className="text-4xl xl:mb-16 mb-5">تکنورزبری <sup className="text-accent"> خدمتی‌نو</sup></h2>
         <p className="text-xl leading-[2.5rem] px-3">
       تکنورزبری یک مجموعه ساده نیست؛ جایی است که نوآوری با خلاقیت می‌آمیزد تا بتوانیم با ترکیب دانش فنی و خلاقیت هنری، راهکارهای نوآورانه‌ای برای کسب‌وکارهای شما ارائه دهیم. از طراحی وب‌سایت‌های زیبا و کارآمد گرفته تا خلق هویت بصری منحصربه‌فرد و حتی پروژه‌های سخت‌افزاری برای داشتن زندگی راحت‌تر، ما در کنار شما هستیم تا به اهداف تجاری‌تان دست پیدا کنید.
       </p>
