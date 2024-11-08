@@ -271,8 +271,8 @@ const About = () => {
             <div class="parentFont about-me prose select-none" dir="rtl">
               <ul>
                 <li className="text-primary xl:text-base text-sm">بنیان‌گذار و مدیر تکنورزبری</li>
-                <li className="text-primary xl:text-base text-sm">کارشناسی مهندسی نرم‌افزار</li>
-                <li className="text-primary xl:text-base text-sm">طراح سایت و امور گرافیکی</li>
+                <li className="text-primary xl:text-base text-sm">دانشجوی کارشناسی مهندسی نرم‌افزار</li>
+                <li className="text-primary xl:text-base text-sm">توسعه دهنده وب، موشن گرافیست</li>
               </ul>
             </div>
           </div>

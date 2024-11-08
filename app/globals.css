@@ -349,11 +349,43 @@ body:has(.box[data-color="clr2"]:hover){
 /* portfolio */
 
 .portfolio1{
-  background-image: url(../public/assets/portfolio/khorshidweb.co.png);
+  background-image: url(../public/assets/portfolio/khorshidweb-co.png);
   background-size: cover;
 }
 .portfolio2{
-  background-image: url(../public/assets/portfolio/khorshidweb.co.png);
+  background-image: url(../public/assets/portfolio/VanillaBerry-ir.png);
+  background-size: cover;
+}
+.portfolio3{
+  background-image: url(../public/assets/portfolio/Pro-Mariani-ir.png);
+  background-size: cover;
+}
+.portfolio4{
+  background-image: url(../public/assets/portfolio/Mariani-ir.png);
+  background-size: cover;
+}
+.portfolio5{
+  background-image: url(../public/assets/portfolio/MangoScarf-ir.png);
+  background-size: cover;
+}
+.portfolio6{
+  background-image: url(../public/assets/portfolio/KasraMagnet-com.png);
+  background-size: cover;
+}
+.portfolio7{
+  background-image: url(../public/assets/portfolio/HidrolikBaradaran-com.png);
+  background-size: cover;
+}
+.portfolio8{
+  background-image: url(../public/assets/portfolio/Food-KhorshidWeb-co.png);
+  background-size: cover;
+}
+.portfolio9{
+  background-image: url(../public/assets/portfolio/EpolShop-ir.png);
+  background-size: cover;
+}
+.portfolio10{
+  background-image: url(../public/assets/portfolio/AllinKafe-com.png);
   background-size: cover;
 }
 
@@ -511,7 +543,6 @@ body:has(.box[data-color="clr2"]:hover){
 .card .bottom .content-person {
   position: absolute;
   top: 50px;
-  left: 1.5rem;
   right: 1rem;
   height: 160px;
 }

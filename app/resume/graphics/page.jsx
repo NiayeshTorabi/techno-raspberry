@@ -22,6 +22,7 @@ const graphicsPortfolio = () => {
       <div className="container mx-auto flex gap-10 flex-col">
         {/* banner */}
         <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/service4.png" alt="" />
+        <p className="text-justify xl:text-2xl text-xl xl:leading-[3rem] leading-[2.5rem] px-3">در این صفحه به تصویر کشیدن نمونه‌کارهای تکنورزبری در حوزه تخصصی گرافیک پرداخته‌ایم و شما عزیزان می‌توانید توسط فهرستی که در ادامه قرار داده شده است، با کلیک بر روی بخش مورد نظر خود، به آن قسمت بروید و دسترسی آسان‌تری برای مشاهده نمونه‌کارها داشته باشید.</p>
         <div className="border p-5 rounded-md">
         <h2>فهرست مطالب</h2>
         <ul>
@@ -29,13 +30,13 @@ const graphicsPortfolio = () => {
           <a href="#banner"><li>بنر</li></a>
           <a href="#visit-card"><li>کارت ویزیت</li></a>
           <a href="#poster"><li>پوستر</li></a>
-          <a href="#ad"><li>ویدئو تبلیغاتی</li></a>
+          <a href="#ad"><li>ویدئوهای تبلیغاتی</li></a>
           <a href="#catalog"><li>کاتالوگ</li></a>
           <a href="#magazine"><li>مجله</li></a>
         </ul>
         </div>
         {/* logo */}
-        <h2 className="text-accent text-2xl" id="logo">لوگو</h2>
+        <h2 className="py-3 border-t rounded-md mt-16 text-accent text-2xl" id="logo">لوگو</h2>
         <div className="grid xl:grid-cols-5 grid-cols-3 xl:gap-5 gap-1">
           {/* item1 */}
           <div>
@@ -67,11 +68,15 @@ const graphicsPortfolio = () => {
           </div>
           {/* item8 */}
           <div>
+            <img src="/images/logo8-portfolio-technoraspberry.jpeg" alt="" className="border rounded-md h-[100px] xl:h-[200px] w-full" />
+          </div>
+          {/* item9 */}
+          <div>
             <img src="/images/logo.png" alt="" className="border rounded-md h-[100px] xl:h-[200px] w-full" />
           </div>
         </div>
         {/* banner */}
-        <h2 className="text-accent text-2xl" id="banner">بنر</h2>
+        <h2 className="py-3 border-t rounded-md mt-16 text-accent text-2xl" id="banner">بنر</h2>
         <div className="grid xl:grid-cols-2 grid-cols-1 gap-5">
           {/* item1 */}
           <div>
@@ -83,7 +88,7 @@ const graphicsPortfolio = () => {
           </div>
         </div>
         {/* visit-card */}
-        <h2 className="text-accent text-2xl" id="visit-card">کارت ویزیت</h2>
+        <h2 className="py-3 border-t rounded-md mt-16 text-accent text-2xl" id="visit-card">کارت ویزیت</h2>
         <div className="grid xl:grid-cols-2 grid-cols-1 xl:gap-5 gap-1">
           {/* item1 */}
           <Button
@@ -101,81 +106,91 @@ const graphicsPortfolio = () => {
               </Button>
         </div>
         {/* poster */}
-        <h2 className="text-accent text-2xl" id="poster">پوستر</h2>
+        <h2 className="py-3 border-t rounded-md mt-16 text-accent text-2xl" id="poster">پوستر</h2>
         <div className="grid xl:grid-cols-5 grid-cols-2 xl:gap-5 gap-1">
           {/* item1 */}
           <div className="border rounded-md">
             <a href="/images/poster1-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster1-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster1-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item2 */}
           <div className="border rounded-md">
             <a href="/images/poster2-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster2-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster2-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item3 */}
           <div className="border rounded-md">
             <a href="/images/poster3-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster3-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster3-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item4 */}
           <div className="border rounded-md">
             <a href="/images/poster4-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster4-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster4-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item5 */}
           <div className="border rounded-md">
             <a href="/images/poster5-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster5-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster5-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item6 */}
           <div className="border rounded-md">
             <a href="/images/poster6-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster6-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster6-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item7 */}
           <div className="border rounded-md">
             <a href="/images/poster7-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster7-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster7-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item8 */}
           <div className="border rounded-md">
             <a href="/images/poster8-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster8-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster8-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item9 */}
           <div className="border rounded-md">
             <a href="/images/poster9-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster9-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster9-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
           {/* item10 */}
           <div className="border rounded-md">
             <a href="/images/poster10-technoraspberry.jpeg" target="_blank">
-            <img src="/images/poster10-technoraspberry.jpeg" alt="" className="rounded-md h-[300px] w-full" />
+            <img src="/images/poster10-technoraspberry.jpeg" alt="" className="rounded-md xl:h-[300px] h-[250px] w-full" />
             </a>
           </div>
         </div>
         {/* ad video */}
-        <h2 className="text-accent text-2xl" id="ad">ویدئو تبلیغاتی</h2>
-        <div className="grid grid-cols-4">
+        <h2 className="py-3 border-t rounded-md mt-16 text-accent text-2xl" id="ad">ویدئوهای تبلیغاتی</h2>
+        <div className="grid xl:grid-cols-4 grid-cols-2 xl:gap-5 gap-1">
           {/* item1 */}
-          <div className="border rounded-md">
-            <video width="200" height="200" className="object-fit" controls>
-              <source src="/videos/graphics-ads-technoraspberry.MP4" type="video/mp4" />
+            <video className="xl:w-[270px] xl:h-[490px] w-[163px] h-[296px] rounded-md" controls>
+              <source src="/videos/graphics-ads1-technoraspberry.MP4" type="video/mp4" />
             </video>
-          </div>
+          {/* item2 */}
+            <video className="xl:w-[270px] xl:h-[490px] w-[163px] h-[296px] rounded-md" controls>
+              <source src="/videos/graphics-ads2-technoraspberry.MP4" type="video/mp4" />
+            </video>
+          {/* item3 */}
+            <video className="xl:w-[270px] xl:h-[490px] w-[163px] h-[296px] rounded-md" controls>
+              <source src="/videos/graphics-ads3-technoraspberry.MP4" type="video/mp4" />
+            </video>
+          {/* item4 */}
+            <video className="xl:w-[270px] xl:h-[490px] w-[163px] h-[296px] rounded-md" controls>
+              <source src="/videos/graphics-ads4-technoraspberry.MP4" type="video/mp4" />
+            </video>
         </div>
         {/* catalog */}
-        <h2 className="text-accent text-2xl" id="catalog">کاتالوگ</h2>
+        <h2 className="py-3 border-t rounded-md mt-16 text-accent text-2xl" id="catalog">کاتالوگ</h2>
         <div className="grid xl:grid-cols-2 grid-cols-1 gap-5">
           {/* item1 */}
               <Button
@@ -193,7 +208,7 @@ const graphicsPortfolio = () => {
               </Button>
         </div>
         {/* magazine */}
-        <h2 className="text-accent text-2xl" id="magazine">مجله</h2>
+        <h2 className="py-3 border-t rounded-md mt-16 text-accent text-2xl" id="magazine">مجله</h2>
         <div className="grid xl:grid-cols-2 grid-cols-1 gap-5">
           {/* item1 */}
               <Button
@@ -204,12 +219,10 @@ const graphicsPortfolio = () => {
               </Button>
         </div>
         {/* features */}
-        <p className="text-2xl">فقط گرافیک؟</p>
-        <div className="border rounded-md p-5 text-justify">
-          <p>
-            علاوه بر گرافیک، به ۲ خدمت دیگر تکنورزبری، یعنی سخت‌افزار و نرم‌افزار هم سری بزنید، مطمئن باشید پشیمان نمی‌شوید !
-          </p>
-          <p>
+        <p className="text-4xl mt-20 font-bold">فقط گرافیک؟</p>
+        <div className="border rounded-md p-3 text-justify">
+          <p className="text-justify xl:text-2xl text-xl xl:leading-[3rem] leading-[2.5rem]">
+            علاوه بر گرافیک، به ۲ خدمت دیگر تکنورزبری، یعنی سخت‌افزار و نرم‌افزار هم سری بزنید، مطمئن باشید پشیمان نمی‌شوید ! 
             پورتفولیوی ما همواره درحال بروزرسانی و آپدیت شدن هست، به محض اینکه پروژه‌ای به اتمام رسانده می‌شود، با کسب رضایت از کارفرما، نمونه کارها را در وب‌سایت و دیگر شبکه‌های اجتماعی خود قرار می‌دهیم.
           </p>
         </div>
