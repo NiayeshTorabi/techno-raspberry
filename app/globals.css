@@ -60,7 +60,6 @@ h1, h2{
 }
 
 .containerr{
-  padding: 1rem;
   position: relative;
   display: grid;
   justify-content: center;
@@ -382,8 +381,6 @@ body:has(.box[data-color="clr2"]:hover){
 /* card */
 
 .card{
-  width: 335px;
-  height: 335px;
   background: #fff;
   border-radius: 32px;
   padding: 3px;
@@ -523,17 +520,16 @@ body:has(.box[data-color="clr2"]:hover){
 
 .card .bottom .content-person .name {
   display: block;
-  font-size: 1.2rem;
   color: #fff;
-  font-weight: 700;
   text-align: right;
+  font-weight: bold;
 }
 
 /* bottom-bottom */
 
 .card .bottom .bottom-bottom {
   position: absolute;
-  bottom: 1rem;
+  bottom: .5rem;
   left: 1.5rem;
   right: 1.5rem;
   display: flex;
@@ -546,7 +542,6 @@ body:has(.box[data-color="clr2"]:hover){
 .card .bottom .bottom-bottom .button {
   background: #fff;
   color: blue;
-  border: none;
   border-radius: 20px;
   font-size: .6rem;
   padding: .4rem .6rem;

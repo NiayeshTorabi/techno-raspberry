@@ -16,7 +16,7 @@ const Blog = () => {
         {/* title */}
         <div className="flex justify-between border rounded-md px-3 items-center">
         <div className="font-bold text-accent">
-          وبلاگ تکنورزبری
+          وبلاگ
         </div>
         <div>
           <p className="text-sm">جدیدترین مقالات روز تکنولوژی</p>

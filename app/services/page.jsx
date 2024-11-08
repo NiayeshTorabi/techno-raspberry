@@ -45,12 +45,12 @@ const Services = () => {
         <div className="container mx-auto flex xl:flex-row flex-col-reverse w-[full]">
           <div className="text-center mt-16 px-3">
               <p className="font-bold text-xl leading-[2rem] mb-5 text-right">سلام دوست خوبم!</p>
-              <p className="text-justify text-xl leading-[2rem] xl:leading-[3rem]">مجموعه تکنورزبری یک مجموعه حرفه‌ای با ارائه خدمات حرفه‌ای است</p>
+              <p className="text-justify text-xl leading-[2rem] xl:leading-[3rem]">مجموعه تکنورزبری یک مجموعه حرفه‌ای با ارائه خدمات حرفه‌ای است.</p>
               <p className="text-justify text-xl leading-[2rem] xl:leading-[3rem]">در ادامه می‌توانید خدمات ما را مشاهده کنید؛ برای جابه‌جایی بین اسلایدرها روی آنها کلیک کنید و آنها را انتخاب کرده، سپس می‌توانید با کلیک روی دکمه‌ی "مشاهده" که پایینِ هر بخش وجود دارد، نسبت به مشاهده جزئی‌تر آن خدمت نیز بپردازید؛ در صورت وجود هرگونه ابهام نیز از صفحه ارتباط با ما اقدام فرمایید.</p>
           </div>
         <img src="/images/services-technoraspberry.png" className="h-[300px] xl:h-[375px] w-[full] object-contain mix-blend-multiply" />
         </div>
-        <p className="container mx-auto text-3xl text-center mt-20 font-bold text-accent xl:leading-[2rem] leading-[3rem]">اسلایدرها در زیر قابل مشاهده هستند !!</p>
+        <p className="container mx-auto text-3xl text-center mt-20 font-bold text-accent xl:leading-[2rem] leading-[3rem]">اسلایدرها در ادامه قابل مشاهده هستند !!</p>
           <div class="slider mt-5">
 		<input type="radio" name="testimonial" id="t-1"/>
 		<input type="radio" name="testimonial" id="t-2"/>

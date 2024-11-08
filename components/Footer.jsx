@@ -50,8 +50,8 @@ const Footer = () => {
                     <li className="list-none flex items-center gap-1 text-base"><FaPhone /><a href="tel:09120383929">شماره</a></li>
                 </ul>
                 <div className='flex gap-3'>
-                    <a href="/"><FaGithub /></a>
-                    <a href="/"><FaInstagram /></a>
+                    <a href="https://github.com/NiayeshTorabi"><FaGithub /></a>
+                    <a href="https://instagram.com/technoraspberry"><FaInstagram /></a>
                 </div>
             </div>
             <div className="flex flex-col gap-1 border p-3 rounded-md border-white/30 hover:border-white duration-500">

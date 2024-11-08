@@ -30,7 +30,7 @@ const info = [
   {
     icon: <FaInstagram />,
     title: "اینستاگرام",
-    description: "@",
+    description: "TechnoRaspberry@",
   },
 ];
 
@@ -60,7 +60,7 @@ const Contact = () => {
         </div>
         {/* info */}
         <div className="flex flex-col items-center p-3 mb-8 bg-accent/10 rounded-md">
-            <ul className="flex flex-col lg:flex-row gap-10">
+            <ul className="flex flex-col lg:flex-row xl:gap-28 gap-8">
               {info.map((item, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6">
@@ -76,8 +76,8 @@ const Contact = () => {
               })}
             </ul>
           </div>
-        <div className="flex flex-col  gap-[30px]">
           {/* form */}
+        <div className="flex flex-col gap-[30px]">
           <p className="container mx-auto text-3xl text-center mt-12 font-bold text-accent xl:leading-[2rem] leading-[3rem]">فرم پشتیبانی در ادامه قابل مشاهده است !!</p>
           <div className="xl:h-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-3 p-3 bg-[#fafafa] rounded-xl">
