@@ -26,7 +26,7 @@ const sitePortfolio = () => {
         {/* types */}
         <div className="flex xl:flex-row flex-col justify-between gap-5">
           {/* wp */}
-          <div className="border p-5 xl:w-[50%] w-[100%] rounded-md"><h2 className="flex gap-3 text-2xl">تکنولوژي <strong className="text-accent">وردپرس</strong></h2>
+          <div className="border p-5 xl:w-[50%] w-[100%] rounded-md"><h2 className="flex gap-3 text-2xl">تکنولوژی <strong className="text-accent">وردپرس</strong></h2>
           <div className="border border-black/20 mt-2"></div>
           <p className="text-justify mt-3">وب‌سایت شما در بستر یک سیستم مدیریت محتوا (CMS) با قابلیت شخصی‌سازی حرفه‌ای و هزینه‌ای به صرفه‌تر پیشنهادی برای اشخاص حقیقی و کاربرانی که به تازگی کسب و کار خود را راه‌اندازی کرده‌اند.</p>
           </div>

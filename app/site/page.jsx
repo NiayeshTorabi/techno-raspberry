@@ -42,7 +42,7 @@ const Site = () => {
           <img src="/images/service-site-technoraspberry.png" alt="" />
           {/* text */}
           <div>
-          <h2 className="text-2xl text-center leading-[3rem] xl:mt-0 mt-[-3rem]">یک وب‌سایت خوب می‌تواند به شما کمک کند تا<span>:</span></h2>
+          <h2 className="text-2xl text-center leading-[3rem] xl:mt-0 mt-[-3rem] text-accent">یک وب‌سایت خوب می‌تواند به شما کمک کند تا<span>...</span></h2>
         <br />
         <h3 className="font-bold">برند خود را تقویت کنید<span>:</span></h3><p>با طراحی یک وب‌سایت با هویت بصری قوی، می‌توانید برند خود را در ذهن مخاطبان ماندگار کنید.</p>
         <br />

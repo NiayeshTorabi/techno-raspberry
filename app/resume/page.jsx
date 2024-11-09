@@ -341,12 +341,12 @@ const Resume = () => {
           <img src="/images/services2.png" alt="" className="rounded-t-xl"/>
           <div className="w-full flex justify-center py-1 xl:py-5">سخت‌افزار</div></a>
       </div>
-      <p className="container mx-auto mt-8 text-center text-xl leading-[2.5rem] px-3 text-[#ff0000]">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
+      <p className="container mx-auto text-center text-xl leading-[2.5rem] px-3 text-[#ff0000] mt-10">برای مشاهده نمونه‌کارهای هر خدمت در بالا، می‌توانید روی آن کلیک کرده تا وارد صفحه مربوطه شوید.</p>
       {/* whyUs */}
-      <div className="p-5 mt-8">
-        <div className="border border-accent container rounded-md xl:p-8 px-0 pt-0 py-5 mt-16 shadow-md">
+      <div className="px-5">
+        <div className="border border-accent container rounded-md xl:p-8 px-0 pt-0 py-5 mt-10 shadow-md">
       <img className="h-[300px] xl:h-[375px] w-full object-contain" src="/images/why-technoraspberry.jpg" alt="" />
-      <h2 className="text-4xl container mx-auto text-accent text-center">چرا تکنورزبری؟</h2>
+      <h2 className="text-4xl container mx-auto text-accent text-center xl:mt-16 mt-3">چرا تکنورزبری؟</h2>
       <div className="container mx-auto grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-8">
         {/* item1 */}
         <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">

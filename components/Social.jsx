@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-import { FaTelegram, FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaInstagram, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaTelegram />, path: "/" },
-  { icon: <FaWhatsapp />, path: "/" },
+  { icon: <FaPhone />, path: "tel:09120383929" },
+  { icon: <FaInstagram />, path: "https://www.instagram.com/technoraspberry" },
   { icon: <FaEnvelope />, path: "mailto:info@technoraspberry.ir" },
 ];
 
