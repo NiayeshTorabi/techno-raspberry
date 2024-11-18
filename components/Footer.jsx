@@ -10,10 +10,9 @@ const Footer = () => {
         <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-2 xl:gap-14 xl:px-20 gap-1 p-5 text-primary">
             <div className="flex flex-col gap-1 col-span-2 xl:col-span-1">
                 <a href="/">
-                <h2 className="text-base  mb-0">
-                    تکنورزبری<sup className='text-sm bg-gradient-to-r bg-clip-text text-transparent 
+                <h2 className="text-base  mb-0">تکنورزبری <sup className='text-sm bg-gradient-to-r bg-clip-text text-transparent 
             from-white via-accent to-[#eee]
-            animate-text'>خدمتی نو</sup>
+            animate-text'>خدمتی نو </sup>
                 </h2>
                 </a>
                 <p className='text-justify mb-3 leading-[2rem] xl:leading-[2rem] xl:text-base text-base'>

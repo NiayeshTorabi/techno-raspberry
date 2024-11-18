@@ -590,4 +590,10 @@ body:has(.box[data-color="clr2"]:hover){
 
 .about-me li{
   color: #fff;
+  font-size: 12px;
+  line-height: 1rem;
+}
+
+.card:hover .bottom-bottom{
+  display: none;
 }

@@ -10,194 +10,86 @@ const blogSite = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="py-1 flex flex-col gap-5 m-3"
+      className="py-1 flex flex-col gap-5 m-3 container mx-auto"
     >
+      {/* title */}
+      <div className="flex justify-between border rounded-md px-3 items-center">
+        <div className="font-bold text-accent">
+          وبلاگ / بهترین زبان‌های فرانت‌اند
+        </div>
+        </div>
+        {/* banner */}
       <div className="container mx-auto px-0">
-      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
+      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/blog-website-technoraspberry.jpg" alt="" />
       </div>
-      <div className="container mx-auto p-5 text-justify bg-accent/10 rounded-md">
-        <h1 className="text-xl ">تلفیق سخت‌افزار و نرم‌افزار، زندگی راحت‌تر و ایمن‌تر</h1>
-        <br />
-        <p>امروزه با فرمول "نرم‌افزار+سخت‌افزار" می‌توانیم دیوایس‌هایی داشته باشیم تا زندگی راحت‌تری را تجربه کنیم؛
-        <br />
-        هوشمندسازی خانه = آینده و زندگی ایمن‌تر
-</p>
-      </div>
-      <div className="container mx-auto p-8 text-justify bg-[#00FF9C]/20 rounded-md">
-        <h2 className="text-xl">علم سخت‌افزار همیشه به معنی استفاده ۱۰۰٪ از سخت‌افزار نیست</h2>
-        <br />
-        <p className="font-bold">بله، اشتباه تایپی در کار نیست!</p><p>ما این علم را با نرم‌افزار تلفیق کرده و با افتخار به هدف کارمان یعنی فراهم‌کردن "زندگی راحت‌تر" برای شما دست پیدا می‌کنیم.</p>
-        {/* <br />
-        <h3 className="font-bold">دمای خانه را کنترل کنید<span>:</span></h3><p>سیستم گرمایش و سرمایش خانه را به صورت هوشمند تنظیم کنید تا در هر فصلی از سال، دمای دلخواه خود را داشته باشید.</p>
-        <br />
-        <h3 className="font-bold">امنیت خانه را افزایش دهید<span>:</span></h3><p>با نصب دوربین‌های مداربسته هوشمند، سنسورهای حرکت و سیستم‌های کنترل دسترسی، از امنیت خانه خود اطمینان حاصل کنید.</p>
-        <br />
-        <h3 className="font-bold">مصرف انرژی را کاهش دهید<span>:</span></h3><p>با استفاده از سیستم‌های هوشمند، می‌توانید مصرف انرژی در خانه خود را بهینه کنید و در هزینه‌های خود صرفه‌جویی کنید.</p>
-        <br />
-        <h3 className="font-bold">صوتی و تصویری را کنترل کنید<span>:</span></h3><p>موسیقی مورد علاقه خود را پخش کنید، تلویزیون را روشن و خاموش کنید و حتی با دستیارهای صوتی با خانه خود تعامل کنید.</p> */}
-      </div>
-      <p className="font-bold">تصور کن...</p>
-      {/* <div className="container mx-auto p-8 text-justify bg-[#640D5F] rounded-md text-white">
-        <h2 className="text-2xl">چرا تکنورزبری را برای هوشمندسازی خانه خود انتخاب کنید؟
-</h2>
-        <br />
-        <h3 className="font-bold">تیم متخصص<span>:</span></h3><p>تیم ما از متخصصان مجرب و با تجربه در زمینه هوشمندسازی خانه تشکیل شده است.</p>
-        <br />
-        <h3 className="font-bold">تجهیزات باکیفیت<span>:</span></h3><p>ما از بهترین و باکیفیت‌ترین تجهیزات هوشمند استفاده می‌کنیم تا به شما بهترین تجربه را ارائه دهیم.</p>
-        <br />
-        <h3 className="font-bold">نصب حرفه‌ای<span>:</span></h3><p>تیم نصب ما با دقت و ظرافت، سیستم هوشمندسازی را در خانه شما نصب می‌کند.</p>
-        <br />
-        <h3 className="font-bold">پشتیبانی پس از فروش<span>:</span></h3><p>ما حتی پس از نصب سیستم، به شما پشتیبانی ارائه می‌دهیم تا هرگونه مشکلی را برطرف کنیم.</p>
-      </div> */}
-      <div className="container mx-auto p-8 text-justify bg-black/10 rounded-md">
-      <h2 className="text-2xl">خدمات هوشمندسازی خانه ما شامل موارد زیر می‌شود</h2>
-      <br />
-      <h3 className="font-bold">نصب و راه‌اندازی سیستم‌های هوشمند<span>:</span></h3><p>نصب و پیکربندی انواع تجهیزات هوشمند مانند ترموستات هوشمند، لامپ‌های هوشمند، پریزهای هوشمند و ...</p>
-        <br />
-        <h3 className="font-bold">اتوماسیون خانه<span>:</span></h3><p>ایجاد سناریوهای خودکار برای کنترل دستگاه‌های مختلف خانه</p>
-        <br />
-        <h3 className="font-bold">کنترل از راه دور<span>:</span></h3><p>کنترل خانه خود از هر نقطه دنیا با استفاده از تلفن همراه یا تبلت</p>
-        <br />
-        <h3 className="font-bold">امنیت هوشمند<span>:</span></h3><p>نصب سیستم‌های امنیتی هوشمند مانند دوربین مداربسته، دزدگیر و سنسورهای حرکت</p>
-        <br />
-        <h3 className="font-bold">صوتی و تصویری هوشمند<span>:</span></h3><p>یکپارچه‌سازی سیستم صوتی و تصویری خانه با سیستم هوشمند</p>
-        <br />
-        <h3 className="font-bold">حمل و نقل هوشمند<span>:</span></h3><p>با تکنورزبری قرار نیست از تکنولوژي حمل و نقل هوشمند عقب بمانید</p>
-        <br />
-        <h3 className="font-bold">پایش گاز<span>:</span></h3><p>دیگر نگران نشتی گاز نباشید؛ برای این مورد هم راه‌حل داریم</p>
-      </div>
-      <p className="font-bold">از چه تکنولوژی‌هایی استفاده می‌کنیم؟</p>
+      {/* data */}
+      <h2 className="text-accent text-5xl text-center">مقالات در دست بروزرسانی هستند</h2>
+      <p className="text-justify px-3">
+      ۱۰ زبان برتر برنامه نویسی برای توسعه وب
+توسعه وب چند قسمت دارد: سمت کاربر (فرانت-اند یا Front-End)، سمت سرور (بک-اند یا Back-End) و توسعه کامل در هر دو سمت (Full-stack). در اینجا بهترین زبان های برنامه نویسی را بررسی می کنیم تا بتوانید تصمیم بگیرید و برنامه نویسی در زمینه توسعه وب را شروع کنید.
 
-      <div className="container mx-auto px-0 grid xl:grid-cols-6 grid-cols-2 gap-3 place-items-center mt-5">
-        {/* item1 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://www.cloudblue.com/wp-content/uploads/2024/06/what-is-the-internet-of-things-iot.png" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">ESP32</h1>
-                <p>ماژول تخصصی</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item2 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">Security</h1>
-                <p>حرف اول</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item3 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">HTML</h1>
-                <p>ساختار عالی</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item4 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">CSS</h1>
-                <p>دیزاین بصری</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item5 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">JAVA</h1>
-                <p>بهترین زبان</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* item6 */}
-        <div className="group xl:h-60 xl:w-60 h-40 w-40 [perspective:1000px]">
-          <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
-            <div className="absolute inset-0">
-              <img className="h-full w-full rounded-xl border-4 border-primary object-cover shadow-xl shadow-black/30" src="https://static01.nyt.com/images/2020/10/29/style/28MOON-01/oakImage-1603985177355-superJumbo.jpg" alt="" />
-            </div>
-            <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
-              <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">Number 1</h1>
-                <p>درجه‌يک بازار</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+زبان هایی که بررسی می کنیم، شامل:
 
-      {/* <div className="container mx-auto p-8 text-justify bg-[#FEEC37]/20 rounded-md">
-      <h2 className="text-2xl">مزایای هوشمندسازی خانه</h2>
-      <br />
-      <h3 className="font-bold">راحتی و آسایش<span>:</span></h3><p>با یک لمس، می‌توانید تمام دستگاه‌های خانه خود را کنترل کنید.</p>
-        <br />
-        <h3 className="font-bold">افزایش امنیت<span>:</span></h3><p>سیستم‌های هوشمند از خانه شما در برابر سرقت و حوادث محافظت می‌کنند.</p>
-        <br />
-        <h3 className="font-bold">کاهش مصرف انرژی<span>:</span></h3><p>با هوشمندسازی خانه، می‌توانید در هزینه‌های انرژی خود صرفه‌جویی کنید.</p>
-        <br />
-        <h3 className="font-bold">افزایش ارزش ملک<span>:</span></h3><p>هوشمندسازی خانه، ارزش ملک شما را افزایش می‌دهد.</p>
-      </div> */}
-      <div className="container mx-auto p-8 border border-[#00FF9C] rounded-md text-center mt-10">
-        <h2 className="text-2xl">چرا تکنورزبری؟</h2>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <Button
-                variant="outline"
-                className="text-black border-black hover:bg-[#00FF9C] hover:text-black"
-              >
-                <a href="/contact"><span>مشاهده نمونه‌کارهای بیشتر</span></a>
-        </Button>
-      </div>
-      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
-        <h2 className="text-2xl">برای کسب اطلاعات بیشتر و مشاوره رایگان، با ما تماس بگیرید</h2>
-        <p className="mt-3">نمونه‌کار بعدی تکنورزبری می‌تواند پروژه شما باشد</p>
-        <br />
-        <Button
-                variant="outline"
-                className="text-black border-black hover:bg-white hover:text-black mt-5"
-              >
-                <a href="/contact"><span>ارتباط با ما</span></a>
-        </Button>
-      </div>
-      
-    </motion.section>
+JavaScript
+HTML و CSS
+TypeScript
+Python
+Node JS
+ASP.NET
+Java
+Ruby
+MEAN (Stack)
+MERN (Stack)
+بهترین زبان ها برای توسعه فرانت-اند
+توسعه فرانت-اند، برنامه نویسی سمت کاربر است. در اصل شامل همه عناصر ظاهری است که در صفحه وب مشاهده می کنید. این قسمت جایی است که کاربر با پیمایش و مرور صفحات، به طور مستقیم با وب در تعامل است. اگر فرد خلاقی هستید یا به کار طراحی علاقه مندید اینجا برایتان بهتر است. خب بیایید زبان های برنامه نویسی توسعه فرانت-اند را مرور کنیم:
+
+JavaScript
+اول از همه اینکه جاوا اسکریپت (JavaScript) هیچ ربطی به جاوا ندارد. زبان های متفاوتی هستند که برای اهداف مختلفی استفاده می شوند.
+
+چه توسعه دهنده سمت کاربر و چه توسعه دهنده سمت سرور در وب و یا حتی توسعه دهنده موبایل باشید، جاوا اسکریپت کمک زیادی خواهد کرد. این زبان با یکپارچه سازی API و تجربه کاربری سریع و تعاملی اش در سمت کاربر به شما کمک می کند تا یک وب سایت پویا و واکنشگرا بسازید. علاوه بر این جاوا اسکریپت سال ها است که بسیار محبوب بوده و این منجر به ساخت یک جامعه بزرگ و فوق العاده از توسعه دهندگان آن شده است، با ارتباط و پیوستن به این جامعه، می توانید مسائل خود را حل کنید و حتی ایده های جدید بسازید.
+
+بر خلاف چیزی که الان فکر می کنید، جاوا اسکریپت کامل نیست و معایبی هم دارد. اما مطمئن باشید همه زبان ها حتما ضعف هایی دارند و این برای همه است. جایگزین بهتری برای این زبان پیدا نمی کنید و در حال حاضر از زیرساخت های اصلی اینترنت است. همه اینها جاوا اسکریپت را به زبانی تبدیل کرده که باید سفر هیجان انگیز خود در توسعه وب را از اینجا شروع کنید.
+
+HTML و CSS
+آشنا به نظر می رسند؟ همینطوره. چون اینها زبان های قدیمی خیلی خوبی هستند که هنوز هم در توسعه وب استفاده می شوند. دقیقا از ابتدای کار می توانید همراه با جاوا اسکریپت، HTML و CSS صفحات وب جذاب و پویایی بسازید. علاوه بر این یادگیری HTML میتونه کاملاً جالب و با لذت همراه باشد. اگر به دنبال زبان های محبوبی هستید که خلاقیت شما را تحریک کنند آن HTML و CSS است. با استفاده از HTML می توانید رابط کاربری برنامه های وب و موبایل را طراحی کنید. اگر مبتدی هستید، اینها زبان های برنامه نویسی پایه برای شروع برنامه نویسی وب می باشند.
+
+TypeScript
+تایپ اسکریپت (TypeScript) همان جاوا اسکریپت است که بزرگتر شده است. تفاوت اصلی اینه که جاوا اسکریپت نیازی به کامپایل ندارد ولی تایپ اسکریپت کامپایل می شود. متوجه نشدید؟ خب نگران نباشید. تایپ اسکریپت یک مجموعه بزرگ از جاوا اسکریپت است که به شدت در کدنویسی سخت گیر است و قبل از اجرا، تمامی کدها بررسی می شوند، در واقع یک تمیزکننده کد فراهم می کند. تایپ اسکریپت، جاوا اسکریپت را کامپایل و تبدیل می کند بنابراین تسلط روی جاوا اسکریپت برای موفقیت در تایپ اسکریپت کافی است.
+
+تایپ اسکریپت یک زبان برنامه نویسی توسعه وب متن باز است که توسط مایکروسافت نگهداری و پشتیبانی می شود و همچنین یک زبان برنامه نویسی شی گرا می باشد. در دسترس بودن رابط و پشتیبانی از ماژول ها، تایپ اسکریپت را به یک زبان برنامه نویسی محبوب برای توسعه وب تبدیل کرده است. کدهای جاوا اسکریپت به عنوان کدهای تایپ اسکریپت هم اجرا می شوند. تصمیم گرفتیم این زبان را هم در لیست قرار دهیم و پیشنهاد می کنیم آن را به مجموعه خود اضافه کنید.
+
+بهترین زبان های برنامه نویسی برای توسعه بک-اند
+توسعه و برنامه نویسی بک-اند وب جایی است که همه کارها و عملیات ها انجام می شوند. تمرکز توسعه بک-اند روی قسمت ظاهری و زیبایی وب نیست بلکه در عوض با منطق کار و بانک اطلاعاتی ارتباط دارد. ولی با این وجود باید بدانید که سمت کاربر چگونه کار می کند حتی اگر به شناخت عمیقی از آن نیاز نباشد. چراکه توسعه سمت کاربر با بانک های اطلاعاتی سمت سرور باید با هم سازگار باشند. در اینجا بهترین زبان های برنامه نویسی سمت سروری که باید بشناسید را مرور می کنیم.
+
+Python
+در دنیای امروز پایتون (Python) زبانی است که در بین تعدد زبان های برنامه نویسی موجود بیشتر موردتوجه است. به حدی که در سال ۲۰۱۶ بیشتر از هر زبان دیگه ای مورد استفاده قرار گرفت و زبان JAVA بی رقیب و بلامنازع را در آن سال شکست داد و تا الان همچنان تسلط خودش را در دنیای برنامه نویسی حفظ کرده و ادامه داده است.
+
+موفقیت پایتون در این زمان کوتاه، قابلیت ها و توانایی های آن را نشان می دهد. خوانایی، کارآیی و یادگیری راحت تر در موفقیت پایتون تأثیر فوق العاده ای داشته است. گرچه پایتون با برنامه های یادگیری ماشین و علوم داده سازگار است اما توسعه وب نیز سکویی برای موفقیت و پیشرفت پایتون می باشد.
+
+توجه به عوامل فریمورک هایی مانند Django و Flask، پایتون را به یک ابزار محبوب برای بسیاری از توسعه دهندگان وب تبدیل کرده است. Django به جای روش های متداول MVC از MVT استفاده می کند. در نهایت نام های بزرگی مانندDropbox ، PayPal ، eBay و Reddit از برنامه نویسی پایتون در هسته خود استفاده می کنند.
+
+Node JS
+یادتونه گفتیم که جاوا اسکریپت همه جا وجود دارد؟ Node JS محیط یا فریمورکی است که امکان اجرای جاوا اسکریپت را در سمت سرور فراهم می کند. این زبان توسعه وب محبوب از همان موتور جاوا اسکریپت استفاده می کند، موتوری از گوگل کروم به نام V8 با کتابخانه های گسترده.
+
+به بیان ساده تر Node JS به کاربران کمک می کند تا کد جاوا اسکریپت را در خارج از مرورگر وب AKA سرور اجرا کنند. بنابراین اگر در جاوا اسکریپت حرفه ای باشید پس یادگیری Node JS چیز جدیدی نیست. زنده باد جاوا اسکریپت!
+
+ASP.NET
+ASP.NET زبان برنامه نویسی سمت سرور و تنها زبان محبوب توسعه وب در این لیست است که رایگان نیست. ASP.NET در اصل فریمورکی است که به شما در ساخت یک برنامه وب کمک می کند. یکی از بهترین زبان های برنامه نویسی توسعه وب است و قابلیت های مختلفی مانند منطق سمت سرور، اعتبار سنجی، تعامل با بانک اطلاعاتی، جلسه و مدیریت امنیتی را ارائه می دهد. کد C#، این زبان محبوب را کاراتر و خوانایی آن را آسان تر می کند.
+
+نکته قابل توجه برای تسلط به ASP.NET این است که توسعه دهندگان آن باید از فیلدهای مختلف از جمله C# ، SQL، CSS، JS، HTML شناخت داشته باشند. ممکنه بسیار سخت به نظر برسد اما این زبان توسط مایکروسافت همراه با کتابخانه های فوق العاده توسعه یافته است و ویژوال استودیو IDE آن را پشتیبانی می کند که با استفاده از آن می توانید برنامه های وب .NET حرفه ای بسازید.
+
+Java
+“یک بار بنویس، همه جا اجرا کن.” این شعار معروفی است که هر برنامه نویس جاوا آن را می شناسد. در برنامه های سطح بالا، سایت های پر ترافیک، برنامه های اندروید و خیلی قسمت های دیگه از جاوا استفاده می شود. برنامه نویسی جاوا از پشتیبانی فوق العاده ای برای توسعه سمت سرور برنامه های وب برخوردار است. علاوه بر این ماشین مجازی جاوا به عنوان یک محیط اجرا به عنوان نگهدارنده وب عمل می کند و این ماشین در انتهای سرور برنامه وب قرار دارد.
+
+دقیقا مانند اپلت ها، فریمورک های وب جاوا نیز براساس چند servlet می باشند. به همراه منابع صفحه هایJavaServer ، servletها و کلاس ها می توانید یک برنامه کامل وب جاوا را توسعه دهید. برنامه های کاربردی وب در جاوا شامل Struts ، Spring MVC و GWT می باشند.
+
+Ruby
+Ruby on Rails یک فریمورک توسعه برنامه های وب بر اساس زبان برنامه نویسی شی گرای روبی (Ruby) می باشد، مشابه Python Django. روبی به عنوان یک زبان برنامه نویسی توسعه وب نسبتاً جدید، چیزهای زیادی ارائه می دهد.
+
+روبی بین افراد مبتدی بسیارمحبوب است و این مهمترین مزیت این زبان است. حجم کدنویسی آن به میزان قابل توجهی کمتر است و خوانایی آن هم در همه جای کد حفظ می شود. علاوه بر این برای یادگیری یک زبان نیاز به یک جامعه پویا و مشتاق دارید که زبان محبوب روبی در اینجا می درخشد.
+
+وب سایت هایی مانند GitHub، Hulu، Twitch، Basecamp، SoundCloud همه از Ruby on Rails استفاده می کنند. بنابراین می توانید روبی را به عنوان یک زبان برنامه نویسی برای ایجاد یک حرفه در توسعه وب یاد بگیرید.
+    </p></motion.section>
 };
 
 export default blogSite;

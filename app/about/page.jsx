@@ -222,7 +222,7 @@ const About = () => {
         </div>
       </div>
       
-              <div className="flex flex-col gap-[30px] xl:mt-20 mt-[15vh] container mx-auto">
+              <div className="flex flex-col gap-[30px] xl:mt-20 mt-[8vh] container mx-auto">
                 <div className="flex flex-col gap-[30px] text-center xl:text-right">
                   <h3 className="text-4xl font-bold leading-[3rem]">{skills.title}</h3>
                   <p className="text-black/60 max-auto xl:mx-0 text-xl leading-[2.3rem]">
@@ -260,7 +260,7 @@ const About = () => {
               </div>
               <div className="containerr gap-20 sm:grid-cols-3 justify-items-center">
                 {/* main */}
-                <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
+                <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نیایش ترابی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/NiayeshTorabi.jpg" />
@@ -285,7 +285,7 @@ const About = () => {
         </div>
       </div>
       {/* item2 */}
-      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
+      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -305,7 +305,7 @@ const About = () => {
         </div>
       </div>
       {/* item3 */}
-      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
+      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[300px] h-[300px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -325,7 +325,7 @@ const About = () => {
         </div>
       </div>
       {/* item4 */}
-      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
+      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -345,7 +345,7 @@ const About = () => {
         </div>
       </div>
       {/* item5 */}
-      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
+      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
@@ -365,7 +365,7 @@ const About = () => {
         </div>
       </div>
       {/* item6 */}
-      <div class="card select-none xl:w-[350px] xl:h-[350px] w-[300px] h-[300px]">
+      <div class="card select-none xl:w-[300px] xl:h-[300px] w-[250px] h-[250px]">
         <img draggable="false" alt="technoraspberry" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" class="mail h-8 w-8" src="/images/logo.png" />
         <div class="profile-pic">
           <img draggable="false" alt="نام و نام‌خانوادگی" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" src="/images/user-default-technoraspberry.png" />
