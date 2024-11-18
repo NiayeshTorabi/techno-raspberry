@@ -20,10 +20,10 @@ const technology = () => {
         </div>
         {/* banner */}
       <div className="container mx-auto px-0">
-      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/Technology-technoraspberry.avif" alt="" />
+      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/Technology-technoraspberry.jpg" alt="" />
       </div>
       {/* data */}
-      <h2 className="text-accent text-5xl text-center">تکنولوژی</h2>
+      <h2 className="text-accent text-5xl text-center mt-8">تکنولوژی</h2>
       <p className="px-3 text-center">در زیر می‌توانید دسته‌بندی مقالات تکنولوژی تکنورزبری را مشاهده کنید و برای مطالعه کامل آنها نیز روی دکمه مشاهده مقاله کلیک کنید.</p>
       <div className="grid xl:grid-cols-4 grid-cols-1 mt-5">
           <div className="border rounded-md text-center hover:shadow-md hover:shadow-accent hover:shadow-black/30 duration-500">
