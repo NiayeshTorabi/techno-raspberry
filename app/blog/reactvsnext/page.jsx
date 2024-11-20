@@ -22,7 +22,7 @@ const reactvsnext = () => {
       <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/react-vs-next-technoraspberry.png" alt="" />
       </div>
       {/* data */}
-      <h2 className="text-accent text-5xl text-center">مقالات در دست بروزرسانی هستند</h2><p className="text-justify px-3">در دنیای برنامه نویسی وب فریمورک ها و کتابخانه های مختلفی وجود دارند که به برنامه نویسان کمک میکنند تا برنامه های وب پویا و عالی ایجاد کنند .که از مهم ترین این ابزار ها ریکت جی اس و نکست جی اس هستند.
+      <h2 className="text-accent text-4xl text-center my-8">ReactJs یا NextJs</h2><p className="text-justify px-3">در دنیای برنامه نویسی وب فریمورک ها و کتابخانه های مختلفی وجود دارند که به برنامه نویسان کمک میکنند تا برنامه های وب پویا و عالی ایجاد کنند .که از مهم ترین این ابزار ها ریکت جی اس و نکست جی اس هستند.
 1. ریکت جی اس:
 
 یک کتابخانه جاوااسکریپتی است برای توسعه رابط کاربری که توسط فیسبوک توسعه داده شده است.

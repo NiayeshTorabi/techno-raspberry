@@ -41,7 +41,7 @@ const Blog = () => {
         </div>
         {/* posts */}
         <h2 className="mt-20 text-center xl:text-justify">آخرین مقالات</h2>
-        <div className="grid xl:grid-cols-4 grid-cols-1 mt-5">
+        <div className="grid xl:grid-cols-4 grid-cols-1 mt-5 gap-1">
           <div className="border rounded-md text-center hover:shadow-md hover:shadow-accent hover:shadow-black/30 duration-500">
             <img src="/images/blog-website-technoraspberry.jpg" alt="" className="h-[185px] object-cover w-full rounded-t-md" />
             <div className="py-3"><h3>بهترین زبان‌های فرنت‌اند</h3><p className="text-black/50 text-sm text-justify px-3">یادگیری برنامه نویسی یکی از جالب ترین ها برای علاقه مندان به فناوری است. حتی در این دهه اخیر، برنامه نویسی در صدر فناوری هایی قرار گرفته که دنیای مدرن را...</p></div>

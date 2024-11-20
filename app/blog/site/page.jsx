@@ -23,7 +23,7 @@ const blogSite = () => {
       <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/blog-website-technoraspberry.jpg" alt="" />
       </div>
       {/* data */}
-      <h2 className="text-accent text-5xl text-center">مقالات در دست بروزرسانی هستند</h2>
+      <h2 className="text-accent text-4xl text-center my-8">بهترین زبان‌های فرنت‌اند</h2>
       <p className="text-justify px-3">
       ۱۰ زبان برتر برنامه نویسی برای توسعه وب
 توسعه وب چند قسمت دارد: سمت کاربر (فرانت-اند یا Front-End)، سمت سرور (بک-اند یا Back-End) و توسعه کامل در هر دو سمت (Full-stack). در اینجا بهترین زبان های برنامه نویسی را بررسی می کنیم تا بتوانید تصمیم بگیرید و برنامه نویسی در زمینه توسعه وب را شروع کنید.
