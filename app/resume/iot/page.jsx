@@ -42,13 +42,6 @@ const iotPortfolio = () => {
           <img src="/images/logo.png" alt="" className="border rounded-md"/>
           <img src="/images/logo.png" alt="" className="border rounded-md"/>
         </div>
-        <p className="text-justify xl:text-xl text-md xl:leading-[3rem] leading-[2.5rem]">برای توضیحات بیشتر می‌توانید فایل زیر را مطالعه فرمایید</p>
-        <Button
-                variant="outline"
-                className="uppercase flex items-center gap-2"
-              >
-                <a href="#" target="_blank"><span>توضیحات بیشتر</span></a>
-              </Button>
         {/* boxes */}
         <div className="container mx-auto p-8 text-justify bg-accent/10 rounded-md">
         <h2 className="text-2xl leading-[2.5rem] xl:leading-[3rem] mb-5">اگر دوست دارید بیشتر درمورد علم IoT بدونید، فایل زیر رو مطالعه کنید</h2>
