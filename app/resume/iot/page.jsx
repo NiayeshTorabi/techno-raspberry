@@ -64,7 +64,7 @@ const iotPortfolio = () => {
           {/* item1 */}
           <div>
           <h3 className="portfolio-text1 duration-3 transition-all text-center">پارکینگ هوشمند</h3>
-          <img src="/images/Portfolio-IoT-technoraspberry1.jpeg" className="xl:w-[285px] xl:h-[285px] rounded-md" alt="" />
+          <img src="/images/Portfolio-IoT-technoraspberry4.jpeg" className="xl:w-[285px] xl:h-[285px] rounded-md" alt="" />
           </div>
           {/* item2 */}
           <div>
@@ -74,12 +74,12 @@ const iotPortfolio = () => {
           {/* item3 */}
           <div>
           <h3 className="portfolio-text1 duration-3 transition-all text-center">گلخونه هوشمند</h3>
-          <img src="/images/Portfolio-IoT-technoraspberry1.jpeg" className="xl:w-[285px] xl:h-[285px] rounded-md" alt="" />
+          <img src="/images/Portfolio-IoT-technoraspberry2.jpeg" className="xl:w-[285px] xl:h-[285px] rounded-md" alt="" />
           </div>
           {/* item4 */}
           <div>
           <h3 className="portfolio-text1 duration-3 transition-all text-center">RFID</h3>
-          <img src="/images/Portfolio-IoT-technoraspberry1.jpeg" className="xl:w-[285px] xl:h-[285px] rounded-md" alt="" />
+          <img src="/images/Portfolio-IoT-technoraspberry3.jpeg" className="xl:w-[285px] xl:h-[285px] rounded-md" alt="" />
           </div>
         </div>
         {/* features */}
