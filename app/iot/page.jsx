@@ -18,7 +18,7 @@ const Iot = () => {
                 variant="outline"
                 className="uppercase flex items-center gap-2 absolute top-[5%] xl:right-[1%] right-[3%] text-primary border border-primary hover:bg-primary hover:text-accent"
               >
-                <a href="/resume/graphics"><span>نمونه کارها</span></a>
+                <a href="/resume/iot"><span>نمونه کارها</span></a>
               </Button>
       </div>
       <div className=" p-5 text-justify bg-accent/10 rounded-md">
@@ -89,12 +89,26 @@ const Iot = () => {
       <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
         <h2 className="text-2xl">برای کسب اطلاعات بیشتر و مشاوره رایگان، با ما تماس بگیرید</h2>
         <br />
+        <div className="flex gap-3 xl:flex-row flex-col justify-center">
+        <Button
+                variant="outline"
+                className="text-accent border-accent hover:bg-accent hover:text-white"
+              >
+                <a href="/site"><span>خدمات نرم‌افزار</span></a>
+        </Button>
         <Button
                 variant="outline"
                 className="text-black border-black hover:bg-white hover:text-black"
               >
                 <a href="/contact"><span>ارتباط با ما</span></a>
         </Button>
+        <Button
+                variant="outline"
+                className="text-accent border-accent hover:bg-accent hover:text-white"
+              >
+                <a href="/graphics"><span>خدمات گرافیک</span></a>
+        </Button>
+        </div>
       </div>
     </motion.section>
 };

@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 const sitePortfolio = () => {
@@ -109,6 +110,30 @@ const sitePortfolio = () => {
             علاوه بر طراحی، سایت شمارو مثل موشک پرسرعت می‌کنیم و از ریشه اون رو بهینه می‌کنیم؛ یک سئوی اولیه براتون انجام می‌شه تا اگر در آینده قصد سئوی تخصصی سایتتون (که اتفاقاً سئوی تخصصی هم ارائه می‌دیم) رو داشتید، به راحتی بتونید اون رو از سر بگیرید و وقتتون صرف کارهای اولیه اون نشه!
           </p>
           <p className="text-justify xl:text-2xl text-xl xl:leading-[3rem] leading-[2.5rem]">خالی از لطف نیست به این نکته هم اشاره داشته باشیم که تمامی طراحی‌هایی که براتون انجام میشه صفر تا صد اختصاصی هستند، از کارهای گرافیکی (مثل دیزاین بنر، وکتور و...) که داخل سایتتون قرار داده می‌شه بگیرید تا طراحی سکشن به سکشن صفحات سایتتون؛ پس دیگه نیازی نیست نگران کپی بودن سایتتون از سایت دیگه باشید!</p>
+        </div>
+      </div>
+      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
+        <h2 className="text-2xl">با ما همراه شوید تا برند خود را به بهترین شکل ممکن به نمایش بگذارید</h2>
+        <br />
+        <div className="flex gap-3 xl:flex-row flex-col justify-center">
+        <Button
+                variant="outline"
+                className="text-accent border-accent hover:bg-accent hover:text-white"
+              >
+                <a href="/resume/iot"><span>پورتفولیوی سخت‌افزار</span></a>
+        </Button>
+        <Button
+                variant="outline"
+                className="text-black border-black hover:bg-white hover:text-black"
+              >
+                <a href="/contact"><span>ارتباط با ما</span></a>
+        </Button>
+        <Button
+                variant="outline"
+                className="text-accent border-accent hover:bg-accent hover:text-white"
+              >
+                <a href="/resume/graphics"><span>پورتفولیوی گرافیک</span></a>
+        </Button>
         </div>
       </div>
     </motion.section>

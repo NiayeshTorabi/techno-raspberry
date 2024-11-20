@@ -227,6 +227,30 @@ const graphicsPortfolio = () => {
           </p>
         </div>
       </div>
+      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
+        <h2 className="text-2xl">با ما همراه شوید تا برند خود را به بهترین شکل ممکن به نمایش بگذارید</h2>
+        <br />
+        <div className="flex gap-3 xl:flex-row flex-col justify-center">
+        <Button
+                variant="outline"
+                className="text-accent border-accent hover:bg-accent hover:text-white"
+              >
+                <a href="/resume/site"><span>پورتفولیوی نرم‌افزار</span></a>
+        </Button>
+        <Button
+                variant="outline"
+                className="text-black border-black hover:bg-white hover:text-black"
+              >
+                <a href="/contact"><span>ارتباط با ما</span></a>
+        </Button>
+        <Button
+                variant="outline"
+                className="text-accent border-accent hover:bg-accent hover:text-white"
+              >
+                <a href="/resume/iot"><span>پورتفولیوی سخت‌افزار</span></a>
+        </Button>
+        </div>
+      </div>
     </motion.section>
 };
 
