@@ -16,14 +16,14 @@ const Home = () => {
         </picture>
       </div>
       <div className="container mx-auto h-full">
-        <div className="flex flex-col-reverse xl:flex-row items-center justify-between xl:pb-14">
+        <div className="flex flex-col-reverse xl:flex-row items-center justify-between xl:pb-10">
           {/* text */}
-          <div className="text-center xl:text-right order-2 xl:order-none mt-10">
-            <h1 className="h1 mb-3 main-title">
+          <div className="text-center xl:text-right order-2 xl:order-none ml-10">
+            <h1 className="h1 main-title">
             تکنورزبری<sup className='text-accent text-[3rem] xl:text-[5rem] main-title'> خدمتی نو</sup>
             </h1>
-            <p className="max-w-[500px] mb-9 text-black/80 xl:text-2xl text-xl leading-[3.5rem] xl:leading-[3rem] text-justify px-3">
-            تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل
+            <p className="text-black/80 xl:text-2xl text-xl leading-[3.5rem] xl:leading-[3rem] text-justify px-3">
+            تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل با استفاده از بروزترین تکنولوژی و ترکیب آن با پشتیبانی تخصصی؛ آماده خدمت‌رسانی در سطوح با استانداردهای بالا
             </p>
             {/* btn & socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

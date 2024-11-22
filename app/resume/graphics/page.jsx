@@ -227,7 +227,7 @@ const graphicsPortfolio = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
+      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center mt-5">
         <h2 className="text-2xl">با ما همراه شوید تا برند خود را به بهترین شکل ممکن به نمایش بگذارید</h2>
         <br />
         <div className="flex gap-3 xl:flex-row flex-col justify-center">

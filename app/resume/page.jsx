@@ -356,8 +356,8 @@ const Resume = () => {
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">ESP32</h1>
-                <p>ماژول تخصصی</p>
+                <h1 className="text-2xl font-bold text-accent"></h1>
+                <p className="text-xl font-bold">Professional</p>
               </div>
             </div>
           </div>
@@ -370,8 +370,8 @@ const Resume = () => {
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">Security</h1>
-                <p>حرف اول</p>
+                <h1 className="text-2xl font-bold text-accent"></h1>
+                <p className="text-xl font-bold">Creativity</p>
               </div>
             </div>
           </div>
@@ -384,8 +384,8 @@ const Resume = () => {
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">HTML</h1>
-                <p>ساختار عالی</p>
+                <h1 className="text-2xl font-bold text-accent"></h1>
+                <p className="text-xl font-bold">Quality</p>
               </div>
             </div>
           </div>
@@ -398,8 +398,8 @@ const Resume = () => {
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">CSS</h1>
-                <p>دیزاین بصری</p>
+                <h1 className="text-2xl font-bold text-accent"></h1>
+                <p className="text-xl font-bold">Trust</p>
               </div>
             </div>
           </div>
@@ -412,8 +412,8 @@ const Resume = () => {
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">JAVA</h1>
-                <p>بهترین زبان</p>
+                <h1 className="text-2xl font-bold text-accent"></h1>
+                <p className="text-xl font-bold">High Tech</p>
               </div>
             </div>
           </div>
@@ -426,8 +426,8 @@ const Resume = () => {
             </div>
             <div className="absolute inset-0 h-full w-full rounded-full bg-black/80 px-5 text-center text-primary [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div className="flex min-h-full flex-col items-center justify-center">
-                <h1 className="text-2xl font-bold text-accent">Number 1</h1>
-                <p>درجه‌يک بازار</p>
+                <h1 className="text-2xl font-bold text-accent"></h1>
+                <p className="text-xl font-bold">Solver</p>
               </div>
             </div>
           </div>

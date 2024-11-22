@@ -34,13 +34,13 @@ const iotPortfolio = () => {
         {/* data */}
         <h2 className="py-3 border-t rounded-md xl:mt-16 mt-8 text-accent text-2xl">هدف ما از این پروژه</h2>
         <p className="text-justify xl:text-xl text-md xl:leading-[3rem] leading-[2.5rem]">هدف اصلی تکنورزبری استفاده از بهترین وسیله‌ها در جهت خلق بهترین نسخه از هوشمندسازی خانه‌هاست...</p>
-        <div className="grid xl:grid-cols-6 grid-cols-2 gap-1">
-          <img src="/images/logo.png" alt="" className="border rounded-md"/>
-          <img src="/images/logo.png" alt="" className="border rounded-md"/>
-          <img src="/images/logo.png" alt="" className="border rounded-md"/>
-          <img src="/images/logo.png" alt="" className="border rounded-md"/>
-          <img src="/images/logo.png" alt="" className="border rounded-md"/>
-          <img src="/images/logo.png" alt="" className="border rounded-md"/>
+        <div className="flex flex-col gap-1">
+        <img src="/images/logo.png" alt="" className="border rounded-md w-full h-[280px] object-cover" />
+        <div className="grid xl:grid-cols-3 grid-cols-1 gap-1">
+          <img src="/images/IoT-TechnoRaspberry1.jpeg" alt="" className="border rounded-md"/>
+          <img src="/images/IoT-TechnoRaspberry2.jpeg" alt="" className="border rounded-md"/>
+          <img src="/images/IoT-TechnoRaspberry3.jpeg" alt="" className="border rounded-md"/>
+        </div>
         </div>
         {/* boxes */}
         <div className="container mx-auto p-8 text-justify bg-accent/10 rounded-md">
@@ -89,7 +89,7 @@ const iotPortfolio = () => {
               </Button>
         </div>
       </div>
-      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center">
+      <div className="container mx-auto p-8 bg-[#00FF9C] rounded-md text-center mt-5">
         <h2 className="text-2xl">با ما همراه شوید تا برند خود را به بهترین شکل ممکن به نمایش بگذارید</h2>
         <br />
         <div className="flex gap-3 xl:flex-row flex-col justify-center">
