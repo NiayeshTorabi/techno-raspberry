@@ -23,23 +23,24 @@ const iotPortfolio = () => {
         {/* banner */}
         <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/service5.png" alt="" />
         {/* intro */}
-        <div className="grid xl:grid-cols-2 grid-cols-1 gap-3">
-          <div>
+          <div className="flex xl:flex-row flex-col justify-between">
+          <div className="xl:ml-10 ml-0">
             <h2 className="py-3 border-t rounded-md xl:mt-16 mt-5 text-accent text-2xl">با افتخار، از بزرگترین نمونه‌کارهایمان</h2>
             <p className="font-bold text-justify xl:text-2xl text-xl xl:leading-[3rem] leading-[2.5rem]">خانه هوشمند !!</p>
             <p className="text-justify xl:text-xl text-md xl:leading-[3rem] leading-[2.5rem]">خانه‌ای با قابلیت‌های استثنائی؛ از قبیل چک دمای خانه، رطوبت خود خانه به همراه رطوبت گلخانه‌ی این مکان مسکونی؛ اضافه کردن آپشن روشن و خاموش کردن فن؛ کنترل کامل روی درب ورود و خروج و...</p>
+            <p className="text-justify xl:text-xl text-md xl:leading-[3rem] leading-[2.5rem]">در ادامه می‌توانید ویدئویی را جهت معرفی این پروژه مشاهده کرده و اطلاعات بیشتری را در این رابطه کسب کنید</p>
           </div>
-          <img src="/images/logo.png" alt="" className="border rounded-md w-full" />
-        </div>
+          <video src="/videos/IoT-NiayeshTorabi.mp4" alt="" className="border rounded-md xl:h-[500px] h-full xl:mt-0 mt-5" controls />
+          </div>
         {/* data */}
         <h2 className="py-3 border-t rounded-md xl:mt-16 mt-8 text-accent text-2xl">هدف ما از این پروژه</h2>
         <p className="text-justify xl:text-xl text-md xl:leading-[3rem] leading-[2.5rem]">هدف اصلی تکنورزبری استفاده از بهترین وسیله‌ها در جهت خلق بهترین نسخه از هوشمندسازی خانه‌هاست...</p>
         <div className="flex flex-col gap-1">
-        <img src="/images/logo.png" alt="" className="border rounded-md w-full h-[280px] object-cover" />
+        <img src="/images/iot-home-technoraspberry.webp" alt="" className="border rounded-md w-full h-[280px] object-cover" />
         <div className="grid xl:grid-cols-3 grid-cols-1 gap-1">
-          <img src="/images/IoT-TechnoRaspberry1.jpeg" alt="" className="border rounded-md"/>
-          <img src="/images/IoT-TechnoRaspberry2.jpeg" alt="" className="border rounded-md"/>
-          <img src="/images/IoT-TechnoRaspberry3.jpeg" alt="" className="border rounded-md"/>
+          <img src="/images/IoT-TechnoRaspberry1.jpeg" alt="" className="border rounded-md w-[377px] h-[279px]"/>
+          <img src="/images/IoT-TechnoRaspberry2.jpeg" alt="" className="border rounded-md w-[377px] h-[279px]"/>
+          <img src="/images/IoT-TechnoRaspberry3.jpeg" alt="" className="border rounded-md w-[377px] h-[279px]"/>
         </div>
         </div>
         {/* boxes */}
@@ -78,9 +79,8 @@ const iotPortfolio = () => {
         {/* features */}
         <p className="text-4xl mt-20 font-bold text-accent">اطلاعات بیشتر؟</p>
         <div className="border rounded-md p-3 text-justify flex flex-col gap-5">
-          <p className="text-justify xl:text-2xl text-xl xl:leading-[3rem] leading-[2.5rem]">همیشه اطلاعات بیشتر داریم! برای کسب دیتای کامل‌تر درباره مطالب بالا، می‌تونید ویدئو زیر رو مشاهده کرده یا فایلی که به اون پیوست شده رو مطالعه داشته باشید.
+          <p className="text-justify xl:text-2xl text-xl xl:leading-[3rem] leading-[2.5rem]">همیشه اطلاعات بیشتر داریم! برای کسب دیتای کامل‌تر درباره مطالب بالا، می‌تونید فایلی که در پایین پیوست شده رو مطالعه داشته باشید.
           </p>
-          <img src="/images/logo.png" alt="" className="border rounded-md xl:w-[30%] w-full" />
           <Button
                 variant="outline"
                 className="uppercase flex items-center gap-2"

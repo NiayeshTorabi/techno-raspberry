@@ -26,7 +26,7 @@
     @apply font-primary;
   }
   .h1 {
-    @apply text-[6rem] xl:text-[10rem];
+    @apply text-[5rem] xl:text-[7rem];
   }
   .h2 {
     @apply text-[26px] xl:text-[38px];

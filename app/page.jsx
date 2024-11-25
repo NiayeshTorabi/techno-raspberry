@@ -20,7 +20,7 @@ const Home = () => {
           {/* text */}
           <div className="text-center xl:text-right order-2 xl:order-none xl:ml-10 ml-0">
             <h1 className="h1 main-title">
-            تکنورزبری<sup className='text-accent text-[3rem] xl:text-[5rem] main-title'> خدمتی نو</sup>
+            تکنورزبری<sup className='text-accent text-[2rem] xl:text-[4rem] main-title'> خدمتی نو</sup>
             </h1>
             <p className="text-black/80 xl:text-2xl text-xl leading-[3.5rem] xl:leading-[3rem] text-justify px-3">
             تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل با استفاده از بروزترین تکنولوژی و ترکیب آن با پشتیبانی تخصصی؛ آماده خدمت‌رسانی در سطوح با استانداردهای بالا
