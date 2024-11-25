@@ -18,7 +18,7 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div className="flex flex-col-reverse xl:flex-row items-center justify-between xl:pb-10">
           {/* text */}
-          <div className="text-center xl:text-right order-2 xl:order-none ml-10">
+          <div className="text-center xl:text-right order-2 xl:order-none xl:ml-10 ml-0">
             <h1 className="h1 main-title">
             تکنورزبری<sup className='text-accent text-[3rem] xl:text-[5rem] main-title'> خدمتی نو</sup>
             </h1>
@@ -26,7 +26,7 @@ const Home = () => {
             تکنورزبری ارائه دهنده خدماتی نوین؛ نرم‌افزاری، سخت‌افزاری و طراحی گرافیکی در سطح ایران و بین‌الملل با استفاده از بروزترین تکنولوژی و ترکیب آن با پشتیبانی تخصصی؛ آماده خدمت‌رسانی در سطوح با استانداردهای بالا
             </p>
             {/* btn & socials */}
-            <div className="flex flex-col xl:flex-row items-center gap-8">
+            <div className="flex flex-col xl:flex-row items-center gap-8 mt-10">
               <Button
                 variant="outline"
                 className="uppercase flex items-center gap-2"

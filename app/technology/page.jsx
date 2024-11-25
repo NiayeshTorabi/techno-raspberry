@@ -20,7 +20,7 @@ const technology = () => {
         </div>
         {/* banner */}
       <div className="container mx-auto px-0">
-      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/technology-technoraspberry.jpg" alt="" />
+      <img className="h-[300px] w-full rounded-xl object-cover shadow-xl shadow-black/40" src="/images/test.jpg" alt="" />
       </div>
       {/* data */}
       <h2 className="text-accent text-5xl text-center mt-8">تکنولوژی</h2>
