@@ -45,16 +45,17 @@ const Graphics = () => {
           <div><h3 className="font-bold">هویت بصری قوی برای برند خود ایجاد کنید<span>:</span></h3><p>با طراحی یک لوگو منحصر به فرد و استفاده از رنگ‌ها و فونت‌های مناسب، می‌توانید هویت بصری قوی و ماندگاری برای برند خود ایجاد کنید.</p></div>
         </div>
       </div>
+      <div className="flex justify-center"><img src="/images/Graphics3-technoraspberry.png" alt="" className="w-[400px] h-[400px]" /></div>
       <div className="container mx-auto p-8 text-justify bg-[#640D5F] rounded-md text-white">
         <h2 className="text-2xl">خدمات طراحی گرافیک ما شامل موارد زیر می‌شود</h2>
         <br />
         <div className="grid xl:grid-cols-2 gap-10 grid-cols-1">
-          <div><h3 className="font-bold">طراحی لوگو<span>:</span></h3><p>طراحی لوگوهای منحصر به فرد و ماندگار که بیانگر هویت برند شما باشد.</p></div>
-          <div><h3 className="font-bold">طراحی کارت ویزیت<span>:</span></h3><p>طراحی کارت ویزیت‌های زیبا و حرفه‌ای که اولین برداشت مشتریان از کسب‌وکار شما را شکل می‌دهد.</p></div>
-          <div><h3 className="font-bold">طراحی پوستر و بنر<span>:</span></h3><p>طراحی پوستر و بنرهای تبلیغاتی جذاب برای معرفی محصولات و خدمات شما.</p></div>
-          <div><h3 className="font-bold">طراحی کاتالوگ و بروشور<span>:</span></h3><p>طراحی کاتالوگ و بروشورهای حرفه‌ای برای معرفی محصولات یا خدمات شما به صورت دقیق و جامع.</p></div>
-          <div><h3 className="font-bold">طراحی آیکون و گرافیک متحرک<span>:</span></h3><p>طراحی آیکون‌ها و گرافیک‌های متحرک برای استفاده در وب‌سایت، اپلیکیشن و شبکه‌های اجتماعی.</p></div>
-          <div><h3 className="font-bold">طراحی موشن گرافیک<span>:</span></h3><p>ایجاد ویدیوهای کوتاه و جذاب با استفاده از گرافیک متحرک برای معرفی محصولات یا خدمات شما.</p></div>
+          <div className="border rounded-md border-primary p-3"><h3 className="font-bold">طراحی لوگو<span>:</span></h3><p>طراحی لوگوهای منحصر به فرد و ماندگار که بیانگر هویت برند شما باشد.</p></div>
+          <div className="border rounded-md border-primary p-3"><h3 className="font-bold">طراحی کارت ویزیت<span>:</span></h3><p>طراحی کارت ویزیت‌های زیبا و حرفه‌ای که اولین برداشت مشتریان از کسب‌وکار شما را شکل می‌دهد.</p></div>
+          <div className="border rounded-md border-primary p-3"><h3 className="font-bold">طراحی پوستر و بنر<span>:</span></h3><p>طراحی پوستر و بنرهای تبلیغاتی جذاب برای معرفی محصولات و خدمات شما.</p></div>
+          <div className="border rounded-md border-primary p-3"><h3 className="font-bold">طراحی کاتالوگ و بروشور<span>:</span></h3><p>طراحی کاتالوگ و بروشورهای حرفه‌ای برای معرفی محصولات یا خدمات شما به صورت دقیق و جامع.</p></div>
+          <div className="border rounded-md border-primary p-3"><h3 className="font-bold">طراحی آیکون و گرافیک متحرک<span>:</span></h3><p>طراحی آیکون‌ها و گرافیک‌های متحرک برای استفاده در وب‌سایت، اپلیکیشن و شبکه‌های اجتماعی.</p></div>
+          <div className="border rounded-md border-primary p-3"><h3 className="font-bold">طراحی موشن گرافیک<span>:</span></h3><p>ایجاد ویدیوهای کوتاه و جذاب با استفاده از گرافیک متحرک برای معرفی محصولات یا خدمات شما.</p></div>
         </div>
       </div>
       <div className="container mx-auto p-8 text-justify bg-black/10 rounded-md">
